@@ -22,11 +22,37 @@
   .slug { font-size: .75rem; opacity: .55; font-family: ui-monospace, monospace; }
   p { margin: .4rem 0 0; font-size: .85rem; opacity: .8; }
   .meta { margin-top: .5rem; font-size: .72rem; opacity: .55; }
+
+  /* Demo modal (native <dialog>; opened by the click handler below) */
+  dialog#demo-modal { border: none; border-radius: 12px; padding: 0;
+    width: min(720px, 92vw); max-height: 88vh; overflow: hidden; color: inherit;
+    background: Canvas; }
+  dialog#demo-modal::backdrop { background: rgb(0 0 0 / .55); }
+  .modal-head { display: flex; align-items: flex-start; justify-content: space-between;
+    gap: .75rem; padding: 1rem 1.25rem .6rem; margin: 0; border: 0; }
+  .modal-head strong { font-size: 1.05rem; }
+  .modal-close { border: 0; background: transparent; font-size: 1.4rem; line-height: 1;
+    cursor: pointer; color: inherit; opacity: .6; padding: .1rem .4rem; }
+  .modal-close:hover { opacity: 1; }
+  .modal-preview { aspect-ratio: 16/10; max-height: 46vh; background: #f3f4f6;
+    border-block: 1px solid color-mix(in srgb, currentColor 14%, transparent); }
+  .modal-preview iframe { width: 100%; height: 100%; border: 0; }
+  .modal-table { width: 100%; border-collapse: collapse; font-size: .82rem; margin: 0; }
+  .modal-table td { padding: .5rem 1.25rem; border-bottom: 1px solid color-mix(in srgb, currentColor 10%, transparent); }
+  .modal-table td:first-child { opacity: .6; width: 40%; }
+  .modal-qa { padding: .6rem 1.25rem 0; font-size: .78rem; opacity: .85; }
+  .modal-qa strong { display: block; margin-bottom: .25rem; }
+  .modal-actions { display: flex; gap: .6rem; padding: 1rem 1.25rem 1.25rem; justify-content: flex-end; }
+  .btn { font: inherit; font-size: .85rem; padding: .45rem 1rem; border-radius: 8px;
+    border: 1px solid color-mix(in srgb, currentColor 25%, transparent); background: transparent;
+    color: inherit; cursor: pointer; text-decoration: none; }
+  .btn-primary { background: color-mix(in srgb, currentColor 12%, transparent); }
+  .btn:hover { background: color-mix(in srgb, currentColor 18%, transparent); }
 </style>
 <h1>delusion demos</h1>
-<div class="sub">13 demos · regenerated 2026-07-09 03:58</div>
+<div class="sub">13 demos · regenerated 2026-07-10 20:19</div>
 <div class="grid">
-<a class="card" href="./floristeria-petalo/">
+<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo">
   <div class="thumb"><iframe src="./floristeria-petalo/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Floristería Pétalo — Flores frescas y ramos artesanos en Teruel</strong><span class="badge">floral-elegante</span></div>
@@ -35,7 +61,7 @@
     <div class="meta">pitched 2026-07-09 01:57 · deployed 2026-07-09 03:58</div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja-r1/">
+<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1">
   <div class="thumb"><iframe src="./barberia-navaja-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Barbería La Navaja Zaragoza</strong><span class="badge">vintage-elegante</span></div>
@@ -44,7 +70,7 @@
     <div class="meta">pitched 2026-07-09 01:46 · deployed 2026-07-09 03:49</div>
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-r1/">
+<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1">
   <div class="thumb"><iframe src="./restaurante-fogon-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>El Fogón — Cocina Aragonesa Tradicional en Teruel</strong><span class="badge">artesano-calido</span></div>
@@ -53,7 +79,7 @@
     <div class="meta">pitched 2026-07-09 01:40 · deployed 2026-07-09 03:49</div>
   </div>
 </a>
-<a class="card" href="./pilates-nucleo-r1/">
+<a class="card" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1">
   <div class="thumb"><iframe src="./pilates-nucleo-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Estudio Pilates Núcleo | Teruel</strong><span class="badge">clínico-limpio</span></div>
@@ -62,7 +88,7 @@
     <div class="meta">pitched 2026-07-09 01:34 · deployed 2026-07-09 03:48</div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-r1/">
+<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1">
   <div class="thumb"><iframe src="./peluqueria-estilo-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo Teruel</strong><span class="badge">artesano-calido</span></div>
@@ -71,7 +97,7 @@
     <div class="meta">pitched 2026-07-09 01:27 · deployed 2026-07-09 03:48</div>
   </div>
 </a>
-<a class="card" href="./dental-sonrisa-r1/">
+<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1">
   <div class="thumb"><iframe src="./dental-sonrisa-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Clínica Dental Sonrisa | Tu dentista en Teruel</strong><span class="badge">clinico-limpio</span></div>
@@ -80,16 +106,16 @@
     <div class="meta">pitched 2026-07-09 01:22 · deployed 2026-07-09 03:47</div>
   </div>
 </a>
-<a class="card" href="./cafe-libre-r1/">
+<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1">
   <div class="thumb"><iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Cafetería La Libre · Café de especialidad en Teruel</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">cafe-libre-r1</div>
     <p>Café de especialidad, brunch artesano, repostería casera y espacio de trabajo en Teruel. Wifi gratis, trato cercano y producto de calidad.</p>
-    <div class="meta">pitched 2026-07-09 01:16 · deployed 2026-07-09 03:47</div>
+    <div class="meta">pitched 2026-07-09 01:16 · deployed 2026-07-10 20:19</div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-v2/">
+<a class="card" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2">
   <div class="thumb"><iframe src="./peluqueria-estilo-v2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo — Tu peluquería de confianza en Teruel</strong></div>
@@ -98,7 +124,7 @@
     <div class="meta">pitched 1970-01-01 01:33 · deployed 2026-07-09 03:13</div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja/">
+<a class="card" href="./barberia-navaja/" data-slug="barberia-navaja">
   <div class="thumb"><iframe src="./barberia-navaja/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>barberia-navaja</strong></div>
@@ -107,7 +133,7 @@
     
   </div>
 </a>
-<a class="card" href="./cafe-libre2/">
+<a class="card" href="./cafe-libre2/" data-slug="cafe-libre2">
   <div class="thumb"><iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>cafe-libre2</strong></div>
@@ -116,7 +142,7 @@
     
   </div>
 </a>
-<a class="card" href="./dental-sonrisa/">
+<a class="card" href="./dental-sonrisa/" data-slug="dental-sonrisa">
   <div class="thumb"><iframe src="./dental-sonrisa/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>dental-sonrisa</strong></div>
@@ -125,7 +151,7 @@
     
   </div>
 </a>
-<a class="card" href="./pilates-nucleo/">
+<a class="card" href="./pilates-nucleo/" data-slug="pilates-nucleo">
   <div class="thumb"><iframe src="./pilates-nucleo/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>pilates-nucleo</strong></div>
@@ -134,7 +160,7 @@
     
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-v2/">
+<a class="card" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2">
   <div class="thumb"><iframe src="./restaurante-fogon-v2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>restaurante-fogon-v2</strong></div>
@@ -144,3 +170,130 @@
   </div>
 </a>
 </div>
+
+<dialog id="demo-modal">
+  <div class="modal-head">
+    <div>
+      <strong id="modal-title"></strong>
+      <span class="badge" id="modal-badge" hidden></span>
+      <div class="slug" id="modal-slug"></div>
+    </div>
+    <button class="modal-close" id="modal-close-x" aria-label="Close" title="Close">&times;</button>
+  </div>
+  <div class="modal-preview"><iframe id="modal-iframe" loading="lazy" title="Live demo preview"></iframe></div>
+  <table class="modal-table"><tbody id="modal-table-body"></tbody></table>
+  <div class="modal-qa" id="modal-qa" hidden></div>
+  <div class="modal-actions">
+    <button class="btn" id="modal-close-btn">Close</button>
+    <a class="btn btn-primary" id="modal-open" href="#">Open demo</a>
+  </div>
+</dialog>
+<script id="demo-data" type="application/json">{"floristeria-petalo": {"title": "Floristería Pétalo — Flores frescas y ramos artesanos en Teruel", "direction": "floral-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:57", "deployedAt": "2026-07-09 03:58", "qaNotes": []}, "barberia-navaja-r1": {"title": "Barbería La Navaja Zaragoza", "direction": "vintage-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:46", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "restaurante-fogon-r1": {"title": "El Fogón — Cocina Aragonesa Tradicional en Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:40", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "pilates-nucleo-r1": {"title": "Estudio Pilates Núcleo | Teruel", "direction": "clínico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:34", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "peluqueria-estilo-r1": {"title": "Peluquería Estilo Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:27", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "dental-sonrisa-r1": {"title": "Clínica Dental Sonrisa | Tu dentista en Teruel", "direction": "clinico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:22", "deployedAt": "2026-07-09 03:47", "qaNotes": []}, "cafe-libre-r1": {"title": "Cafetería La Libre · Café de especialidad en Teruel", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "", "costUsd": 0.0060149900000000004, "tokens": 79487, "durationSec": 277, "status": "success", "pitchedAt": "2026-07-09 01:16", "deployedAt": "2026-07-10 20:19", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "peluqueria-estilo-v2": {"title": "Peluquería Estilo — Tu peluquería de confianza en Teruel", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "1970-01-01 01:33", "deployedAt": "2026-07-09 03:13", "qaNotes": []}, "barberia-navaja": {"title": "barberia-navaja", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "cafe-libre2": {"title": "cafe-libre2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "dental-sonrisa": {"title": "dental-sonrisa", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "pilates-nucleo": {"title": "pilates-nucleo", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "restaurante-fogon-v2": {"title": "restaurante-fogon-v2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}}</script>
+<script>
+(function () {
+  var dataEl = document.getElementById('demo-data');
+  var dialog = document.getElementById('demo-modal');
+  if (!dataEl || !dialog || typeof dialog.showModal !== 'function') return; // no <dialog> support — cards still navigate via href
+
+  var DATA;
+  try { DATA = JSON.parse(dataEl.textContent); } catch (e) { return; }
+
+  var els = {
+    title: document.getElementById('modal-title'),
+    slug: document.getElementById('modal-slug'),
+    badge: document.getElementById('modal-badge'),
+    iframe: document.getElementById('modal-iframe'),
+    tbody: document.getElementById('modal-table-body'),
+    qa: document.getElementById('modal-qa'),
+    open: document.getElementById('modal-open'),
+    closeX: document.getElementById('modal-close-x'),
+    closeBtn: document.getElementById('modal-close-btn'),
+  };
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function fmtCost(v) { return typeof v === 'number' ? '$' + v.toFixed(4) : '—'; }
+  function fmtTokens(v) { return typeof v === 'number' ? v.toLocaleString() : '—'; }
+  function fmtDuration(v) {
+    if (typeof v !== 'number') return '—';
+    var m = Math.floor(v / 60), s = Math.round(v % 60);
+    return m ? (m + 'm ' + s + 's') : (s + 's');
+  }
+  function fmtModels(list) {
+    if (!list || !list.length) return '—';
+    var seen = {}, out = [];
+    list.forEach(function (name) {
+      var i = name.indexOf('/');
+      var short = i > -1 ? name.slice(i + 1) : name;
+      if (!seen[short]) { seen[short] = true; out.push(short); }
+    });
+    return out.join(', ');
+  }
+
+  function openModal(slug) {
+    var d = DATA[slug];
+    if (!d) return;
+
+    els.title.textContent = d.title || slug;
+    els.slug.textContent = slug;
+    if (d.direction) { els.badge.textContent = d.direction; els.badge.hidden = false; }
+    else { els.badge.hidden = true; }
+
+    var href = './' + slug + '/';
+    els.iframe.src = href;
+    els.open.href = href;
+
+    var modelLabel = 'Model' + (d.modelProfile ? ' (' + d.modelProfile + ')' : '');
+    var rows = [
+      [modelLabel, fmtModels(d.models)],
+      ['Cost', fmtCost(d.costUsd)],
+      ['Tokens', fmtTokens(d.tokens)],
+      ['Duration', fmtDuration(d.durationSec)],
+      ['Pitched', d.pitchedAt || '—'],
+      ['Deployed', d.deployedAt || '—'],
+      ['Status', d.status || '—'],
+    ];
+    els.tbody.innerHTML = rows.map(function (r) {
+      return '<tr><td>' + escapeHtml(r[0]) + '</td><td>' + escapeHtml(r[1]) + '</td></tr>';
+    }).join('');
+
+    if (d.qaNotes && d.qaNotes.length) {
+      els.qa.hidden = false;
+      els.qa.innerHTML = '<strong>QA advisory</strong>' + d.qaNotes.map(function (n) {
+        return '<div>⚠ ' + escapeHtml(n) + '</div>';
+      }).join('');
+    } else {
+      els.qa.hidden = true;
+      els.qa.innerHTML = '';
+    }
+
+    dialog.showModal();
+  }
+
+  document.querySelectorAll('.grid .card').forEach(function (card) {
+    card.addEventListener('click', function (e) {
+      var slug = card.getAttribute('data-slug');
+      if (!slug || !DATA[slug]) return; // no data for this card — normal navigation
+      e.preventDefault();
+      openModal(slug);
+    });
+  });
+
+  els.closeX.addEventListener('click', function () { dialog.close(); });
+  els.closeBtn.addEventListener('click', function () { dialog.close(); });
+
+  // Click on the backdrop (registers as a click on the dialog element itself,
+  // outside its content box) closes the modal.
+  dialog.addEventListener('click', function (e) {
+    if (e.target === dialog) dialog.close();
+  });
+
+  // Stop the embedded demo (audio/video/timers) once the modal is dismissed.
+  dialog.addEventListener('close', function () {
+    els.iframe.src = 'about:blank';
+  });
+})();
+</script>

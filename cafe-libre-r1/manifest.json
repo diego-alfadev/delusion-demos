@@ -1,9 +1,20 @@
 {
   "project": "cafe-libre-r1",
-  "deployedAt": "2026-07-09 03:47",
+  "deployedAt": "2026-07-10 20:19",
   "title": "Cafetería La Libre · Café de especialidad en Teruel",
   "description": "Café de especialidad, brunch artesano, repostería casera y espacio de trabajo en Teruel. Wifi gratis, trato cercano y producto de calidad.",
   "theme": "artesano-calido",
   "direction": "artesano-calido",
-  "pitchedAt": "2026-07-09 01:16"
+  "pitchedAt": "2026-07-09 01:16",
+  "status": "success",
+  "models": [
+    "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "openrouter/deepseek/deepseek-v4-flash"
+  ],
+  "costUsd": 0.0060149900000000004,
+  "tokens": 79487,
+  "durationSec": 277,
+  "qaNotes": [
+    "index.html: no <img> at all (gradients/emojis only)"
+  ]
 }
