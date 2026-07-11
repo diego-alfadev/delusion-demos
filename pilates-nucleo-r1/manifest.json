@@ -6,5 +6,7 @@
   "theme": "brand",
   "direction": "clínico-limpio",
   "pitchedAt": "2026-07-09 01:34",
-  "pipelineVersion": "0.2.0"
+  "pipelineVersion": "0.2.0",
+  "archived": true,
+  "note": "v0.2 fallida (1 componente, package.json crudo en pantalla) — conservada para autopsia del patrón wellness"
 }
