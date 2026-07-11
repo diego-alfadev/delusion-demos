@@ -22,6 +22,14 @@
   .slug { font-size: .75rem; opacity: .55; font-family: ui-monospace, monospace; }
   p { margin: .4rem 0 0; font-size: .85rem; opacity: .8; }
   .meta { margin-top: .5rem; font-size: .72rem; opacity: .55; }
+  #search { font: inherit; width: 100%; padding: .6rem .9rem; margin-bottom: 1.5rem;
+    border-radius: 10px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
+    background: transparent; color: inherit; }
+  details#archive-section { margin-top: 2.5rem; }
+  details#archive-section summary { cursor: pointer; opacity: .7; margin-bottom: 1.25rem;
+    font-size: .9rem; }
+  .card.archived .thumb { filter: grayscale(.5); opacity: .85; }
+  .no-results { opacity: .6; padding: 2rem 0; }
 
   /* Demo modal (native <dialog>; opened by the click handler below) */
   dialog#demo-modal { border: none; border-radius: 12px; padding: 0;
@@ -50,9 +58,19 @@
   .btn:hover { background: color-mix(in srgb, currentColor 18%, transparent); }
 </style>
 <h1>delusion demos</h1>
-<div class="sub">13 demos · regenerated 2026-07-10 20:19</div>
-<div class="grid">
-<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo">
+<div class="sub">8 active · 6 archived · regenerated 2026-07-11 06:50</div>
+<input id="search" type="search" placeholder="Filter by name, vertical, direction, model… (e.g. barberia, premium-oscuro, deepseek, archived)" autocomplete="off">
+<div class="grid" id="grid-active">
+<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash ">
+  <div class="thumb"><iframe src="./casa-valadouro/" loading="lazy" tabindex="-1"></iframe></div>
+  <div class="body">
+    <div class="row"><strong>Restaurante Marisquería Casa Valadouro</strong><span class="badge">artesano-calido</span></div>
+    <div class="slug">casa-valadouro</div>
+    <p>Restaurante en Alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. Terraza disponibl</p>
+    <div class="meta">pitched 2026-07-11 04:42 · deployed 2026-07-11 06:50</div>
+  </div>
+</a>
+<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo" data-search="floristeria-petalo floristería pétalo — flores frescas y ramos artesanos en teruel landing page for floristería pétalo — floristería en teruel floral-elegante   ">
   <div class="thumb"><iframe src="./floristeria-petalo/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Floristería Pétalo — Flores frescas y ramos artesanos en Teruel</strong><span class="badge">floral-elegante</span></div>
@@ -61,7 +79,7 @@
     <div class="meta">pitched 2026-07-09 01:57 · deployed 2026-07-09 03:58</div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1">
+<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1" data-search="barberia-navaja-r1 barbería la navaja zaragoza barbería en delicias (zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. solo consultas por cita previa. fundada por dos hermanos barberos. vintage-elegante   ">
   <div class="thumb"><iframe src="./barberia-navaja-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Barbería La Navaja Zaragoza</strong><span class="badge">vintage-elegante</span></div>
@@ -70,7 +88,7 @@
     <div class="meta">pitched 2026-07-09 01:46 · deployed 2026-07-09 03:49</div>
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1">
+<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1" data-search="restaurante-fogon-r1 el fogón — cocina aragonesa tradicional en teruel landing page de restaurante el fogón — cocina aragonesa tradicional en teruel artesano-calido   ">
   <div class="thumb"><iframe src="./restaurante-fogon-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>El Fogón — Cocina Aragonesa Tradicional en Teruel</strong><span class="badge">artesano-calido</span></div>
@@ -79,7 +97,7 @@
     <div class="meta">pitched 2026-07-09 01:40 · deployed 2026-07-09 03:49</div>
   </div>
 </a>
-<a class="card" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1">
+<a class="card" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1" data-search="pilates-nucleo-r1 estudio pilates núcleo | teruel estudio pilates núcleo en teruel. clases reducidas de pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. atención personalizada en un entorno acogedor. clínico-limpio   ">
   <div class="thumb"><iframe src="./pilates-nucleo-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Estudio Pilates Núcleo | Teruel</strong><span class="badge">clínico-limpio</span></div>
@@ -88,7 +106,7 @@
     <div class="meta">pitched 2026-07-09 01:34 · deployed 2026-07-09 03:48</div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1">
+<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1" data-search="peluqueria-estilo-r1 peluquería estilo teruel peluquería estilo — landing page cold demo. peluquería artesana en teruel. sin web previa. diseño artesano-cálido. artesano-calido   ">
   <div class="thumb"><iframe src="./peluqueria-estilo-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo Teruel</strong><span class="badge">artesano-calido</span></div>
@@ -97,7 +115,7 @@
     <div class="meta">pitched 2026-07-09 01:27 · deployed 2026-07-09 03:48</div>
   </div>
 </a>
-<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1">
+<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1" data-search="dental-sonrisa-r1 clínica dental sonrisa | tu dentista en teruel landing page para clínica dental sonrisa, teruel. odontología general, implantes, ortodoncia invisible y blanqueamiento. primera visita gratis. clinico-limpio   ">
   <div class="thumb"><iframe src="./dental-sonrisa-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Clínica Dental Sonrisa | Tu dentista en Teruel</strong><span class="badge">clinico-limpio</span></div>
@@ -106,7 +124,7 @@
     <div class="meta">pitched 2026-07-09 01:22 · deployed 2026-07-09 03:47</div>
   </div>
 </a>
-<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1">
+<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash ">
   <div class="thumb"><iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Cafetería La Libre · Café de especialidad en Teruel</strong><span class="badge">artesano-calido</span></div>
@@ -115,7 +133,11 @@
     <div class="meta">pitched 2026-07-09 01:16 · deployed 2026-07-10 20:19</div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2">
+</div>
+<details id="archive-section" >
+  <summary>Archive — ronda 0 originals, kept for before/after comparison (6)</summary>
+  <div class="grid" id="grid-archived">
+<a class="card archived" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2" data-search="peluqueria-estilo-v2 peluquería estilo — tu peluquería de confianza en teruel peluquería estilo, tu salón de belleza y peluquería en teruel. cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.    archived">
   <div class="thumb"><iframe src="./peluqueria-estilo-v2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo — Tu peluquería de confianza en Teruel</strong></div>
@@ -124,7 +146,7 @@
     <div class="meta">pitched 1970-01-01 01:33 · deployed 2026-07-09 03:13</div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja/" data-slug="barberia-navaja">
+<a class="card archived" href="./barberia-navaja/" data-slug="barberia-navaja" data-search="barberia-navaja barberia-navaja     archived">
   <div class="thumb"><iframe src="./barberia-navaja/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>barberia-navaja</strong></div>
@@ -133,7 +155,7 @@
     
   </div>
 </a>
-<a class="card" href="./cafe-libre2/" data-slug="cafe-libre2">
+<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived">
   <div class="thumb"><iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>cafe-libre2</strong></div>
@@ -142,7 +164,7 @@
     
   </div>
 </a>
-<a class="card" href="./dental-sonrisa/" data-slug="dental-sonrisa">
+<a class="card archived" href="./dental-sonrisa/" data-slug="dental-sonrisa" data-search="dental-sonrisa dental-sonrisa     archived">
   <div class="thumb"><iframe src="./dental-sonrisa/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>dental-sonrisa</strong></div>
@@ -151,7 +173,7 @@
     
   </div>
 </a>
-<a class="card" href="./pilates-nucleo/" data-slug="pilates-nucleo">
+<a class="card archived" href="./pilates-nucleo/" data-slug="pilates-nucleo" data-search="pilates-nucleo pilates-nucleo     archived">
   <div class="thumb"><iframe src="./pilates-nucleo/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>pilates-nucleo</strong></div>
@@ -160,7 +182,7 @@
     
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2">
+<a class="card archived" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2" data-search="restaurante-fogon-v2 restaurante-fogon-v2     archived">
   <div class="thumb"><iframe src="./restaurante-fogon-v2/" loading="lazy" tabindex="-1"></iframe></div>
   <div class="body">
     <div class="row"><strong>restaurante-fogon-v2</strong></div>
@@ -169,7 +191,30 @@
     
   </div>
 </a>
-</div>
+  </div>
+</details>
+<div class="no-results" id="no-results" hidden>No demos match that filter.</div>
+<script>
+(function () {
+  var input = document.getElementById('search');
+  if (!input) return;
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.grid .card'));
+  var details = document.getElementById('archive-section');
+  var empty = document.getElementById('no-results');
+  var wasOpen = details ? details.open : false;
+  input.addEventListener('input', function () {
+    var q = input.value.trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function (c) {
+      var hit = !q || (c.getAttribute('data-search') || '').indexOf(q) > -1;
+      c.style.display = hit ? '' : 'none';
+      if (hit) shown++;
+    });
+    if (details) details.open = q ? true : wasOpen;
+    empty.hidden = shown > 0;
+  });
+})();
+</script>
 
 <dialog id="demo-modal">
   <div class="modal-head">
@@ -188,7 +233,7 @@
     <a class="btn btn-primary" id="modal-open" href="#">Open demo</a>
   </div>
 </dialog>
-<script id="demo-data" type="application/json">{"floristeria-petalo": {"title": "Floristería Pétalo — Flores frescas y ramos artesanos en Teruel", "direction": "floral-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:57", "deployedAt": "2026-07-09 03:58", "qaNotes": []}, "barberia-navaja-r1": {"title": "Barbería La Navaja Zaragoza", "direction": "vintage-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:46", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "restaurante-fogon-r1": {"title": "El Fogón — Cocina Aragonesa Tradicional en Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:40", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "pilates-nucleo-r1": {"title": "Estudio Pilates Núcleo | Teruel", "direction": "clínico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:34", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "peluqueria-estilo-r1": {"title": "Peluquería Estilo Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:27", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "dental-sonrisa-r1": {"title": "Clínica Dental Sonrisa | Tu dentista en Teruel", "direction": "clinico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:22", "deployedAt": "2026-07-09 03:47", "qaNotes": []}, "cafe-libre-r1": {"title": "Cafetería La Libre · Café de especialidad en Teruel", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "", "costUsd": 0.0060149900000000004, "tokens": 79487, "durationSec": 277, "status": "success", "pitchedAt": "2026-07-09 01:16", "deployedAt": "2026-07-10 20:19", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "peluqueria-estilo-v2": {"title": "Peluquería Estilo — Tu peluquería de confianza en Teruel", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "1970-01-01 01:33", "deployedAt": "2026-07-09 03:13", "qaNotes": []}, "barberia-navaja": {"title": "barberia-navaja", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "cafe-libre2": {"title": "cafe-libre2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "dental-sonrisa": {"title": "dental-sonrisa", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "pilates-nucleo": {"title": "pilates-nucleo", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "restaurante-fogon-v2": {"title": "restaurante-fogon-v2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}}</script>
+<script id="demo-data" type="application/json">{"casa-valadouro": {"title": "Restaurante Marisquería Casa Valadouro", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "budget-deepseek", "costUsd": 0.013583016, "tokens": 208854, "durationSec": 269, "status": "success", "pitchedAt": "2026-07-11 04:42", "deployedAt": "2026-07-11 06:50", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "floristeria-petalo": {"title": "Floristería Pétalo — Flores frescas y ramos artesanos en Teruel", "direction": "floral-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:57", "deployedAt": "2026-07-09 03:58", "qaNotes": []}, "barberia-navaja-r1": {"title": "Barbería La Navaja Zaragoza", "direction": "vintage-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:46", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "restaurante-fogon-r1": {"title": "El Fogón — Cocina Aragonesa Tradicional en Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:40", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "pilates-nucleo-r1": {"title": "Estudio Pilates Núcleo | Teruel", "direction": "clínico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:34", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "peluqueria-estilo-r1": {"title": "Peluquería Estilo Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:27", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "dental-sonrisa-r1": {"title": "Clínica Dental Sonrisa | Tu dentista en Teruel", "direction": "clinico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:22", "deployedAt": "2026-07-09 03:47", "qaNotes": []}, "cafe-libre-r1": {"title": "Cafetería La Libre · Café de especialidad en Teruel", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "", "costUsd": 0.0060149900000000004, "tokens": 79487, "durationSec": 277, "status": "success", "pitchedAt": "2026-07-09 01:16", "deployedAt": "2026-07-10 20:19", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "peluqueria-estilo-v2": {"title": "Peluquería Estilo — Tu peluquería de confianza en Teruel", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "1970-01-01 01:33", "deployedAt": "2026-07-09 03:13", "qaNotes": []}, "barberia-navaja": {"title": "barberia-navaja", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "cafe-libre2": {"title": "cafe-libre2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "dental-sonrisa": {"title": "dental-sonrisa", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "pilates-nucleo": {"title": "pilates-nucleo", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "restaurante-fogon-v2": {"title": "restaurante-fogon-v2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}}</script>
 <script>
 (function () {
   var dataEl = document.getElementById('demo-data');
