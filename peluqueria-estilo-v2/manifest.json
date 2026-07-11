@@ -4,5 +4,7 @@
   "title": "Peluquería Estilo — Tu peluquería de confianza en Teruel",
   "description": "Peluquería Estilo, tu salón de belleza y peluquería en Teruel. Cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.",
   "theme": "autumn",
-  "pitchedAt": "1970-01-01 01:33"
+  "pitchedAt": "1970-01-01 01:33",
+  "archived": true,
+  "note": "ronda 0 original — kept for before/after comparison"
 }
