@@ -1,0 +1,21 @@
+{
+  "project": "rincon-castellano",
+  "deployedAt": "2026-07-11 06:50",
+  "title": "Rincón Castellano | Carnes a la brasa en Alcorcón",
+  "description": "Restaurante Rincón Castellano en Alcorcón. Carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. Junto a San José de Valderas. Reserva tu mesa.",
+  "theme": "brand",
+  "direction": "rústico-vibrante",
+  "pitchedAt": "2026-07-11 04:49",
+  "status": "success",
+  "modelProfile": "budget-deepseek",
+  "models": [
+    "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5",
+    "openrouter/deepseek/deepseek-v4-flash"
+  ],
+  "costUsd": 0.0055788964,
+  "tokens": 118954,
+  "durationSec": 392,
+  "qaNotes": [
+    "index.html: no <img> at all (gradients/emojis only)"
+  ]
+}
