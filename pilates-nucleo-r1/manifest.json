@@ -5,5 +5,6 @@
   "description": "Estudio Pilates Núcleo en Teruel. Clases reducidas de Pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. Atención personalizada en un entorno acogedor.",
   "theme": "brand",
   "direction": "clínico-limpio",
-  "pitchedAt": "2026-07-09 01:34"
+  "pitchedAt": "2026-07-09 01:34",
+  "pipelineVersion": "0.2.0"
 }

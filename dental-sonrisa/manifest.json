@@ -2,5 +2,6 @@
   "project": "dental-sonrisa",
   "title": "dental-sonrisa",
   "archived": true,
-  "note": "ronda 0 original — kept for before/after comparison"
+  "note": "ronda 0 original — kept for before/after comparison",
+  "pipelineVersion": "0.1.0"
 }

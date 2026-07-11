@@ -5,5 +5,6 @@
   "description": "Landing page de Restaurante El Fogón — cocina aragonesa tradicional en Teruel",
   "theme": "brand",
   "direction": "artesano-calido",
-  "pitchedAt": "2026-07-09 01:40"
+  "pitchedAt": "2026-07-09 01:40",
+  "pipelineVersion": "0.2.0"
 }

@@ -6,5 +6,6 @@
   "theme": "autumn",
   "pitchedAt": "1970-01-01 01:33",
   "archived": true,
-  "note": "ronda 0 original — kept for before/after comparison"
+  "note": "ronda 0 original — kept for before/after comparison",
+  "pipelineVersion": "0.1.0"
 }

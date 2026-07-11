@@ -5,5 +5,6 @@
   "description": "Landing page for Floristería Pétalo — floristería en Teruel",
   "theme": "brand",
   "direction": "floral-elegante",
-  "pitchedAt": "2026-07-09 01:57"
+  "pitchedAt": "2026-07-09 01:57",
+  "pipelineVersion": "0.2.0"
 }

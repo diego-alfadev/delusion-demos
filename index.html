@@ -15,13 +15,22 @@
   .thumb { aspect-ratio: 16/10; overflow: hidden; position: relative; background: #f3f4f6; }
   .thumb iframe { width: 1280px; height: 800px; border: 0; transform: scale(.25);
                   transform-origin: 0 0; pointer-events: none; }
+  .thumb-newtab { position: absolute; top: .4rem; right: .4rem; z-index: 2;
+    width: 1.8rem; height: 1.8rem; padding: 0; display: flex; align-items: center; justify-content: center;
+    border: 1px solid color-mix(in srgb, currentColor 20%, transparent); border-radius: 6px;
+    background: color-mix(in srgb, Canvas 82%, transparent); color: inherit; cursor: pointer;
+    font-size: .9rem; line-height: 1; }
+  .thumb-newtab:hover { background: Canvas; }
   .body { padding: .8rem 1rem 1rem; }
   .row { display: flex; gap: .5rem; align-items: baseline; justify-content: space-between; }
   .badge { font-size: .7rem; padding: .15rem .5rem; border-radius: 99px;
            background: color-mix(in srgb, currentColor 12%, transparent); white-space: nowrap; }
   .slug { font-size: .75rem; opacity: .55; font-family: ui-monospace, monospace; }
   p { margin: .4rem 0 0; font-size: .85rem; opacity: .8; }
-  .meta { margin-top: .5rem; font-size: .72rem; opacity: .55; }
+  .chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .6rem; }
+  .chip { font-size: .68rem; padding: .15rem .5rem; border-radius: 99px;
+    border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
+    background: color-mix(in srgb, currentColor 7%, transparent); white-space: nowrap; opacity: .85; }
   #search { font: inherit; width: 100%; padding: .6rem .9rem; margin-bottom: 1.5rem;
     border-radius: 10px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
     background: transparent; color: inherit; }
@@ -39,6 +48,7 @@
   .modal-head { display: flex; align-items: flex-start; justify-content: space-between;
     gap: .75rem; padding: 1rem 1.25rem .6rem; margin: 0; border: 0; }
   .modal-head strong { font-size: 1.05rem; }
+  .modal-head .chips { margin-top: .5rem; }
   .modal-close { border: 0; background: transparent; font-size: 1.4rem; line-height: 1;
     cursor: pointer; color: inherit; opacity: .6; padding: .1rem .4rem; }
   .modal-close:hover { opacity: 1; }
@@ -58,146 +68,191 @@
   .btn:hover { background: color-mix(in srgb, currentColor 18%, transparent); }
 </style>
 <h1>delusion demos</h1>
-<div class="sub">9 active · 6 archived · regenerated 2026-07-11 12:56</div>
+<div class="sub">9 active · 6 archived · regenerated 2026-07-11 21:10</div>
 <input id="search" type="search" placeholder="Filter by name, vertical, direction, model… (e.g. barberia, premium-oscuro, deepseek, archived)" autocomplete="off">
 <div class="grid" id="grid-active">
-<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash ">
-  <div class="thumb"><iframe src="./rincon-castellano/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0056 pitched 2026-07-11 04:49">
+  <div class="thumb">
+    <iframe src="./rincon-castellano/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./rincon-castellano/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Rincón Castellano | Carnes a la brasa en Alcorcón</strong><span class="badge">rústico-vibrante</span></div>
     <div class="slug">rincon-castellano</div>
     <p>Restaurante Rincón Castellano en Alcorcón. Carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. Junto a San José de V</p>
-    <div class="meta">pitched 2026-07-11 04:49 · deployed 2026-07-11 12:56</div>
+    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0056</span><span class="chip">pitched 2026-07-11 04:49</span></div>
   </div>
 </a>
-<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash ">
-  <div class="thumb"><iframe src="./casa-valadouro/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0136 pitched 2026-07-11 04:42">
+  <div class="thumb">
+    <iframe src="./casa-valadouro/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./casa-valadouro/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Restaurante Marisquería Casa Valadouro</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">casa-valadouro</div>
     <p>Restaurante en Alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. Terraza disponibl</p>
-    <div class="meta">pitched 2026-07-11 04:42 · deployed 2026-07-11 06:50</div>
+    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0136</span><span class="chip">pitched 2026-07-11 04:42</span></div>
   </div>
 </a>
-<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo" data-search="floristeria-petalo floristería pétalo — flores frescas y ramos artesanos en teruel landing page for floristería pétalo — floristería en teruel floral-elegante   ">
-  <div class="thumb"><iframe src="./floristeria-petalo/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo" data-search="floristeria-petalo floristería pétalo — flores frescas y ramos artesanos en teruel landing page for floristería pétalo — floristería en teruel floral-elegante    v0.2.0 pitched 2026-07-09 01:57">
+  <div class="thumb">
+    <iframe src="./floristeria-petalo/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./floristeria-petalo/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Floristería Pétalo — Flores frescas y ramos artesanos en Teruel</strong><span class="badge">floral-elegante</span></div>
     <div class="slug">floristeria-petalo</div>
     <p>Landing page for Floristería Pétalo — floristería en Teruel</p>
-    <div class="meta">pitched 2026-07-09 01:57 · deployed 2026-07-09 03:58</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:57</span></div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1" data-search="barberia-navaja-r1 barbería la navaja zaragoza barbería en delicias (zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. solo consultas por cita previa. fundada por dos hermanos barberos. vintage-elegante   ">
-  <div class="thumb"><iframe src="./barberia-navaja-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1" data-search="barberia-navaja-r1 barbería la navaja zaragoza barbería en delicias (zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. solo consultas por cita previa. fundada por dos hermanos barberos. vintage-elegante    v0.2.0 pitched 2026-07-09 01:46">
+  <div class="thumb">
+    <iframe src="./barberia-navaja-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./barberia-navaja-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Barbería La Navaja Zaragoza</strong><span class="badge">vintage-elegante</span></div>
     <div class="slug">barberia-navaja-r1</div>
     <p>Barbería en Delicias (Zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. Solo consultas por cita previa. Fu</p>
-    <div class="meta">pitched 2026-07-09 01:46 · deployed 2026-07-09 03:49</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:46</span></div>
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1" data-search="restaurante-fogon-r1 el fogón — cocina aragonesa tradicional en teruel landing page de restaurante el fogón — cocina aragonesa tradicional en teruel artesano-calido   ">
-  <div class="thumb"><iframe src="./restaurante-fogon-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1" data-search="restaurante-fogon-r1 el fogón — cocina aragonesa tradicional en teruel landing page de restaurante el fogón — cocina aragonesa tradicional en teruel artesano-calido    v0.2.0 pitched 2026-07-09 01:40">
+  <div class="thumb">
+    <iframe src="./restaurante-fogon-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./restaurante-fogon-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>El Fogón — Cocina Aragonesa Tradicional en Teruel</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">restaurante-fogon-r1</div>
     <p>Landing page de Restaurante El Fogón — cocina aragonesa tradicional en Teruel</p>
-    <div class="meta">pitched 2026-07-09 01:40 · deployed 2026-07-09 03:49</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:40</span></div>
   </div>
 </a>
-<a class="card" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1" data-search="pilates-nucleo-r1 estudio pilates núcleo | teruel estudio pilates núcleo en teruel. clases reducidas de pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. atención personalizada en un entorno acogedor. clínico-limpio   ">
-  <div class="thumb"><iframe src="./pilates-nucleo-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1" data-search="pilates-nucleo-r1 estudio pilates núcleo | teruel estudio pilates núcleo en teruel. clases reducidas de pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. atención personalizada en un entorno acogedor. clínico-limpio    v0.2.0 pitched 2026-07-09 01:34">
+  <div class="thumb">
+    <iframe src="./pilates-nucleo-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./pilates-nucleo-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Estudio Pilates Núcleo | Teruel</strong><span class="badge">clínico-limpio</span></div>
     <div class="slug">pilates-nucleo-r1</div>
     <p>Estudio Pilates Núcleo en Teruel. Clases reducidas de Pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. Atenc</p>
-    <div class="meta">pitched 2026-07-09 01:34 · deployed 2026-07-09 03:48</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:34</span></div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1" data-search="peluqueria-estilo-r1 peluquería estilo teruel peluquería estilo — landing page cold demo. peluquería artesana en teruel. sin web previa. diseño artesano-cálido. artesano-calido   ">
-  <div class="thumb"><iframe src="./peluqueria-estilo-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1" data-search="peluqueria-estilo-r1 peluquería estilo teruel peluquería estilo — landing page cold demo. peluquería artesana en teruel. sin web previa. diseño artesano-cálido. artesano-calido    v0.2.0 pitched 2026-07-09 01:27">
+  <div class="thumb">
+    <iframe src="./peluqueria-estilo-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./peluqueria-estilo-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo Teruel</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">peluqueria-estilo-r1</div>
     <p>Peluquería Estilo — Landing page cold demo. Peluquería artesana en Teruel. Sin web previa. Diseño artesano-cálido.</p>
-    <div class="meta">pitched 2026-07-09 01:27 · deployed 2026-07-09 03:48</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:27</span></div>
   </div>
 </a>
-<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1" data-search="dental-sonrisa-r1 clínica dental sonrisa | tu dentista en teruel landing page para clínica dental sonrisa, teruel. odontología general, implantes, ortodoncia invisible y blanqueamiento. primera visita gratis. clinico-limpio   ">
-  <div class="thumb"><iframe src="./dental-sonrisa-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1" data-search="dental-sonrisa-r1 clínica dental sonrisa | tu dentista en teruel landing page para clínica dental sonrisa, teruel. odontología general, implantes, ortodoncia invisible y blanqueamiento. primera visita gratis. clinico-limpio    v0.2.0 pitched 2026-07-09 01:22">
+  <div class="thumb">
+    <iframe src="./dental-sonrisa-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./dental-sonrisa-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Clínica Dental Sonrisa | Tu dentista en Teruel</strong><span class="badge">clinico-limpio</span></div>
     <div class="slug">dental-sonrisa-r1</div>
     <p>Landing page para Clínica Dental Sonrisa, Teruel. Odontología general, implantes, ortodoncia invisible y blanqueamiento. Primera visita grat</p>
-    <div class="meta">pitched 2026-07-09 01:22 · deployed 2026-07-09 03:47</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:22</span></div>
   </div>
 </a>
-<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash ">
-  <div class="thumb"><iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.2.0 llama-3.3-nemotron-super-49b-v1.5 +1 $0.0060 pitched 2026-07-09 01:16">
+  <div class="thumb">
+    <iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./cafe-libre-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Cafetería La Libre · Café de especialidad en Teruel</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">cafe-libre-r1</div>
     <p>Café de especialidad, brunch artesano, repostería casera y espacio de trabajo en Teruel. Wifi gratis, trato cercano y producto de calidad.</p>
-    <div class="meta">pitched 2026-07-09 01:16 · deployed 2026-07-10 20:19</div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0060</span><span class="chip">pitched 2026-07-09 01:16</span></div>
   </div>
 </a>
 </div>
 <details id="archive-section" >
   <summary>Archive — ronda 0 originals, kept for before/after comparison (6)</summary>
   <div class="grid" id="grid-archived">
-<a class="card archived" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2" data-search="peluqueria-estilo-v2 peluquería estilo — tu peluquería de confianza en teruel peluquería estilo, tu salón de belleza y peluquería en teruel. cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.    archived">
-  <div class="thumb"><iframe src="./peluqueria-estilo-v2/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2" data-search="peluqueria-estilo-v2 peluquería estilo — tu peluquería de confianza en teruel peluquería estilo, tu salón de belleza y peluquería en teruel. cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.    archived v0.1.0 pitched 1970-01-01 01:33">
+  <div class="thumb">
+    <iframe src="./peluqueria-estilo-v2/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./peluqueria-estilo-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>Peluquería Estilo — Tu peluquería de confianza en Teruel</strong></div>
     <div class="slug">peluqueria-estilo-v2</div>
     <p>Peluquería Estilo, tu salón de belleza y peluquería en Teruel. Cortes, coloración, tratamientos capilares con trato familiar y trabajo artes</p>
-    <div class="meta">pitched 1970-01-01 01:33 · deployed 2026-07-09 03:13</div>
+    <div class="chips"><span class="chip">v0.1.0</span><span class="chip">pitched 1970-01-01 01:33</span></div>
   </div>
 </a>
-<a class="card archived" href="./barberia-navaja/" data-slug="barberia-navaja" data-search="barberia-navaja barberia-navaja     archived">
-  <div class="thumb"><iframe src="./barberia-navaja/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./barberia-navaja/" data-slug="barberia-navaja" data-search="barberia-navaja barberia-navaja     archived v0.1.0">
+  <div class="thumb">
+    <iframe src="./barberia-navaja/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./barberia-navaja/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>barberia-navaja</strong></div>
     <div class="slug">barberia-navaja</div>
     
-    
+    <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived">
-  <div class="thumb"><iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived v0.1.0">
+  <div class="thumb">
+    <iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./cafe-libre2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>cafe-libre2</strong></div>
     <div class="slug">cafe-libre2</div>
     
-    
+    <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./dental-sonrisa/" data-slug="dental-sonrisa" data-search="dental-sonrisa dental-sonrisa     archived">
-  <div class="thumb"><iframe src="./dental-sonrisa/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./dental-sonrisa/" data-slug="dental-sonrisa" data-search="dental-sonrisa dental-sonrisa     archived v0.1.0">
+  <div class="thumb">
+    <iframe src="./dental-sonrisa/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./dental-sonrisa/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>dental-sonrisa</strong></div>
     <div class="slug">dental-sonrisa</div>
     
-    
+    <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./pilates-nucleo/" data-slug="pilates-nucleo" data-search="pilates-nucleo pilates-nucleo     archived">
-  <div class="thumb"><iframe src="./pilates-nucleo/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./pilates-nucleo/" data-slug="pilates-nucleo" data-search="pilates-nucleo pilates-nucleo     archived v0.1.0">
+  <div class="thumb">
+    <iframe src="./pilates-nucleo/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./pilates-nucleo/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>pilates-nucleo</strong></div>
     <div class="slug">pilates-nucleo</div>
     
-    
+    <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2" data-search="restaurante-fogon-v2 restaurante-fogon-v2     archived">
-  <div class="thumb"><iframe src="./restaurante-fogon-v2/" loading="lazy" tabindex="-1"></iframe></div>
+<a class="card archived" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2" data-search="restaurante-fogon-v2 restaurante-fogon-v2     archived v0.1.0">
+  <div class="thumb">
+    <iframe src="./restaurante-fogon-v2/" loading="lazy" tabindex="-1"></iframe>
+    <button class="thumb-newtab" type="button" data-href="./restaurante-fogon-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
+  </div>
   <div class="body">
     <div class="row"><strong>restaurante-fogon-v2</strong></div>
     <div class="slug">restaurante-fogon-v2</div>
     
-    
+    <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
   </div>
@@ -223,6 +278,18 @@
     empty.hidden = shown > 0;
   });
 })();
+(function () {
+  // Per-card "open in new tab" button, nested inside the card's own <a>.
+  // stopPropagation keeps the click from also bubbling to the card's click
+  // handler (which would open the modal) or the anchor's native navigation.
+  document.querySelectorAll('.thumb-newtab').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      e.preventDefault();
+      window.open(btn.getAttribute('data-href'), '_blank', 'noopener');
+    });
+  });
+})();
 </script>
 
 <dialog id="demo-modal">
@@ -231,6 +298,7 @@
       <strong id="modal-title"></strong>
       <span class="badge" id="modal-badge" hidden></span>
       <div class="slug" id="modal-slug"></div>
+      <div class="chips" id="modal-chips"></div>
     </div>
     <button class="modal-close" id="modal-close-x" aria-label="Close" title="Close">&times;</button>
   </div>
@@ -239,10 +307,11 @@
   <div class="modal-qa" id="modal-qa" hidden></div>
   <div class="modal-actions">
     <button class="btn" id="modal-close-btn">Close</button>
+    <a class="btn" id="modal-open-newtab" href="#" target="_blank" rel="noopener">Open in new tab ↗</a>
     <a class="btn btn-primary" id="modal-open" href="#">Open demo</a>
   </div>
 </dialog>
-<script id="demo-data" type="application/json">{"rincon-castellano": {"title": "Rincón Castellano | Carnes a la brasa en Alcorcón", "direction": "rústico-vibrante", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "budget-deepseek", "costUsd": 0.0055788964, "tokens": 118954, "durationSec": 392, "status": "success", "pitchedAt": "2026-07-11 04:49", "deployedAt": "2026-07-11 12:56", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "casa-valadouro": {"title": "Restaurante Marisquería Casa Valadouro", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "budget-deepseek", "costUsd": 0.013583016, "tokens": 208854, "durationSec": 269, "status": "success", "pitchedAt": "2026-07-11 04:42", "deployedAt": "2026-07-11 06:50", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "floristeria-petalo": {"title": "Floristería Pétalo — Flores frescas y ramos artesanos en Teruel", "direction": "floral-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:57", "deployedAt": "2026-07-09 03:58", "qaNotes": []}, "barberia-navaja-r1": {"title": "Barbería La Navaja Zaragoza", "direction": "vintage-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:46", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "restaurante-fogon-r1": {"title": "El Fogón — Cocina Aragonesa Tradicional en Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:40", "deployedAt": "2026-07-09 03:49", "qaNotes": []}, "pilates-nucleo-r1": {"title": "Estudio Pilates Núcleo | Teruel", "direction": "clínico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:34", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "peluqueria-estilo-r1": {"title": "Peluquería Estilo Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:27", "deployedAt": "2026-07-09 03:48", "qaNotes": []}, "dental-sonrisa-r1": {"title": "Clínica Dental Sonrisa | Tu dentista en Teruel", "direction": "clinico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:22", "deployedAt": "2026-07-09 03:47", "qaNotes": []}, "cafe-libre-r1": {"title": "Cafetería La Libre · Café de especialidad en Teruel", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "", "costUsd": 0.0060149900000000004, "tokens": 79487, "durationSec": 277, "status": "success", "pitchedAt": "2026-07-09 01:16", "deployedAt": "2026-07-10 20:19", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"]}, "peluqueria-estilo-v2": {"title": "Peluquería Estilo — Tu peluquería de confianza en Teruel", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "1970-01-01 01:33", "deployedAt": "2026-07-09 03:13", "qaNotes": []}, "barberia-navaja": {"title": "barberia-navaja", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "cafe-libre2": {"title": "cafe-libre2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "dental-sonrisa": {"title": "dental-sonrisa", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "pilates-nucleo": {"title": "pilates-nucleo", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}, "restaurante-fogon-v2": {"title": "restaurante-fogon-v2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": []}}</script>
+<script id="demo-data" type="application/json">{"rincon-castellano": {"title": "Rincón Castellano | Carnes a la brasa en Alcorcón", "direction": "rústico-vibrante", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "budget-deepseek", "costUsd": 0.0055788964, "tokens": 118954, "durationSec": 392, "status": "success", "pitchedAt": "2026-07-11 04:49", "deployedAt": "2026-07-11 12:56", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"], "pipelineVersion": "0.3.0", "tier": "low", "shortModel": "llama-3.3-nemotron-super-49b-v1.5 +1"}, "casa-valadouro": {"title": "Restaurante Marisquería Casa Valadouro", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "budget-deepseek", "costUsd": 0.013583016, "tokens": 208854, "durationSec": 269, "status": "success", "pitchedAt": "2026-07-11 04:42", "deployedAt": "2026-07-11 06:50", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"], "pipelineVersion": "0.3.0", "tier": "low", "shortModel": "llama-3.3-nemotron-super-49b-v1.5 +1"}, "floristeria-petalo": {"title": "Floristería Pétalo — Flores frescas y ramos artesanos en Teruel", "direction": "floral-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:57", "deployedAt": "2026-07-09 03:58", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "barberia-navaja-r1": {"title": "Barbería La Navaja Zaragoza", "direction": "vintage-elegante", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:46", "deployedAt": "2026-07-09 03:49", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "restaurante-fogon-r1": {"title": "El Fogón — Cocina Aragonesa Tradicional en Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:40", "deployedAt": "2026-07-09 03:49", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "pilates-nucleo-r1": {"title": "Estudio Pilates Núcleo | Teruel", "direction": "clínico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:34", "deployedAt": "2026-07-09 03:48", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "peluqueria-estilo-r1": {"title": "Peluquería Estilo Teruel", "direction": "artesano-calido", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:27", "deployedAt": "2026-07-09 03:48", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "dental-sonrisa-r1": {"title": "Clínica Dental Sonrisa | Tu dentista en Teruel", "direction": "clinico-limpio", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "2026-07-09 01:22", "deployedAt": "2026-07-09 03:47", "qaNotes": [], "pipelineVersion": "0.2.0", "tier": "", "shortModel": ""}, "cafe-libre-r1": {"title": "Cafetería La Libre · Café de especialidad en Teruel", "direction": "artesano-calido", "models": ["nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5", "openrouter/deepseek/deepseek-v4-flash"], "modelProfile": "", "costUsd": 0.0060149900000000004, "tokens": 79487, "durationSec": 277, "status": "success", "pitchedAt": "2026-07-09 01:16", "deployedAt": "2026-07-10 20:19", "qaNotes": ["index.html: no <img> at all (gradients/emojis only)"], "pipelineVersion": "0.2.0", "tier": "", "shortModel": "llama-3.3-nemotron-super-49b-v1.5 +1"}, "peluqueria-estilo-v2": {"title": "Peluquería Estilo — Tu peluquería de confianza en Teruel", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "1970-01-01 01:33", "deployedAt": "2026-07-09 03:13", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}, "barberia-navaja": {"title": "barberia-navaja", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}, "cafe-libre2": {"title": "cafe-libre2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}, "dental-sonrisa": {"title": "dental-sonrisa", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}, "pilates-nucleo": {"title": "pilates-nucleo", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}, "restaurante-fogon-v2": {"title": "restaurante-fogon-v2", "direction": "", "models": [], "modelProfile": "", "costUsd": null, "tokens": null, "durationSec": null, "status": "", "pitchedAt": "", "deployedAt": "", "qaNotes": [], "pipelineVersion": "0.1.0", "tier": "", "shortModel": ""}}</script>
 <script>
 (function () {
   var dataEl = document.getElementById('demo-data');
@@ -256,10 +325,12 @@
     title: document.getElementById('modal-title'),
     slug: document.getElementById('modal-slug'),
     badge: document.getElementById('modal-badge'),
+    chips: document.getElementById('modal-chips'),
     iframe: document.getElementById('modal-iframe'),
     tbody: document.getElementById('modal-table-body'),
     qa: document.getElementById('modal-qa'),
     open: document.getElementById('modal-open'),
+    openNewTab: document.getElementById('modal-open-newtab'),
     closeX: document.getElementById('modal-close-x'),
     closeBtn: document.getElementById('modal-close-btn'),
   };
@@ -286,6 +357,15 @@
     });
     return out.join(', ');
   }
+  function buildChips(d) {
+    var chips = [];
+    if (d.pipelineVersion) chips.push('v' + d.pipelineVersion);
+    if (d.tier) chips.push(d.tier);
+    if (d.shortModel) chips.push(d.shortModel);
+    if (typeof d.costUsd === 'number') chips.push(fmtCost(d.costUsd));
+    if (d.pitchedAt) chips.push('pitched ' + d.pitchedAt);
+    return chips;
+  }
 
   function openModal(slug) {
     var d = DATA[slug];
@@ -295,10 +375,14 @@
     els.slug.textContent = slug;
     if (d.direction) { els.badge.textContent = d.direction; els.badge.hidden = false; }
     else { els.badge.hidden = true; }
+    els.chips.innerHTML = buildChips(d).map(function (c) {
+      return '<span class="chip">' + escapeHtml(c) + '</span>';
+    }).join('');
 
     var href = './' + slug + '/';
     els.iframe.src = href;
     els.open.href = href;
+    els.openNewTab.href = href;
 
     var modelLabel = 'Model' + (d.modelProfile ? ' (' + d.modelProfile + ')' : '');
     var rows = [

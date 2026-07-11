@@ -16,5 +16,6 @@
   "durationSec": 277,
   "qaNotes": [
     "index.html: no <img> at all (gradients/emojis only)"
-  ]
+  ],
+  "pipelineVersion": "0.2.0"
 }
