@@ -1,0 +1,24 @@
+{
+  "project": "casa-valadouro-v2",
+  "deployedAt": "2026-07-12 03:53",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "9e8090e",
+  "title": "Casa Valadouro · Marisquería gallega en Alcorcón",
+  "description": "Restaurante marisquería gallega en Alcorcón. Parrillada de marisco, pulpo á feira, caracoles de la casa. Reserva tu mesa en Casa Valadouro.",
+  "theme": "tradicional-vivo",
+  "direction": "tradicional-vivo",
+  "pitchedAt": "2026-07-12 01:43",
+  "dossierUsed": true,
+  "status": "success",
+  "modelProfile": "budget-deepseek",
+  "models": [
+    "openrouter/deepseek/deepseek-v4-flash",
+    "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5"
+  ],
+  "costUsd": 0.012575211999999999,
+  "tokens": 145406,
+  "durationSec": 335,
+  "qaNotes": [
+    "index.html: no <img> at all (gradients/emojis only)"
+  ]
+}
