@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /showcase
-
-Sitemap: $SITE_URL/sitemap-index.xml
