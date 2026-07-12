@@ -34,6 +34,18 @@
   #search { font: inherit; width: 100%; padding: .6rem .9rem; margin-bottom: 1.5rem;
     border-radius: 10px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
     background: transparent; color: inherit; }
+  .filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem;
+    margin-bottom: 1.5rem; }
+  .filter-group { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem; }
+  .filter-group-label { font-size: .68rem; text-transform: uppercase; letter-spacing: .04em;
+    opacity: .5; margin-right: .05rem; }
+  button.chip-toggle { font: inherit; cursor: pointer; appearance: none; -webkit-appearance: none; }
+  .chip-toggle:hover { background: color-mix(in srgb, currentColor 14%, transparent); }
+  .chip-toggle[aria-pressed="true"] { background: color-mix(in srgb, currentColor 32%, transparent);
+    border-color: color-mix(in srgb, currentColor 50%, transparent); opacity: 1; font-weight: 600; }
+  .clear-filters { font: inherit; font-size: .75rem; padding: 0; margin-left: .15rem;
+    border: 0; background: none; color: inherit; opacity: .6; text-decoration: underline; cursor: pointer; }
+  .clear-filters:hover { opacity: 1; }
   details#archive-section { margin-top: 2.5rem; }
   details#archive-section summary { cursor: pointer; opacity: .7; margin-bottom: 1.25rem;
     font-size: .9rem; }
@@ -68,10 +80,11 @@
   .btn:hover { background: color-mix(in srgb, currentColor 18%, transparent); }
 </style>
 <h1>delusion demos</h1>
-<div class="sub">8 active · 7 archived · regenerated 2026-07-11 21:12</div>
+<div class="sub">8 active · 7 archived · regenerated 2026-07-12 02:01</div>
 <input id="search" type="search" placeholder="Filter by name, vertical, direction, model… (e.g. barberia, premium-oscuro, deepseek, archived)" autocomplete="off">
+<div class="filter-bar" id="filter-bar"><div class="filter-group"><span class="filter-group-label">Version</span><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.1.0" aria-pressed="false">v0.1.0</button><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.2.0" aria-pressed="false">v0.2.0</button><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.3.0" aria-pressed="false">v0.3.0</button></div><div class="filter-group"><span class="filter-group-label">Tier</span><button type="button" class="chip chip-toggle" data-filter-group="tier" data-filter-value="low" aria-pressed="false">low</button></div><div class="filter-group"><span class="filter-group-label">Direction</span><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="artesano-calido" aria-pressed="false">artesano-calido</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="clinico-limpio" aria-pressed="false">clinico-limpio</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="clínico-limpio" aria-pressed="false">clínico-limpio</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="floral-elegante" aria-pressed="false">floral-elegante</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="rústico-vibrante" aria-pressed="false">rústico-vibrante</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="vintage-elegante" aria-pressed="false">vintage-elegante</button></div><button type="button" id="clear-filters" class="clear-filters" hidden>Clear filters</button></div>
 <div class="grid" id="grid-active">
-<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0056 pitched 2026-07-11 04:49">
+<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0056 pitched 2026-07-11 04:49" data-version="0.3.0" data-tier="low" data-direction="rústico-vibrante">
   <div class="thumb">
     <iframe src="./rincon-castellano/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./rincon-castellano/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -83,7 +96,7 @@
     <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0056</span><span class="chip">pitched 2026-07-11 04:49</span></div>
   </div>
 </a>
-<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0136 pitched 2026-07-11 04:42">
+<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0136 pitched 2026-07-11 04:42" data-version="0.3.0" data-tier="low" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./casa-valadouro/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./casa-valadouro/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -95,7 +108,7 @@
     <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0136</span><span class="chip">pitched 2026-07-11 04:42</span></div>
   </div>
 </a>
-<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo" data-search="floristeria-petalo floristería pétalo — flores frescas y ramos artesanos en teruel landing page for floristería pétalo — floristería en teruel floral-elegante    v0.2.0 pitched 2026-07-09 01:57">
+<a class="card" href="./floristeria-petalo/" data-slug="floristeria-petalo" data-search="floristeria-petalo floristería pétalo — flores frescas y ramos artesanos en teruel landing page for floristería pétalo — floristería en teruel floral-elegante    v0.2.0 pitched 2026-07-09 01:57" data-version="0.2.0" data-tier="" data-direction="floral-elegante">
   <div class="thumb">
     <iframe src="./floristeria-petalo/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./floristeria-petalo/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -107,7 +120,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:57</span></div>
   </div>
 </a>
-<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1" data-search="barberia-navaja-r1 barbería la navaja zaragoza barbería en delicias (zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. solo consultas por cita previa. fundada por dos hermanos barberos. vintage-elegante    v0.2.0 pitched 2026-07-09 01:46">
+<a class="card" href="./barberia-navaja-r1/" data-slug="barberia-navaja-r1" data-search="barberia-navaja-r1 barbería la navaja zaragoza barbería en delicias (zaragoza) especializada en cortes clásicos y arreglo de barba con ambiente vintage. solo consultas por cita previa. fundada por dos hermanos barberos. vintage-elegante    v0.2.0 pitched 2026-07-09 01:46" data-version="0.2.0" data-tier="" data-direction="vintage-elegante">
   <div class="thumb">
     <iframe src="./barberia-navaja-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./barberia-navaja-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -119,7 +132,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:46</span></div>
   </div>
 </a>
-<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1" data-search="restaurante-fogon-r1 el fogón — cocina aragonesa tradicional en teruel landing page de restaurante el fogón — cocina aragonesa tradicional en teruel artesano-calido    v0.2.0 pitched 2026-07-09 01:40">
+<a class="card" href="./restaurante-fogon-r1/" data-slug="restaurante-fogon-r1" data-search="restaurante-fogon-r1 el fogón — cocina aragonesa tradicional en teruel landing page de restaurante el fogón — cocina aragonesa tradicional en teruel artesano-calido    v0.2.0 pitched 2026-07-09 01:40" data-version="0.2.0" data-tier="" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./restaurante-fogon-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./restaurante-fogon-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -131,7 +144,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:40</span></div>
   </div>
 </a>
-<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1" data-search="peluqueria-estilo-r1 peluquería estilo teruel peluquería estilo — landing page cold demo. peluquería artesana en teruel. sin web previa. diseño artesano-cálido. artesano-calido    v0.2.0 pitched 2026-07-09 01:27">
+<a class="card" href="./peluqueria-estilo-r1/" data-slug="peluqueria-estilo-r1" data-search="peluqueria-estilo-r1 peluquería estilo teruel peluquería estilo — landing page cold demo. peluquería artesana en teruel. sin web previa. diseño artesano-cálido. artesano-calido    v0.2.0 pitched 2026-07-09 01:27" data-version="0.2.0" data-tier="" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./peluqueria-estilo-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./peluqueria-estilo-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -143,7 +156,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:27</span></div>
   </div>
 </a>
-<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1" data-search="dental-sonrisa-r1 clínica dental sonrisa | tu dentista en teruel landing page para clínica dental sonrisa, teruel. odontología general, implantes, ortodoncia invisible y blanqueamiento. primera visita gratis. clinico-limpio    v0.2.0 pitched 2026-07-09 01:22">
+<a class="card" href="./dental-sonrisa-r1/" data-slug="dental-sonrisa-r1" data-search="dental-sonrisa-r1 clínica dental sonrisa | tu dentista en teruel landing page para clínica dental sonrisa, teruel. odontología general, implantes, ortodoncia invisible y blanqueamiento. primera visita gratis. clinico-limpio    v0.2.0 pitched 2026-07-09 01:22" data-version="0.2.0" data-tier="" data-direction="clinico-limpio">
   <div class="thumb">
     <iframe src="./dental-sonrisa-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./dental-sonrisa-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -155,7 +168,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:22</span></div>
   </div>
 </a>
-<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.2.0 llama-3.3-nemotron-super-49b-v1.5 +1 $0.0060 pitched 2026-07-09 01:16">
+<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.2.0 llama-3.3-nemotron-super-49b-v1.5 +1 $0.0060 pitched 2026-07-09 01:16" data-version="0.2.0" data-tier="" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./cafe-libre-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -171,7 +184,7 @@
 <details id="archive-section" >
   <summary>Archive — ronda 0 originals, kept for before/after comparison (7)</summary>
   <div class="grid" id="grid-archived">
-<a class="card archived" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1" data-search="pilates-nucleo-r1 estudio pilates núcleo | teruel estudio pilates núcleo en teruel. clases reducidas de pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. atención personalizada en un entorno acogedor. clínico-limpio   archived v0.2.0 pitched 2026-07-09 01:34">
+<a class="card archived" href="./pilates-nucleo-r1/" data-slug="pilates-nucleo-r1" data-search="pilates-nucleo-r1 estudio pilates núcleo | teruel estudio pilates núcleo en teruel. clases reducidas de pilates máquina y suelo, entrenamiento personalizado y recuperación de lesiones. atención personalizada en un entorno acogedor. clínico-limpio   archived v0.2.0 pitched 2026-07-09 01:34" data-version="0.2.0" data-tier="" data-direction="clínico-limpio">
   <div class="thumb">
     <iframe src="./pilates-nucleo-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./pilates-nucleo-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -183,7 +196,7 @@
     <div class="chips"><span class="chip">v0.2.0</span><span class="chip">pitched 2026-07-09 01:34</span></div>
   </div>
 </a>
-<a class="card archived" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2" data-search="peluqueria-estilo-v2 peluquería estilo — tu peluquería de confianza en teruel peluquería estilo, tu salón de belleza y peluquería en teruel. cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.    archived v0.1.0 pitched 1970-01-01 01:33">
+<a class="card archived" href="./peluqueria-estilo-v2/" data-slug="peluqueria-estilo-v2" data-search="peluqueria-estilo-v2 peluquería estilo — tu peluquería de confianza en teruel peluquería estilo, tu salón de belleza y peluquería en teruel. cortes, coloración, tratamientos capilares con trato familiar y trabajo artesano.    archived v0.1.0 pitched 1970-01-01 01:33" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./peluqueria-estilo-v2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./peluqueria-estilo-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -195,7 +208,7 @@
     <div class="chips"><span class="chip">v0.1.0</span><span class="chip">pitched 1970-01-01 01:33</span></div>
   </div>
 </a>
-<a class="card archived" href="./barberia-navaja/" data-slug="barberia-navaja" data-search="barberia-navaja barberia-navaja     archived v0.1.0">
+<a class="card archived" href="./barberia-navaja/" data-slug="barberia-navaja" data-search="barberia-navaja barberia-navaja     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./barberia-navaja/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./barberia-navaja/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -207,7 +220,7 @@
     <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived v0.1.0">
+<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./cafe-libre2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -219,7 +232,7 @@
     <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./dental-sonrisa/" data-slug="dental-sonrisa" data-search="dental-sonrisa dental-sonrisa     archived v0.1.0">
+<a class="card archived" href="./dental-sonrisa/" data-slug="dental-sonrisa" data-search="dental-sonrisa dental-sonrisa     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./dental-sonrisa/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./dental-sonrisa/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -231,7 +244,7 @@
     <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./pilates-nucleo/" data-slug="pilates-nucleo" data-search="pilates-nucleo pilates-nucleo     archived v0.1.0">
+<a class="card archived" href="./pilates-nucleo/" data-slug="pilates-nucleo" data-search="pilates-nucleo pilates-nucleo     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./pilates-nucleo/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./pilates-nucleo/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -243,7 +256,7 @@
     <div class="chips"><span class="chip">v0.1.0</span></div>
   </div>
 </a>
-<a class="card archived" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2" data-search="restaurante-fogon-v2 restaurante-fogon-v2     archived v0.1.0">
+<a class="card archived" href="./restaurante-fogon-v2/" data-slug="restaurante-fogon-v2" data-search="restaurante-fogon-v2 restaurante-fogon-v2     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./restaurante-fogon-v2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./restaurante-fogon-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -265,18 +278,62 @@
   var cards = Array.prototype.slice.call(document.querySelectorAll('.grid .card'));
   var details = document.getElementById('archive-section');
   var empty = document.getElementById('no-results');
+  var clearBtn = document.getElementById('clear-filters');
+  var toggles = Array.prototype.slice.call(document.querySelectorAll('.chip-toggle'));
   var wasOpen = details ? details.open : false;
-  input.addEventListener('input', function () {
+  // Active toggle values per filter group, e.g. version -> Set{'0.2.0'}. A
+  // group with no active values imposes no constraint (OR within a group,
+  // AND across groups — see matchesToggles/applyFilters below).
+  var active = {};
+
+  function hasActiveToggles() {
+    return Object.keys(active).some(function (g) { return active[g] && active[g].size; });
+  }
+
+  function matchesToggles(card) {
+    return Object.keys(active).every(function (group) {
+      var values = active[group];
+      if (!values || !values.size) return true;
+      return values.has(card.getAttribute('data-' + group) || '');
+    });
+  }
+
+  function applyFilters() {
     var q = input.value.trim().toLowerCase();
+    var anyToggle = hasActiveToggles();
     var shown = 0;
     cards.forEach(function (c) {
-      var hit = !q || (c.getAttribute('data-search') || '').indexOf(q) > -1;
+      var textHit = !q || (c.getAttribute('data-search') || '').indexOf(q) > -1;
+      var hit = textHit && matchesToggles(c);
       c.style.display = hit ? '' : 'none';
       if (hit) shown++;
     });
-    if (details) details.open = q ? true : wasOpen;
-    empty.hidden = shown > 0;
+    if (details) details.open = (q || anyToggle) ? true : wasOpen;
+    if (empty) empty.hidden = shown > 0;
+    if (clearBtn) clearBtn.hidden = !anyToggle;
+  }
+
+  input.addEventListener('input', applyFilters);
+
+  toggles.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var group = btn.getAttribute('data-filter-group');
+      var value = btn.getAttribute('data-filter-value');
+      var pressed = btn.getAttribute('aria-pressed') === 'true';
+      btn.setAttribute('aria-pressed', pressed ? 'false' : 'true');
+      if (!active[group]) active[group] = new Set();
+      if (pressed) { active[group].delete(value); } else { active[group].add(value); }
+      applyFilters();
+    });
   });
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', function () {
+      toggles.forEach(function (btn) { btn.setAttribute('aria-pressed', 'false'); });
+      active = {};
+      applyFilters();
+    });
+  }
 })();
 (function () {
   // Per-card "open in new tab" button, nested inside the card's own <a>.
