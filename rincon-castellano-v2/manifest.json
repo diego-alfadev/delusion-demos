@@ -1,0 +1,24 @@
+{
+  "project": "rincon-castellano-v2",
+  "deployedAt": "2026-07-12 03:52",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "9e8090e",
+  "title": "Restaurante Rincón Castellano — Carnes a la brasa en Alcorcón",
+  "description": "La mejor selección de brasa en Madrid. Chuletón, costillar, espetos de pulpo, sardinas y calamar. Terraza grande, zona infantil, parking. Abierto de lunes a domingo. Reserva por WhatsApp.",
+  "theme": "brand",
+  "direction": "gracioso-vibrante",
+  "pitchedAt": "2026-07-12 01:52",
+  "dossierUsed": true,
+  "status": "success",
+  "modelProfile": "budget-deepseek",
+  "models": [
+    "openrouter/deepseek/deepseek-v4-flash",
+    "nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5"
+  ],
+  "costUsd": 0.0168286087,
+  "tokens": 250446,
+  "durationSec": 498,
+  "qaNotes": [
+    "index.html: no <img> at all (gradients/emojis only)"
+  ]
+}
