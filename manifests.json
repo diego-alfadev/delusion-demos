@@ -1,23 +1,27 @@
 [
   {
     "project": "casa-valadouro-high",
-    "deployedAt": "2026-07-14 23:18",
+    "deployedAt": "2026-07-14 23:24",
     "pipelineVersion": "0.4.0",
-    "gitRef": "ef6f555",
-    "title": "Restaurante Marisquería Casa Valadouro — Cocina Gallega en Alcorcón",
-    "description": "Marisquería gallega en Alcorcón desde 2007. Pulpo á feira, parrillada de marisco, caracoles de la casa. Reserva obligatoria: 915 42 50 70. C. Carballino 21, 28925 Alcorcón.",
+    "gitRef": "20a88d3",
+    "title": "Casa Valadouro — Marisquería Gallega en Alcorcón",
+    "description": "Restaurante Marisquería Casa Valadouro: cocina gallega desde 2007 en Alcorcón. Parrillada de marisco, pulpo á feira y caracoles de la casa. Terraza, jardín y salón acristalado. Reserva obligatoria: 915 42 50 70.",
     "theme": "brand",
-    "direction": "atlántico-festivo",
-    "pitchedAt": "2026-07-14 21:18",
+    "direction": "marinero-tradicional-elegante",
+    "pitchedAt": "2026-07-14 21:24",
     "dossierUsed": true,
     "status": "success",
     "modelProfile": "premium-sonnet",
     "models": [
-      "openrouter/anthropic/claude-sonnet-4.6"
+      "openrouter/anthropic/claude-sonnet-5"
     ],
-    "costUsd": 1.086753,
-    "tokens": 269095,
-    "durationSec": 354,
+    "costUsd": 0.387932,
+    "tokens": 82002,
+    "durationSec": 310,
+    "qaNotes": [
+      "index.html: no <img> at all (gradients/emojis only)",
+      "index.html: no tel:/mailto:/form found — is there any way to contact?"
+    ],
     "slug": "casa-valadouro-high",
     "url": "./casa-valadouro-high/"
   },
