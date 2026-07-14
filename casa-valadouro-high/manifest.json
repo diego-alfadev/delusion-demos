@@ -1,6 +1,6 @@
 {
   "project": "casa-valadouro-high",
-  "deployedAt": "2026-07-14 23:24",
+  "deployedAt": "2026-07-14 23:52",
   "pipelineVersion": "0.4.0",
   "gitRef": "20a88d3",
   "title": "Casa Valadouro — Marisquería Gallega en Alcorcón",
@@ -10,15 +10,11 @@
   "pitchedAt": "2026-07-14 21:24",
   "dossierUsed": true,
   "status": "success",
-  "modelProfile": "premium-sonnet",
+  "modelProfile": "budget-deepseek",
   "models": [
     "openrouter/anthropic/claude-sonnet-5"
   ],
   "costUsd": 0.387932,
   "tokens": 82002,
-  "durationSec": 310,
-  "qaNotes": [
-    "index.html: no <img> at all (gradients/emojis only)",
-    "index.html: no tel:/mailto:/form found — is there any way to contact?"
-  ]
+  "durationSec": 310
 }
