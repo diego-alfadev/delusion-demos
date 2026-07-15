@@ -1,5 +1,6 @@
 <!doctype html><html lang="en"><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>delusion demos</title>
 <style>
   :root { color-scheme: light dark; }
@@ -31,6 +32,7 @@
   .chip { font-size: .68rem; padding: .15rem .5rem; border-radius: 99px;
     border: 1px solid color-mix(in srgb, currentColor 16%, transparent);
     background: color-mix(in srgb, currentColor 7%, transparent); white-space: nowrap; opacity: .85; }
+  .chip-expired { opacity: .45; filter: grayscale(1); text-decoration: line-through; }
   #search { font: inherit; width: 100%; padding: .6rem .9rem; margin-bottom: 1.5rem;
     border-radius: 10px; border: 1px solid color-mix(in srgb, currentColor 22%, transparent);
     background: transparent; color: inherit; }
@@ -80,11 +82,11 @@
   .btn:hover { background: color-mix(in srgb, currentColor 18%, transparent); }
 </style>
 <h1>delusion demos</h1>
-<div class="sub">7 active · 1 archived · regenerated 2026-07-15 10:39</div>
+<div class="sub">7 active · 1 archived · regenerated 2026-07-16 00:27</div>
 <input id="search" type="search" placeholder="Filter by name, vertical, direction, model… (e.g. barberia, premium-oscuro, deepseek, archived)" autocomplete="off">
 <div class="filter-bar" id="filter-bar"><div class="filter-group"><span class="filter-group-label">Version</span><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.1.0" aria-pressed="false">v0.1.0</button><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.2.0" aria-pressed="false">v0.2.0</button><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.3.0" aria-pressed="false">v0.3.0</button><button type="button" class="chip chip-toggle" data-filter-group="version" data-filter-value="0.4.0" aria-pressed="false">v0.4.0</button></div><div class="filter-group"><span class="filter-group-label">Tier</span><button type="button" class="chip chip-toggle" data-filter-group="tier" data-filter-value="low" aria-pressed="false">low</button></div><div class="filter-group"><span class="filter-group-label">Direction</span><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="artesano-calido" aria-pressed="false">artesano-calido</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="gracioso-vibrante" aria-pressed="false">gracioso-vibrante</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="marinero-tradicional-elegante" aria-pressed="false">marinero-tradicional-elegante</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="rústico-vibrante" aria-pressed="false">rústico-vibrante</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="tradicional-acogedor-gallego" aria-pressed="false">tradicional-acogedor-gallego</button><button type="button" class="chip chip-toggle" data-filter-group="direction" data-filter-value="tradicional-vivo" aria-pressed="false">tradicional-vivo</button></div><button type="button" id="clear-filters" class="clear-filters" hidden>Clear filters</button></div>
 <div class="grid" id="grid-active">
-<a class="card" href="./gauntlet-mid-minimax-1/" data-slug="gauntlet-mid-minimax-1" data-search="gauntlet-mid-minimax-1 restaurante marisquería casa valadouro - marisquería gallega en alcorcón landing page for casa valadouro - galician seafood restaurant in alcorcón tradicional-acogedor-gallego budget-deepseek openrouter/minimax/minimax-m2.5  v0.4.0 low minimax-m2.5 $0.0395 pitched 2026-07-15 07:06" data-version="0.4.0" data-tier="low" data-direction="tradicional-acogedor-gallego">
+<a class="card" href="./gauntlet-mid-minimax-1/" data-slug="gauntlet-mid-minimax-1" data-search="gauntlet-mid-minimax-1 restaurante marisquería casa valadouro - marisquería gallega en alcorcón landing page for casa valadouro - galician seafood restaurant in alcorcón tradicional-acogedor-gallego budget-deepseek openrouter/minimax/minimax-m2.5  v0.4.0 low minimax-m2.5 $0.0395 pitched 2026-07-15 07:06 caduca 15-08" data-version="0.4.0" data-tier="low" data-direction="tradicional-acogedor-gallego">
   <div class="thumb">
     <iframe src="./gauntlet-mid-minimax-1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./gauntlet-mid-minimax-1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -93,10 +95,10 @@
     <div class="row"><strong>Restaurante Marisquería Casa Valadouro - Marisquería Gallega en Alcorcón</strong><span class="badge">tradicional-acogedor-gallego</span></div>
     <div class="slug">gauntlet-mid-minimax-1</div>
     <p>Landing page for Casa Valadouro - Galician seafood restaurant in Alcorcón</p>
-    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">minimax-m2.5</span><span class="chip">$0.0395</span><span class="chip">pitched 2026-07-15 07:06</span></div>
+    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">minimax-m2.5</span><span class="chip">$0.0395</span><span class="chip">pitched 2026-07-15 07:06</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./casa-valadouro-high/" data-slug="casa-valadouro-high" data-search="casa-valadouro-high casa valadouro — marisquería gallega en alcorcón restaurante marisquería casa valadouro: cocina gallega desde 2007 en alcorcón. parrillada de marisco, pulpo á feira y caracoles de la casa. terraza, jardín y salón acristalado. reserva obligatoria: 915 42 50 70. marinero-tradicional-elegante budget-deepseek openrouter/anthropic/claude-sonnet-5  v0.4.0 low claude-sonnet-5 $0.3879 pitched 2026-07-14 21:24" data-version="0.4.0" data-tier="low" data-direction="marinero-tradicional-elegante">
+<a class="card" href="./casa-valadouro-high/" data-slug="casa-valadouro-high" data-search="casa-valadouro-high casa valadouro — marisquería gallega en alcorcón restaurante marisquería casa valadouro: cocina gallega desde 2007 en alcorcón. parrillada de marisco, pulpo á feira y caracoles de la casa. terraza, jardín y salón acristalado. reserva obligatoria: 915 42 50 70. marinero-tradicional-elegante budget-deepseek openrouter/anthropic/claude-sonnet-5  v0.4.0 low claude-sonnet-5 $0.3879 pitched 2026-07-14 21:24 caduca 15-08" data-version="0.4.0" data-tier="low" data-direction="marinero-tradicional-elegante">
   <div class="thumb">
     <iframe src="./casa-valadouro-high/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./casa-valadouro-high/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -105,10 +107,10 @@
     <div class="row"><strong>Casa Valadouro — Marisquería Gallega en Alcorcón</strong><span class="badge">marinero-tradicional-elegante</span></div>
     <div class="slug">casa-valadouro-high</div>
     <p>Restaurante Marisquería Casa Valadouro: cocina gallega desde 2007 en Alcorcón. Parrillada de marisco, pulpo á feira y caracoles de la casa. </p>
-    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">claude-sonnet-5</span><span class="chip">$0.3879</span><span class="chip">pitched 2026-07-14 21:24</span></div>
+    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">claude-sonnet-5</span><span class="chip">$0.3879</span><span class="chip">pitched 2026-07-14 21:24</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./rincon-castellano-v2/" data-slug="rincon-castellano-v2" data-search="rincon-castellano-v2 restaurante rincón castellano — carnes a la brasa en alcorcón la mejor selección de brasa en madrid. chuletón, costillar, espetos de pulpo, sardinas y calamar. terraza grande, zona infantil, parking. abierto de lunes a domingo. reserva por whatsapp. gracioso-vibrante budget-deepseek openrouter/deepseek/deepseek-v4-flash nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5  v0.4.0 low deepseek-v4-flash +1 $0.0168 pitched 2026-07-12 01:52" data-version="0.4.0" data-tier="low" data-direction="gracioso-vibrante">
+<a class="card" href="./rincon-castellano-v2/" data-slug="rincon-castellano-v2" data-search="rincon-castellano-v2 restaurante rincón castellano — carnes a la brasa en alcorcón la mejor selección de brasa en madrid. chuletón, costillar, espetos de pulpo, sardinas y calamar. terraza grande, zona infantil, parking. abierto de lunes a domingo. reserva por whatsapp. gracioso-vibrante budget-deepseek openrouter/deepseek/deepseek-v4-flash nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5  v0.4.0 low deepseek-v4-flash +1 $0.0168 pitched 2026-07-12 01:52 caduca 15-08" data-version="0.4.0" data-tier="low" data-direction="gracioso-vibrante">
   <div class="thumb">
     <iframe src="./rincon-castellano-v2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./rincon-castellano-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -117,10 +119,10 @@
     <div class="row"><strong>Restaurante Rincón Castellano — Carnes a la brasa en Alcorcón</strong><span class="badge">gracioso-vibrante</span></div>
     <div class="slug">rincon-castellano-v2</div>
     <p>La mejor selección de brasa en Madrid. Chuletón, costillar, espetos de pulpo, sardinas y calamar. Terraza grande, zona infantil, parking. Ab</p>
-    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">deepseek-v4-flash +1</span><span class="chip">$0.0168</span><span class="chip">pitched 2026-07-12 01:52</span></div>
+    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">deepseek-v4-flash +1</span><span class="chip">$0.0168</span><span class="chip">pitched 2026-07-12 01:52</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./casa-valadouro-v2/" data-slug="casa-valadouro-v2" data-search="casa-valadouro-v2 casa valadouro · marisquería gallega en alcorcón restaurante marisquería gallega en alcorcón. parrillada de marisco, pulpo á feira, caracoles de la casa. reserva tu mesa en casa valadouro. tradicional-vivo budget-deepseek openrouter/deepseek/deepseek-v4-flash nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5  v0.4.0 low deepseek-v4-flash +1 $0.0126 pitched 2026-07-12 01:43" data-version="0.4.0" data-tier="low" data-direction="tradicional-vivo">
+<a class="card" href="./casa-valadouro-v2/" data-slug="casa-valadouro-v2" data-search="casa-valadouro-v2 casa valadouro · marisquería gallega en alcorcón restaurante marisquería gallega en alcorcón. parrillada de marisco, pulpo á feira, caracoles de la casa. reserva tu mesa en casa valadouro. tradicional-vivo budget-deepseek openrouter/deepseek/deepseek-v4-flash nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5  v0.4.0 low deepseek-v4-flash +1 $0.0126 pitched 2026-07-12 01:43 caduca 15-08" data-version="0.4.0" data-tier="low" data-direction="tradicional-vivo">
   <div class="thumb">
     <iframe src="./casa-valadouro-v2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./casa-valadouro-v2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -129,10 +131,10 @@
     <div class="row"><strong>Casa Valadouro · Marisquería gallega en Alcorcón</strong><span class="badge">tradicional-vivo</span></div>
     <div class="slug">casa-valadouro-v2</div>
     <p>Restaurante marisquería gallega en Alcorcón. Parrillada de marisco, pulpo á feira, caracoles de la casa. Reserva tu mesa en Casa Valadouro.</p>
-    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">deepseek-v4-flash +1</span><span class="chip">$0.0126</span><span class="chip">pitched 2026-07-12 01:43</span></div>
+    <div class="chips"><span class="chip">v0.4.0</span><span class="chip">low</span><span class="chip">deepseek-v4-flash +1</span><span class="chip">$0.0126</span><span class="chip">pitched 2026-07-12 01:43</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0056 pitched 2026-07-11 04:49" data-version="0.3.0" data-tier="low" data-direction="rústico-vibrante">
+<a class="card" href="./rincon-castellano/" data-slug="rincon-castellano" data-search="rincon-castellano rincón castellano | carnes a la brasa en alcorcón restaurante rincón castellano en alcorcón. carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. junto a san josé de valderas. reserva tu mesa. rústico-vibrante budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0056 pitched 2026-07-11 04:49 caduca 15-08" data-version="0.3.0" data-tier="low" data-direction="rústico-vibrante">
   <div class="thumb">
     <iframe src="./rincon-castellano/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./rincon-castellano/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -141,10 +143,10 @@
     <div class="row"><strong>Rincón Castellano | Carnes a la brasa en Alcorcón</strong><span class="badge">rústico-vibrante</span></div>
     <div class="slug">rincon-castellano</div>
     <p>Restaurante Rincón Castellano en Alcorcón. Carnes a la brasa, espetos en verano, cócteles preparados y terraza grande. Junto a San José de V</p>
-    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0056</span><span class="chip">pitched 2026-07-11 04:49</span></div>
+    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0056</span><span class="chip">pitched 2026-07-11 04:49</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0136 pitched 2026-07-11 04:42" data-version="0.3.0" data-tier="low" data-direction="artesano-calido">
+<a class="card" href="./casa-valadouro/" data-slug="casa-valadouro" data-search="casa-valadouro restaurante marisquería casa valadouro restaurante en alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. terraza disponible. reservas recomendadas los fines de semana al 915 42 50 70. artesano-calido budget-deepseek nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.3.0 low llama-3.3-nemotron-super-49b-v1.5 +1 $0.0136 pitched 2026-07-11 04:42 caduca 15-08" data-version="0.3.0" data-tier="low" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./casa-valadouro/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./casa-valadouro/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -153,10 +155,10 @@
     <div class="row"><strong>Restaurante Marisquería Casa Valadouro</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">casa-valadouro</div>
     <p>Restaurante en Alcorcón especializado en cocina gallega: parrilladas de marisco, pulpo a la gallega, caracoles y raciones. Terraza disponibl</p>
-    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0136</span><span class="chip">pitched 2026-07-11 04:42</span></div>
+    <div class="chips"><span class="chip">v0.3.0</span><span class="chip">low</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0136</span><span class="chip">pitched 2026-07-11 04:42</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
-<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.2.0 llama-3.3-nemotron-super-49b-v1.5 +1 $0.0060 pitched 2026-07-09 01:16" data-version="0.2.0" data-tier="" data-direction="artesano-calido">
+<a class="card" href="./cafe-libre-r1/" data-slug="cafe-libre-r1" data-search="cafe-libre-r1 cafetería la libre · café de especialidad en teruel café de especialidad, brunch artesano, repostería casera y espacio de trabajo en teruel. wifi gratis, trato cercano y producto de calidad. artesano-calido  nvidia/nvidia/llama-3.3-nemotron-super-49b-v1.5 openrouter/deepseek/deepseek-v4-flash  v0.2.0 llama-3.3-nemotron-super-49b-v1.5 +1 $0.0060 pitched 2026-07-09 01:16 caduca 15-08" data-version="0.2.0" data-tier="" data-direction="artesano-calido">
   <div class="thumb">
     <iframe src="./cafe-libre-r1/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./cafe-libre-r1/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -165,14 +167,14 @@
     <div class="row"><strong>Cafetería La Libre · Café de especialidad en Teruel</strong><span class="badge">artesano-calido</span></div>
     <div class="slug">cafe-libre-r1</div>
     <p>Café de especialidad, brunch artesano, repostería casera y espacio de trabajo en Teruel. Wifi gratis, trato cercano y producto de calidad.</p>
-    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0060</span><span class="chip">pitched 2026-07-09 01:16</span></div>
+    <div class="chips"><span class="chip">v0.2.0</span><span class="chip">llama-3.3-nemotron-super-49b-v1.5 +1</span><span class="chip">$0.0060</span><span class="chip">pitched 2026-07-09 01:16</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
 </div>
 <details id="archive-section" >
   <summary>Archive — ronda 0 originals, kept for before/after comparison (1)</summary>
   <div class="grid" id="grid-archived">
-<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived v0.1.0" data-version="0.1.0" data-tier="" data-direction="">
+<a class="card archived" href="./cafe-libre2/" data-slug="cafe-libre2" data-search="cafe-libre2 cafe-libre2     archived v0.1.0 caduca 15-08" data-version="0.1.0" data-tier="" data-direction="">
   <div class="thumb">
     <iframe src="./cafe-libre2/" loading="lazy" tabindex="-1"></iframe>
     <button class="thumb-newtab" type="button" data-href="./cafe-libre2/" aria-label="Open demo in new tab" title="Open in new tab">↗</button>
@@ -181,7 +183,7 @@
     <div class="row"><strong>cafe-libre2</strong></div>
     <div class="slug">cafe-libre2</div>
     
-    <div class="chips"><span class="chip">v0.1.0</span></div>
+    <div class="chips"><span class="chip">v0.1.0</span><span class="chip">caduca 15-08</span></div>
   </div>
 </a>
   </div>

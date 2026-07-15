@@ -3,5 +3,6 @@
   "title": "cafe-libre2",
   "archived": true,
   "note": "ronda 0 original — kept for before/after comparison",
-  "pipelineVersion": "0.1.0"
+  "pipelineVersion": "0.1.0",
+  "expiresAt": "2026-08-15"
 }

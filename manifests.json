@@ -18,6 +18,7 @@
     "costUsd": 0.039477325,
     "tokens": 342626,
     "durationSec": 509,
+    "expiresAt": "2026-08-15",
     "slug": "gauntlet-mid-minimax-1",
     "url": "./gauntlet-mid-minimax-1/"
   },
@@ -40,6 +41,7 @@
     "costUsd": 0.387932,
     "tokens": 82002,
     "durationSec": 310,
+    "expiresAt": "2026-08-15",
     "slug": "casa-valadouro-high",
     "url": "./casa-valadouro-high/"
   },
@@ -66,6 +68,7 @@
     "qaNotes": [
       "index.html: no <img> at all (gradients/emojis only)"
     ],
+    "expiresAt": "2026-08-15",
     "slug": "rincon-castellano-v2",
     "url": "./rincon-castellano-v2/"
   },
@@ -92,6 +95,7 @@
     "qaNotes": [
       "index.html: no <img> at all (gradients/emojis only)"
     ],
+    "expiresAt": "2026-08-15",
     "slug": "casa-valadouro-v2",
     "url": "./casa-valadouro-v2/"
   },
@@ -116,6 +120,7 @@
       "index.html: no <img> at all (gradients/emojis only)"
     ],
     "pipelineVersion": "0.3.0",
+    "expiresAt": "2026-08-15",
     "slug": "rincon-castellano",
     "url": "./rincon-castellano/"
   },
@@ -140,6 +145,7 @@
       "index.html: no <img> at all (gradients/emojis only)"
     ],
     "pipelineVersion": "0.3.0",
+    "expiresAt": "2026-08-15",
     "slug": "casa-valadouro",
     "url": "./casa-valadouro/"
   },
@@ -163,6 +169,7 @@
       "index.html: no <img> at all (gradients/emojis only)"
     ],
     "pipelineVersion": "0.2.0",
+    "expiresAt": "2026-08-15",
     "slug": "cafe-libre-r1",
     "url": "./cafe-libre-r1/"
   },
@@ -172,6 +179,7 @@
     "archived": true,
     "note": "ronda 0 original — kept for before/after comparison",
     "pipelineVersion": "0.1.0",
+    "expiresAt": "2026-08-15",
     "slug": "cafe-libre2",
     "url": "./cafe-libre2/"
   }

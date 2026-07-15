@@ -16,5 +16,6 @@
   ],
   "costUsd": 0.387932,
   "tokens": 82002,
-  "durationSec": 310
+  "durationSec": 310,
+  "expiresAt": "2026-08-15"
 }

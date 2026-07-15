@@ -17,5 +17,6 @@
   "qaNotes": [
     "index.html: no <img> at all (gradients/emojis only)"
   ],
-  "pipelineVersion": "0.2.0"
+  "pipelineVersion": "0.2.0",
+  "expiresAt": "2026-08-15"
 }
