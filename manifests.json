@@ -1,5 +1,27 @@
 [
   {
+    "project": "gauntlet-mid-minimax-1",
+    "deployedAt": "2026-07-15 10:39",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "e5a2bb5",
+    "title": "Restaurante Marisquería Casa Valadouro - Marisquería Gallega en Alcorcón",
+    "description": "Landing page for Casa Valadouro - Galician seafood restaurant in Alcorcón",
+    "theme": "brand",
+    "direction": "tradicional-acogedor-gallego",
+    "pitchedAt": "2026-07-15 07:06",
+    "dossierUsed": true,
+    "status": "success",
+    "modelProfile": "budget-deepseek",
+    "models": [
+      "openrouter/minimax/minimax-m2.5"
+    ],
+    "costUsd": 0.039477325,
+    "tokens": 342626,
+    "durationSec": 509,
+    "slug": "gauntlet-mid-minimax-1",
+    "url": "./gauntlet-mid-minimax-1/"
+  },
+  {
     "project": "casa-valadouro-high",
     "deployedAt": "2026-07-14 23:52",
     "pipelineVersion": "0.4.0",
