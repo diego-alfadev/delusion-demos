@@ -1,0 +1,31 @@
+{
+  "project": "bench-gasolina-sonnet-rincon",
+  "deployedAt": "2026-07-17 18:36",
+  "expiresAt": "2026-08-16",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "6d024ed",
+  "title": "Restaurante Rincón Castellano — Asador y Espetos en Alcorcón",
+  "description": "Landing de venta en frío para Restaurante Rincón Castellano: brasa castellana, espetos a la barca, reservas por WhatsApp y llamada.",
+  "theme": "brand",
+  "direction": "artesano-calido",
+  "dossierUsed": false,
+  "status": "failed",
+  "modelProfile": "premium-sonnet",
+  "models": [
+    "openrouter/anthropic/claude-sonnet-5"
+  ],
+  "costUsd": 0.643076,
+  "tokens": 197170,
+  "durationSec": 343,
+  "qaNotes": [
+    "PARITY WARN: falta CTAs de reserva por WhatsApp y por llamada, destacados y repetidos",
+    "PARITY WARN: falta Reseñas de clientes incrustadas como prueba social (formato visual)",
+    "PARITY WARN: falta Mapa de Google embebido interactivo",
+    "PARITY WARN: falta Photocall de marca y ambiente familiar destacado",
+    "PARITY WARN: falta Facilidades listadas: terraza grande, parrilla/brasa, zona infantil, parking amplio, espacio para eventos, zona chillout, barra de cócteles, rincón de helados",
+    "PARITY WARN: falta Fotos reales de instalaciones y platos (terraza, zona infantil, parking, cócteles, photocall, platos con precio)",
+    "PARITY WARN: falta Carta con precios visibles (aunque solo en foto en la landing actual), organizada en secciones (A LA BRASA, ESPETOS A LA BARCA, carnes, pescado, cócteles, helados)",
+    "PARITY WARN: falta Comedor privado e 'ideal para ver deportes' (dato real de Maps, no destacado en la landing actual)",
+    "PARITY WARN: falta Ausencia de formulario propio en la landing actual — todo pasa por WhatsApp/llamada externa"
+  ]
+}
