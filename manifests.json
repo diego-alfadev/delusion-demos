@@ -1,5 +1,45 @@
 [
   {
+    "project": "parrilla-luna-rincon",
+    "deployedAt": "2026-07-19 19:36",
+    "expiresAt": "2026-08-18",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "93c3221",
+    "title": "Restaurante Rincón Castellano | Brasa y espetos en Alcorcón",
+    "description": "Restaurante Rincón Castellano: carnes a la brasa y espetos en Alcorcón. Reserva por WhatsApp o llama al 622 48 84 07.",
+    "theme": "brand",
+    "direction": "brasa-familiar",
+    "pitchedAt": "2026-07-19 17:35",
+    "dossierUsed": true,
+    "status": "success",
+    "modelProfile": "high-gpt-luna",
+    "models": [
+      "openrouter/openai/gpt-5.6-luna"
+    ],
+    "costUsd": 0.0838056,
+    "tokens": 65739,
+    "durationSec": 67,
+    "qaNotes": [
+      "index.html: no <img> at all (gradients/emojis only)",
+      "PARITY WARN: falta Incluir fotos reales de platos, terraza, zona infantil, parking, cócteles y photocall, o decidir explícitamente qué cobertura visual se descarta.",
+      "PARITY WARN: falta Mantener CTAs visibles y repetidos para WhatsApp y llamada telefónica.",
+      "PARITY WARN: falta Mostrar los cinco precios confirmados de carta en texto legible, además de cualquier fotografía de platos.",
+      "PARITY WARN: falta Mantener las reseñas de clientes como elemento de prueba social.",
+      "PARITY WARN: falta Mantener el mapa de Google embebido e interactivo.",
+      "PARITY WARN: falta Cubrir las facilidades que la landing lista explícitamente: terraza grande, parrilla/brasa, zona infantil, parking, espacio para eventos, chillout, barra de cócteles y rincón de helados.",
+      "PARITY WARN: falta Mantener el photocall de marca y el posicionamiento de ambiente familiar.",
+      "PARITY WARN: falta Mantener la frase de horario confirmada: \"Abierto de lunes a domingo - mediodía, tarde y noche\".",
+      "PARITY WARN: falta Conservar las secciones de carta \"A LA BRASA\" y \"ESPETOS A LA BARCA\", junto con las categorías generales de carnes, pescado, cócteles y helados."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "parrilla-luna-rincon",
+    "url": "./parrilla-luna-rincon/"
+  },
+  {
     "project": "parrilla-glm-rincon",
     "deployedAt": "2026-07-19 19:21",
     "expiresAt": "2026-08-18",

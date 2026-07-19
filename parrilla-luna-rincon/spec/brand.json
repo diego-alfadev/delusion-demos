@@ -1,0 +1,17 @@
+{
+  "projectId": "parrilla-luna-rincon",
+  "title": "Restaurante Rincón Castellano | Brasa y Espetos",
+  "description": "Restaurante asador en Alcorcón especializado en carnes a la brasa y espetos. Reserva por WhatsApp o llama al 622 48 84 07.",
+  "direction": "brasa-familiar",
+  "bootstrappedAt": "2026-07-19T17:35:11.864Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-content",
+      "background": "#D89B3D",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.42,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 6.97
+    }
+  ]
+}
