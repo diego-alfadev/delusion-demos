@@ -1,0 +1,17 @@
+{
+  "projectId": "bench-gasolina-sonnet-valadouro",
+  "title": "Casa Valadouro — Marisquería Gallega en Alcorcón",
+  "description": "Marisquería gallega desde 2007 en Alcorcón. Parrillada de marisco, pulpo á feira y caracoles de la casa. Terraza, salón acristalado y jardín. Reserva obligatoria: 915 42 50 70.",
+  "direction": "artesano-marinero-cálido",
+  "bootstrappedAt": "2026-07-18T17:44:27.030Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-content",
+      "background": "#D9A441",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.25,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 7.5
+    }
+  ]
+}

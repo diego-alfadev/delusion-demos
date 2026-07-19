@@ -28,5 +28,10 @@
     "PARITY WARN: falta Photocall de marca / ambiente familiar destacado",
     "PARITY WARN: falta Facilidades listadas: terraza grande, parrilla/brasa, zona infantil, parking, espacio eventos, chillout, barra de cócteles, rincón de helados",
     "PARITY WARN: falta Frase de horario genérica ('lunes a domingo, mediodía, tarde y noche') si no se verifica detalle día a día"
+  ],
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
   ]
 }

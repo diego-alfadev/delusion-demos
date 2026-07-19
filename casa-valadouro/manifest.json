@@ -19,5 +19,8 @@
     "index.html: no <img> at all (gradients/emojis only)"
   ],
   "pipelineVersion": "0.3.0",
-  "expiresAt": "2026-08-15"
+  "expiresAt": "2026-08-15",
+  "spec": [
+    "spec/brand.json"
+  ]
 }

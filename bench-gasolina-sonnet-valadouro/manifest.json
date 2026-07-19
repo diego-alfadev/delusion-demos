@@ -17,5 +17,10 @@
   ],
   "costUsd": 0.47264599999999996,
   "tokens": 142551,
-  "durationSec": 241
+  "durationSec": 241,
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
 }

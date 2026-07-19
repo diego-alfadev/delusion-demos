@@ -17,5 +17,9 @@
   "costUsd": 0.039477325,
   "tokens": 342626,
   "durationSec": 509,
-  "expiresAt": "2026-08-15"
+  "expiresAt": "2026-08-15",
+  "spec": [
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
 }

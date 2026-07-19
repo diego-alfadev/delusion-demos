@@ -69,6 +69,11 @@
       "PARITY WARN: falta Facilidades listadas: terraza grande, parrilla/brasa, zona infantil, parking, espacio eventos, chillout, barra de cócteles, rincón de helados",
       "PARITY WARN: falta Frase de horario genérica ('lunes a domingo, mediodía, tarde y noche') si no se verifica detalle día a día"
     ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "bench-gasolina-sonnet-rincon",
     "url": "./bench-gasolina-sonnet-rincon/"
   },
@@ -92,6 +97,11 @@
     "costUsd": 0.47264599999999996,
     "tokens": 142551,
     "durationSec": 241,
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "bench-gasolina-sonnet-valadouro",
     "url": "./bench-gasolina-sonnet-valadouro/"
   },
@@ -115,6 +125,10 @@
     "tokens": 342626,
     "durationSec": 509,
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "gauntlet-mid-minimax-1",
     "url": "./gauntlet-mid-minimax-1/"
   },
@@ -138,6 +152,10 @@
     "tokens": 82002,
     "durationSec": 310,
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "casa-valadouro-high",
     "url": "./casa-valadouro-high/"
   },
@@ -165,6 +183,10 @@
       "index.html: no <img> at all (gradients/emojis only)"
     ],
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "rincon-castellano-v2",
     "url": "./rincon-castellano-v2/"
   },
@@ -192,6 +214,10 @@
       "index.html: no <img> at all (gradients/emojis only)"
     ],
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
     "slug": "casa-valadouro-v2",
     "url": "./casa-valadouro-v2/"
   },
@@ -217,6 +243,9 @@
     ],
     "pipelineVersion": "0.3.0",
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json"
+    ],
     "slug": "rincon-castellano",
     "url": "./rincon-castellano/"
   },
@@ -242,6 +271,9 @@
     ],
     "pipelineVersion": "0.3.0",
     "expiresAt": "2026-08-15",
+    "spec": [
+      "spec/brand.json"
+    ],
     "slug": "casa-valadouro",
     "url": "./casa-valadouro/"
   },

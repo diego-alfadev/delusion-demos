@@ -1,0 +1,17 @@
+{
+  "projectId": "bench-gasolina-sonnet-rincon",
+  "title": "Restaurante Rincón Castellano | Asador a la Brasa en Alcorcón",
+  "description": "Asador de carnes a la brasa y espetos en Alcorcón. Terraza grande, zona infantil, comedor privado y ambiente ideal para ver deportes. 4,5★ (2.352 reseñas). Reserva por WhatsApp o llamada.",
+  "direction": "asador-castellano-calido",
+  "bootstrappedAt": "2026-07-18T17:55:15.505Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-content",
+      "background": "#D9A02C",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.33,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 7.24
+    }
+  ]
+}
