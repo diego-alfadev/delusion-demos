@@ -1,7 +1,7 @@
 [
   {
     "project": "parrilla-glm-rincon",
-    "deployedAt": "2026-07-19 14:51",
+    "deployedAt": "2026-07-19 19:21",
     "expiresAt": "2026-08-18",
     "pipelineVersion": "0.4.0",
     "gitRef": "0a6f1bc",
@@ -12,7 +12,7 @@
     "pitchedAt": "2026-07-19 12:51",
     "dossierUsed": true,
     "status": "success",
-    "modelProfile": "mid-glm",
+    "modelProfile": "budget-deepseek",
     "models": [
       "openrouter/z-ai/glm-5.2"
     ],
@@ -29,6 +29,11 @@
       "PARITY WARN: falta Facilidades listadas explícitamente: terraza grande, parrilla/brasa, zona infantil, parking, espacio eventos, chillout, barra de cócteles, rincón de helados",
       "PARITY WARN: falta Carta completa enlazada como documento de Google Drive desde la landing",
       "PARITY WARN: falta Secciones de carta adicionales: carnes, pescado, cócteles, helados (además de A LA BRASA y ESPETOS A LA BARCA)"
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
     ],
     "slug": "parrilla-glm-rincon",
     "url": "./parrilla-glm-rincon/"

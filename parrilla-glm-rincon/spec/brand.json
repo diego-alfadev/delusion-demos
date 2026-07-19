@@ -1,0 +1,17 @@
+{
+  "projectId": "parrilla-glm-rincon",
+  "title": "Restaurante Rincón Castellano | Asador de Brasa y Espetos en Alcorcón",
+  "description": "Asador de carnes a la brasa y espetos a la barca en Alcorcón. Terraza, zona infantil, parking, cócteles y comedor privado. Reserva por WhatsApp o teléfono.",
+  "direction": "brasa-calido",
+  "bootstrappedAt": "2026-07-19T12:42:22.223Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-content",
+      "background": "#E0992C",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.4,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 7.04
+    }
+  ]
+}
