@@ -1,5 +1,39 @@
 [
   {
+    "project": "parrilla-glm-rincon",
+    "deployedAt": "2026-07-19 14:51",
+    "expiresAt": "2026-08-18",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "0a6f1bc",
+    "title": "Restaurante Rincón Castellano · Asador de brasa y espetos en Alcorcón",
+    "description": "Landing page for Restaurante Rincón Castellano, asador de carnes a la brasa y espetos en Alcorcón. Warm brasa-calido design direction with fire/ember theme, menu with real prices, amenities, reviews, reservation form, and Google Maps embed.",
+    "theme": "brand",
+    "direction": "brasa-calido",
+    "pitchedAt": "2026-07-19 12:51",
+    "dossierUsed": true,
+    "status": "success",
+    "modelProfile": "mid-glm",
+    "models": [
+      "openrouter/z-ai/glm-5.2"
+    ],
+    "costUsd": 0.04362348352,
+    "tokens": 177887,
+    "durationSec": 626,
+    "qaNotes": [
+      "PARITY WARN: falta Fotos reales (~12-15): platos con precio, terraza, zona infantil, parking, cócteles, photocall",
+      "PARITY WARN: falta CTAs de WhatsApp (bit.ly/reservasRC) y llamada telefónica, visibles y repetidos",
+      "PARITY WARN: falta Reseñas de clientes incrustadas en formato visual con estrellas y plato recomendado visible",
+      "PARITY WARN: falta Mapa de Google embebido interactivo",
+      "PARITY WARN: falta Photocall de marca como elemento de ambiente",
+      "PARITY WARN: falta Ambiente familiar destacado",
+      "PARITY WARN: falta Facilidades listadas explícitamente: terraza grande, parrilla/brasa, zona infantil, parking, espacio eventos, chillout, barra de cócteles, rincón de helados",
+      "PARITY WARN: falta Carta completa enlazada como documento de Google Drive desde la landing",
+      "PARITY WARN: falta Secciones de carta adicionales: carnes, pescado, cócteles, helados (además de A LA BRASA y ESPETOS A LA BARCA)"
+    ],
+    "slug": "parrilla-glm-rincon",
+    "url": "./parrilla-glm-rincon/"
+  },
+  {
     "project": "bench-gasolina-sonnet-rincon",
     "deployedAt": "2026-07-18 19:59",
     "expiresAt": "2026-08-17",
