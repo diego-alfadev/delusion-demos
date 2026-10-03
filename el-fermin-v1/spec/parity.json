@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "email",
+      "kind": "exact",
+      "label": "Email: admon@elfermin.es",
+      "patterns": [
+        "admon@elfermin.es"
+      ]
+    },
+    {
+      "id": "email-2",
+      "kind": "exact",
+      "label": "Email: admonelfermin@gmail.com",
+      "patterns": [
+        "admonelfermin@gmail.com"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-actualizable-en-texto-con-fecha-y-solo-los-platos-disponibles-en-la-fuente-vigente",
+      "kind": "soft",
+      "label": "Mostrar el menú del día actualizable en texto, con fecha y solo los platos disponibles en la fuente vigente.",
+      "patterns": [
+        "mostrar el menu del dia actualizable en texto, con fecha y solo los platos disponibles en la fuente vigente."
+      ]
+    },
+    {
+      "id": "cubrir-los-precios-publicados-del-menu-del-dia-restaurante-opcion-con-bebida-ilimitada-y-domicilio-verificandolos-antes-de-publicarlos",
+      "kind": "soft",
+      "label": "Cubrir los precios publicados del menú del día: restaurante, opción con bebida ilimitada y domicilio, verificándolos antes de publicarlos.",
+      "patterns": [
+        "cubrir los precios publicados del menu del dia: restaurante, opcion con bebida ilimitada y domicilio, verificandolos antes de publicarlos."
+      ]
+    },
+    {
+      "id": "incluir-la-carta-completa-de-restaurante-y-domicilio-con-precios-y-alergenos-o-explicar-claramente-si-se-deja-fuera",
+      "kind": "soft",
+      "label": "Incluir la carta completa de restaurante y domicilio con precios y alérgenos, o explicar claramente si se deja fuera.",
+      "patterns": [
+        "incluir la carta completa de restaurante y domicilio con precios y alergenos, o explicar claramente si se deja fuera."
+      ]
+    },
+    {
+      "id": "mantener-el-pedido-a-domicilio-por-whatsapp-y-mostrar-el-horario-de-reparto",
+      "kind": "soft",
+      "label": "Mantener el pedido a domicilio por WhatsApp y mostrar el horario de reparto.",
+      "patterns": [
+        "mantener el pedido a domicilio por whatsapp y mostrar el horario de reparto."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-funcional-a-covermanager-la-seleccion-de-salon-y-el-aviso-de-que-la-reserva-requiere-confirmacion-por-email-o-sms-y-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mantener el enlace funcional a CoverManager, la selección de salón y el aviso de que la reserva requiere confirmación por email o SMS y una señal de 5 € por comensal.",
+      "patterns": [
+        "mantener el enlace funcional a covermanager, la seleccion de salon y el aviso de que la reserva requiere confirmacion por email o sms y una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "mostrar-el-telefono-de-reservas-y-el-telefono-especifico-de-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar el teléfono de reservas y el teléfono específico de pedidos a domicilio.",
+      "patterns": [
+        "mostrar el telefono de reservas y el telefono especifico de pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-club-infantil-los-pinchitos-con-edades-aforo-horarios-y-tarifa-de-2-indicando-la-gratuidad-cuando-el-nino-ha-comido-o-cenado-alli",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Club Infantil Los Pinchitos con edades, aforo, horarios y tarifa de 2 €, indicando la gratuidad cuando el niño ha comido o cenado allí.",
+      "patterns": [
+        "cubrir la ludoteca club infantil los pinchitos con edades, aforo, horarios y tarifa de 2 €, indicando la gratuidad cuando el nino ha comido o cenado alli."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-y-su-precio-publicado-verificandolo-antes-de-presentarlo-como-vigente",
+      "kind": "soft",
+      "label": "Incluir el menú infantil y su precio publicado, verificándolo antes de presentarlo como vigente.",
+      "patterns": [
+        "incluir el menu infantil y su precio publicado, verificandolo antes de presentarlo como vigente."
+      ]
+    },
+    {
+      "id": "mantener-la-informacion-sobre-monologos-de-los-jueves-sin-prometer-artistas-o-fechas-concretas-no-confirmadas",
+      "kind": "soft",
+      "label": "Mantener la información sobre monólogos de los jueves sin prometer artistas o fechas concretas no confirmadas.",
+      "patterns": [
+        "mantener la informacion sobre monologos de los jueves sin prometer artistas o fechas concretas no confirmadas."
+      ]
+    },
+    {
+      "id": "mantener-el-rincon-vegano-y-las-opciones-de-comida-vegana-descritas-por-el-negocio",
+      "kind": "soft",
+      "label": "Mantener el rincón vegano y las opciones de comida vegana descritas por el negocio.",
+      "patterns": [
+        "mantener el rincon vegano y las opciones de comida vegana descritas por el negocio."
+      ]
+    },
+    {
+      "id": "mantener-la-captacion-de-eventos-para-cenas-de-amigos-empresas-bodas-bautizos-comuniones-y-otros-eventos",
+      "kind": "soft",
+      "label": "Mantener la captación de eventos para cenas de amigos, empresas, bodas, bautizos, comuniones y otros eventos.",
+      "patterns": [
+        "mantener la captacion de eventos para cenas de amigos, empresas, bodas, bautizos, comuniones y otros eventos."
+      ]
+    },
+    {
+      "id": "enlazar-o-hacer-accesible-la-tabla-de-alergenos",
+      "kind": "soft",
+      "label": "Enlazar o hacer accesible la tabla de alérgenos.",
+      "patterns": [
+        "enlazar o hacer accesible la tabla de alergenos."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-dejando-claro-que-el-martes-esta-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante dejando claro que el martes está cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante dejando claro que el martes esta cerrado."
+      ]
+    },
+    {
+      "id": "resolver-o-retirar-la-seccion-vacia-de-menu-de-fin-de-semana",
+      "kind": "soft",
+      "label": "Resolver o retirar la sección vacía de menú de fin de semana.",
+      "patterns": [
+        "resolver o retirar la seccion vacia de menu de fin de semana."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-en-imagen-por-contenido-textual-legible-indexable-traducible-y-actualizable",
+      "kind": "soft",
+      "label": "Sustituir el menú en imagen por contenido textual legible, indexable, traducible y actualizable.",
+      "patterns": [
+        "sustituir el menu en imagen por contenido textual legible, indexable, traducible y actualizable."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-cualquier-publicidad-de-terceros",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y cualquier publicidad de terceros.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y cualquier publicidad de terceros."
+      ]
+    },
+    {
+      "id": "crear-o-redirigir-una-pagina-funcional-para-comidas-y-cenas-de-empresa-evitando-mantener-el-destino-404",
+      "kind": "soft",
+      "label": "Crear o redirigir una página funcional para comidas y cenas de empresa, evitando mantener el destino 404.",
+      "patterns": [
+        "crear o redirigir una pagina funcional para comidas y cenas de empresa, evitando mantener el destino 404."
+      ]
+    },
+    {
+      "id": "usar-fotografias-reales-actuales-solo-despues-de-confirmar-su-procedencia-y-permisos",
+      "kind": "soft",
+      "label": "Usar fotografías reales actuales solo después de confirmar su procedencia y permisos.",
+      "patterns": [
+        "usar fotografias reales actuales solo despues de confirmar su procedencia y permisos."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
