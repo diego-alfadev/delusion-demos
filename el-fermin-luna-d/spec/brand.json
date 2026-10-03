@@ -1,0 +1,17 @@
+{
+  "projectId": "fermin-luna-D",
+  "title": "Restaurante El Fermín | Cocina mediterránea en Alcorcón",
+  "description": "Restaurante El Fermín, cocina mediterránea en Alcorcón desde 1976. Consulta el menú del día, la carta y los eventos. Reserva en el 916 10 31 03.",
+  "direction": "taberna-mediterránea-contemporánea",
+  "bootstrappedAt": "2026-10-03T20:59:13.990Z",
+  "legibilityFixes": [
+    {
+      "pair": "secondary/secondary-foreground",
+      "background": "#C59D5F",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.51,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 6.71
+    }
+  ]
+}

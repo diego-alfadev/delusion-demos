@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-en-texto-con-su-fecha-y-contenido-actualizable-no-solo-como-imagen",
+      "kind": "soft",
+      "label": "Mostrar el menú del día en texto, con su fecha y contenido actualizable, no solo como imagen.",
+      "patterns": [
+        "mostrar el menu del dia en texto, con su fecha y contenido actualizable, no solo como imagen."
+      ]
+    },
+    {
+      "id": "cubrir-el-menu-del-dia-del-restaurante-la-opcion-con-bebida-ilimitada-y-la-opcion-a-domicilio",
+      "kind": "soft",
+      "label": "Cubrir el menú del día del restaurante, la opción con bebida ilimitada y la opción a domicilio.",
+      "patterns": [
+        "cubrir el menu del dia del restaurante, la opcion con bebida ilimitada y la opcion a domicilio."
+      ]
+    },
+    {
+      "id": "mantener-la-carta-de-raciones-mariscos-carnes-ensaladas-arroces-bocadillos-comida-vegana-postres-y-vinos-con-los-precios-capturados",
+      "kind": "soft",
+      "label": "Mantener la carta de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos con los precios capturados.",
+      "patterns": [
+        "mantener la carta de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos con los precios capturados."
+      ]
+    },
+    {
+      "id": "mostrar-alergenos-por-plato-y-enlazar-o-sustituir-la-tabla-de-alergenos-en-pdf",
+      "kind": "soft",
+      "label": "Mostrar alérgenos por plato y enlazar o sustituir la tabla de alérgenos en PDF.",
+      "patterns": [
+        "mostrar alergenos por plato y enlazar o sustituir la tabla de alergenos en pdf."
+      ]
+    },
+    {
+      "id": "incluir-pedidos-a-domicilio-por-whatsapp-y-el-horario-de-reparto",
+      "kind": "soft",
+      "label": "Incluir pedidos a domicilio por WhatsApp y el horario de reparto.",
+      "patterns": [
+        "incluir pedidos a domicilio por whatsapp y el horario de reparto."
+      ]
+    },
+    {
+      "id": "incluir-el-enlace-funcional-a-covermanager-para-reservar-mesa",
+      "kind": "soft",
+      "label": "Incluir el enlace funcional a CoverManager para reservar mesa.",
+      "patterns": [
+        "incluir el enlace funcional a covermanager para reservar mesa."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-la-senal-de-5-por-comensal-y-que-la-reserva-se-confirma-por-email-o-sms",
+      "kind": "soft",
+      "label": "Mostrar claramente la señal de 5 € por comensal y que la reserva se confirma por email o SMS.",
+      "patterns": [
+        "mostrar claramente la senal de 5 € por comensal y que la reserva se confirma por email o sms."
+      ]
+    },
+    {
+      "id": "mostrar-los-dos-telefonos-reales-reservas-y-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar los dos teléfonos reales: reservas y pedidos a domicilio.",
+      "patterns": [
+        "mostrar los dos telefonos reales: reservas y pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "incluir-la-ludoteca-club-infantil-los-pinchitos-con-edades-aforo-horarios-y-precios",
+      "kind": "soft",
+      "label": "Incluir la ludoteca Club infantil Los Pinchitos con edades, aforo, horarios y precios.",
+      "patterns": [
+        "incluir la ludoteca club infantil los pinchitos con edades, aforo, horarios y precios."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-de-13-50",
+      "kind": "soft",
+      "label": "Incluir el menú infantil de 13,50 €.",
+      "patterns": [
+        "incluir el menu infantil de 13,50 €."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves.",
+      "patterns": [
+        "cubrir los monologos de los jueves."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano.",
+      "patterns": [
+        "cubrir el rincon vegano."
+      ]
+    },
+    {
+      "id": "cubrir-la-captacion-de-eventos-para-empresas-bodas-bautizos-comuniones-y-celebraciones",
+      "kind": "soft",
+      "label": "Cubrir la captación de eventos para empresas, bodas, bautizos, comuniones y celebraciones.",
+      "patterns": [
+        "cubrir la captacion de eventos para empresas, bodas, bautizos, comuniones y celebraciones."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-destacando-que-el-martes-permanece-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante destacando que el martes permanece cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante destacando que el martes permanece cerrado."
+      ]
+    },
+    {
+      "id": "incluir-la-informacion-de-accesibilidad-confirmada",
+      "kind": "soft",
+      "label": "Incluir la información de accesibilidad confirmada.",
+      "patterns": [
+        "incluir la informacion de accesibilidad confirmada."
+      ]
+    },
+    {
+      "id": "conservar-la-identidad-de-restaurante-el-fermin-y-corregir-la-direccion-al-numero-8",
+      "kind": "soft",
+      "label": "Conservar la identidad de Restaurante El Fermín y corregir la dirección al número 8.",
+      "patterns": [
+        "conservar la identidad de restaurante el fermin y corregir la direccion al numero 8."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-otros-elementos-publicitarios-de-terceros",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y otros elementos publicitarios de terceros.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y otros elementos publicitarios de terceros."
+      ]
+    },
+    {
+      "id": "resolver-la-pagina-de-eventos-que-actualmente-devuelve-404-o-enlazarla-a-una-alternativa-funcional",
+      "kind": "soft",
+      "label": "Resolver la página de eventos que actualmente devuelve 404 o enlazarla a una alternativa funcional.",
+      "patterns": [
+        "resolver la pagina de eventos que actualmente devuelve 404 o enlazarla a una alternativa funcional."
+      ]
+    },
+    {
+      "id": "no-tratar-las-fotografias-antiguas-o-no-verificadas-como-imagenes-actuales-del-local-o-de-los-platos",
+      "kind": "soft",
+      "label": "No tratar las fotografías antiguas o no verificadas como imágenes actuales del local o de los platos.",
+      "patterns": [
+        "no tratar las fotografias antiguas o no verificadas como imagenes actuales del local o de los platos."
+      ]
+    },
+    {
+      "id": "decidir-conscientemente-si-se-muestran-los-enlaces-a-las-dos-paginas-de-facebook-ya-que-no-se-ha-confirmado-cual-esta-activa",
+      "kind": "soft",
+      "label": "Decidir conscientemente si se muestran los enlaces a las dos páginas de Facebook, ya que no se ha confirmado cuál está activa.",
+      "patterns": [
+        "decidir conscientemente si se muestran los enlaces a las dos paginas de facebook, ya que no se ha confirmado cual esta activa."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
