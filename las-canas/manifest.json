@@ -1,0 +1,33 @@
+{
+  "project": "las-canas",
+  "deployedAt": "2026-10-03 23:05",
+  "expiresAt": "2026-11-02",
+  "stage": "preview",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "8503026",
+  "title": "Celebraciones en Móstoles | Bodas, comuniones y eventos",
+  "description": "Espacio para bodas, comuniones y otros eventos en Móstoles. Consulta por teléfono las opciones de celebración, menús y disponibilidad.",
+  "theme": "rustico-contemporaneo",
+  "direction": "rustico-contemporaneo",
+  "pitchedAt": "2026-10-03 21:04",
+  "dossierUsed": true,
+  "qaNotes": [
+    "G9 seo + cta: Missing LocalBusiness JSON-LD",
+    "G9 seo + cta: Missing canonical link",
+    "PARITY WARN: falta Mantener la información de contacto visible: teléfono 916 16 61 46 y dirección completa.",
+    "PARITY WARN: falta Cubrir la propuesta de celebración de bodas, comuniones y otros eventos.",
+    "PARITY WARN: falta Representar la extensión exterior de 5.000 m², el parking propio, la zona infantil, los columpios, los castillos hinchables y los salones para más de 500 personas.",
+    "PARITY WARN: falta Incluir la información sobre menús diarios y especiales, menú de fin de semana los sábados y cenas con orquesta y baile.",
+    "PARITY WARN: falta Conservar o revisar conscientemente el horario completo con horas antes de publicarlo, porque el dossier solo lo confirma desde Google.",
+    "PARITY WARN: falta Auditar y conservar, o decidir explícitamente descartar, las 67 fotografías actualmente rastreadas en la web; no sustituirlas automáticamente por imágenes de terceros.",
+    "PARITY WARN: falta Revisar la estructura existente de 12 páginas y mantener las secciones relevantes o documentar cuáles se descartan.",
+    "PARITY WARN: falta Revisar los dos PDFs actualmente enlazados antes de decidir si deben seguir disponibles.",
+    "PARITY WARN: falta Decidir conscientemente si la nueva presencia incorporará reseñas y valoración de Google; no presentar sus cifras como verificadas por más de una fuente.",
+    "PARITY WARN: falta Mantener claro que la presencia actual no ofrece reserva online ni pedidos a domicilio, salvo que se diseñe y verifique una nueva capacidad."
+  ],
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-la-informacion-de-contacto-visible-telefono-916-16-61-46-y-direccion-completa",
+      "kind": "soft",
+      "label": "Mantener la información de contacto visible: teléfono 916 16 61 46 y dirección completa.",
+      "patterns": [
+        "mantener la informacion de contacto visible: telefono 916 16 61 46 y direccion completa."
+      ]
+    },
+    {
+      "id": "cubrir-la-propuesta-de-celebracion-de-bodas-comuniones-y-otros-eventos",
+      "kind": "soft",
+      "label": "Cubrir la propuesta de celebración de bodas, comuniones y otros eventos.",
+      "patterns": [
+        "cubrir la propuesta de celebracion de bodas, comuniones y otros eventos."
+      ]
+    },
+    {
+      "id": "representar-la-extension-exterior-de-5-000-m-el-parking-propio-la-zona-infantil-los-columpios-los-castillos-hinchables-y-los-salones-para-mas-de-500-personas",
+      "kind": "soft",
+      "label": "Representar la extensión exterior de 5.000 m², el parking propio, la zona infantil, los columpios, los castillos hinchables y los salones para más de 500 personas.",
+      "patterns": [
+        "representar la extension exterior de 5.000 m², el parking propio, la zona infantil, los columpios, los castillos hinchables y los salones para mas de 500 personas."
+      ]
+    },
+    {
+      "id": "incluir-la-informacion-sobre-menus-diarios-y-especiales-menu-de-fin-de-semana-los-sabados-y-cenas-con-orquesta-y-baile",
+      "kind": "soft",
+      "label": "Incluir la información sobre menús diarios y especiales, menú de fin de semana los sábados y cenas con orquesta y baile.",
+      "patterns": [
+        "incluir la informacion sobre menus diarios y especiales, menu de fin de semana los sabados y cenas con orquesta y baile."
+      ]
+    },
+    {
+      "id": "conservar-o-revisar-conscientemente-el-horario-completo-con-horas-antes-de-publicarlo-porque-el-dossier-solo-lo-confirma-desde-google",
+      "kind": "soft",
+      "label": "Conservar o revisar conscientemente el horario completo con horas antes de publicarlo, porque el dossier solo lo confirma desde Google.",
+      "patterns": [
+        "conservar o revisar conscientemente el horario completo con horas antes de publicarlo, porque el dossier solo lo confirma desde google."
+      ]
+    },
+    {
+      "id": "auditar-y-conservar-o-decidir-explicitamente-descartar-las-67-fotografias-actualmente-rastreadas-en-la-web-no-sustituirlas-automaticamente-por-imagenes-de-terceros",
+      "kind": "soft",
+      "label": "Auditar y conservar, o decidir explícitamente descartar, las 67 fotografías actualmente rastreadas en la web; no sustituirlas automáticamente por imágenes de terceros.",
+      "patterns": [
+        "auditar y conservar, o decidir explicitamente descartar, las 67 fotografias actualmente rastreadas en la web; no sustituirlas automaticamente por imagenes de terceros."
+      ]
+    },
+    {
+      "id": "revisar-la-estructura-existente-de-12-paginas-y-mantener-las-secciones-relevantes-o-documentar-cuales-se-descartan",
+      "kind": "soft",
+      "label": "Revisar la estructura existente de 12 páginas y mantener las secciones relevantes o documentar cuáles se descartan.",
+      "patterns": [
+        "revisar la estructura existente de 12 paginas y mantener las secciones relevantes o documentar cuales se descartan."
+      ]
+    },
+    {
+      "id": "revisar-los-dos-pdfs-actualmente-enlazados-antes-de-decidir-si-deben-seguir-disponibles",
+      "kind": "soft",
+      "label": "Revisar los dos PDFs actualmente enlazados antes de decidir si deben seguir disponibles.",
+      "patterns": [
+        "revisar los dos pdfs actualmente enlazados antes de decidir si deben seguir disponibles."
+      ]
+    },
+    {
+      "id": "decidir-conscientemente-si-la-nueva-presencia-incorporara-resenas-y-valoracion-de-google-no-presentar-sus-cifras-como-verificadas-por-mas-de-una-fuente",
+      "kind": "soft",
+      "label": "Decidir conscientemente si la nueva presencia incorporará reseñas y valoración de Google; no presentar sus cifras como verificadas por más de una fuente.",
+      "patterns": [
+        "decidir conscientemente si la nueva presencia incorporara resenas y valoracion de google; no presentar sus cifras como verificadas por mas de una fuente."
+      ]
+    },
+    {
+      "id": "mantener-claro-que-la-presencia-actual-no-ofrece-reserva-online-ni-pedidos-a-domicilio-salvo-que-se-disene-y-verifique-una-nueva-capacidad",
+      "kind": "soft",
+      "label": "Mantener claro que la presencia actual no ofrece reserva online ni pedidos a domicilio, salvo que se diseñe y verifique una nueva capacidad.",
+      "patterns": [
+        "mantener claro que la presencia actual no ofrece reserva online ni pedidos a domicilio, salvo que se disene y verifique una nueva capacidad."
+      ]
+    },
+    {
+      "id": "inv-restaurante-en-mostoles-para-celebraciones-cenas-con-baile-2",
+      "kind": "exact",
+      "label": "Original section: Restaurante en Móstoles para celebraciones, cenas con baile",
+      "patterns": [
+        "restaurante",
+        "mostoles",
+        "celebraciones",
+        "cenas"
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}
