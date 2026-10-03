@@ -1,7 +1,7 @@
 [
   {
     "project": "las-canas",
-    "deployedAt": "2026-10-03 23:05",
+    "deployedAt": "2026-10-03 23:06",
     "expiresAt": "2026-11-02",
     "stage": "preview",
     "pipelineVersion": "0.4.0",
