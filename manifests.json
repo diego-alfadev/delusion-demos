@@ -1,5 +1,48 @@
 [
   {
+    "project": "el-fermin-luna-c",
+    "deployedAt": "2026-10-03 22:54",
+    "expiresAt": "2026-11-02",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "247a10d",
+    "title": "Restaurante El Fermín | Cocina mediterránea en Alcorcón",
+    "description": "Menú del día, carta, pedidos por WhatsApp, eventos y reservas en Restaurante El Fermín, Alcorcón.",
+    "theme": "clásico-mediterráneo",
+    "direction": "clásico-mediterráneo",
+    "pitchedAt": "2026-10-03 20:53",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "PARITY WARN: falta Menú del día actualizable, con fecha, primeros, segundos, postres y opciones veganas o saludables.",
+      "PARITY WARN: falta Carta completa de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos.",
+      "PARITY WARN: falta Precios y alérgenos de la carta, sujetos a actualización por el negocio.",
+      "PARITY WARN: falta Pedidos a domicilio por WhatsApp y bloque específico con el horario de reparto.",
+      "PARITY WARN: falta Enlace o botón de reserva hacia CoverManager, incluyendo la zona Salón y la lista de espera si se conserva esa funcionalidad.",
+      "PARITY WARN: falta Aviso de que la reserva no queda confirmada hasta recibir email o SMS y abonar la señal correspondiente.",
+      "PARITY WARN: falta Teléfono de reservas y teléfono independiente para pedidos a domicilio.",
+      "PARITY WARN: falta Ludoteca o club infantil Los Pinchitos, con edades, aforo, horarios y condiciones de acceso.",
+      "PARITY WARN: falta Monólogos de los jueves, evitando presentar carteles antiguos como programación vigente.",
+      "PARITY WARN: falta Rincón y opciones veganas.",
+      "PARITY WARN: falta Página o bloque para eventos como cenas de amigos, empresas, bodas, bautizos y comuniones; reparar la página rota o eliminar conscientemente ese servicio.",
+      "PARITY WARN: falta Tabla de alérgenos en PDF o contenido equivalente accesible.",
+      "PARITY WARN: falta Horario completo del restaurante, destacando que el martes permanece cerrado.",
+      "PARITY WARN: falta Información legal, privacidad y cookies.",
+      "PARITY WARN: falta Eliminar los anuncios de Google AdSense y cualquier apariencia de publicidad de terceros.",
+      "PARITY WARN: falta Convertir el menú del día de imagen a contenido de texto accesible, indexable y traducible.",
+      "PARITY WARN: falta Usar fotografías actuales y autorizadas, no imágenes antiguas o de procedencia incierta.",
+      "PARITY WARN: falta Original section: Menús"
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "el-fermin-luna-c",
+    "url": "./el-fermin-luna-c/"
+  },
+  {
     "project": "el-fermin-luna-b",
     "deployedAt": "2026-10-03 21:33",
     "expiresAt": "2026-11-02",

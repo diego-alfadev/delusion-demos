@@ -1,0 +1,222 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "menu-del-dia-actualizable-con-fecha-primeros-segundos-postres-y-opciones-veganas-o-saludables",
+      "kind": "soft",
+      "label": "Menú del día actualizable, con fecha, primeros, segundos, postres y opciones veganas o saludables.",
+      "patterns": [
+        "menu del dia actualizable, con fecha, primeros, segundos, postres y opciones veganas o saludables."
+      ]
+    },
+    {
+      "id": "carta-completa-de-raciones-mariscos-carnes-ensaladas-arroces-bocadillos-comida-vegana-postres-y-vinos",
+      "kind": "soft",
+      "label": "Carta completa de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos.",
+      "patterns": [
+        "carta completa de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos."
+      ]
+    },
+    {
+      "id": "precios-y-alergenos-de-la-carta-sujetos-a-actualizacion-por-el-negocio",
+      "kind": "soft",
+      "label": "Precios y alérgenos de la carta, sujetos a actualización por el negocio.",
+      "patterns": [
+        "precios y alergenos de la carta, sujetos a actualizacion por el negocio."
+      ]
+    },
+    {
+      "id": "pedidos-a-domicilio-por-whatsapp-y-bloque-especifico-con-el-horario-de-reparto",
+      "kind": "soft",
+      "label": "Pedidos a domicilio por WhatsApp y bloque específico con el horario de reparto.",
+      "patterns": [
+        "pedidos a domicilio por whatsapp y bloque especifico con el horario de reparto."
+      ]
+    },
+    {
+      "id": "enlace-o-boton-de-reserva-hacia-covermanager-incluyendo-la-zona-salon-y-la-lista-de-espera-si-se-conserva-esa-funcionalidad",
+      "kind": "soft",
+      "label": "Enlace o botón de reserva hacia CoverManager, incluyendo la zona Salón y la lista de espera si se conserva esa funcionalidad.",
+      "patterns": [
+        "enlace o boton de reserva hacia covermanager, incluyendo la zona salon y la lista de espera si se conserva esa funcionalidad."
+      ]
+    },
+    {
+      "id": "aviso-de-que-la-reserva-no-queda-confirmada-hasta-recibir-email-o-sms-y-abonar-la-senal-correspondiente",
+      "kind": "soft",
+      "label": "Aviso de que la reserva no queda confirmada hasta recibir email o SMS y abonar la señal correspondiente.",
+      "patterns": [
+        "aviso de que la reserva no queda confirmada hasta recibir email o sms y abonar la senal correspondiente."
+      ]
+    },
+    {
+      "id": "telefono-de-reservas-y-telefono-independiente-para-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Teléfono de reservas y teléfono independiente para pedidos a domicilio.",
+      "patterns": [
+        "telefono de reservas y telefono independiente para pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "ludoteca-o-club-infantil-los-pinchitos-con-edades-aforo-horarios-y-condiciones-de-acceso",
+      "kind": "soft",
+      "label": "Ludoteca o club infantil Los Pinchitos, con edades, aforo, horarios y condiciones de acceso.",
+      "patterns": [
+        "ludoteca o club infantil los pinchitos, con edades, aforo, horarios y condiciones de acceso."
+      ]
+    },
+    {
+      "id": "menu-infantil",
+      "kind": "soft",
+      "label": "Menú infantil.",
+      "patterns": [
+        "menu infantil."
+      ]
+    },
+    {
+      "id": "monologos-de-los-jueves-evitando-presentar-carteles-antiguos-como-programacion-vigente",
+      "kind": "soft",
+      "label": "Monólogos de los jueves, evitando presentar carteles antiguos como programación vigente.",
+      "patterns": [
+        "monologos de los jueves, evitando presentar carteles antiguos como programacion vigente."
+      ]
+    },
+    {
+      "id": "rincon-y-opciones-veganas",
+      "kind": "soft",
+      "label": "Rincón y opciones veganas.",
+      "patterns": [
+        "rincon y opciones veganas."
+      ]
+    },
+    {
+      "id": "pagina-o-bloque-para-eventos-como-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones-reparar-la-pagina-rota-o-eliminar-conscientemente-ese-servicio",
+      "kind": "soft",
+      "label": "Página o bloque para eventos como cenas de amigos, empresas, bodas, bautizos y comuniones; reparar la página rota o eliminar conscientemente ese servicio.",
+      "patterns": [
+        "pagina o bloque para eventos como cenas de amigos, empresas, bodas, bautizos y comuniones; reparar la pagina rota o eliminar conscientemente ese servicio."
+      ]
+    },
+    {
+      "id": "tabla-de-alergenos-en-pdf-o-contenido-equivalente-accesible",
+      "kind": "soft",
+      "label": "Tabla de alérgenos en PDF o contenido equivalente accesible.",
+      "patterns": [
+        "tabla de alergenos en pdf o contenido equivalente accesible."
+      ]
+    },
+    {
+      "id": "horario-completo-del-restaurante-destacando-que-el-martes-permanece-cerrado",
+      "kind": "soft",
+      "label": "Horario completo del restaurante, destacando que el martes permanece cerrado.",
+      "patterns": [
+        "horario completo del restaurante, destacando que el martes permanece cerrado."
+      ]
+    },
+    {
+      "id": "informacion-legal-privacidad-y-cookies",
+      "kind": "soft",
+      "label": "Información legal, privacidad y cookies.",
+      "patterns": [
+        "informacion legal, privacidad y cookies."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-cualquier-apariencia-de-publicidad-de-terceros",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y cualquier apariencia de publicidad de terceros.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y cualquier apariencia de publicidad de terceros."
+      ]
+    },
+    {
+      "id": "convertir-el-menu-del-dia-de-imagen-a-contenido-de-texto-accesible-indexable-y-traducible",
+      "kind": "soft",
+      "label": "Convertir el menú del día de imagen a contenido de texto accesible, indexable y traducible.",
+      "patterns": [
+        "convertir el menu del dia de imagen a contenido de texto accesible, indexable y traducible."
+      ]
+    },
+    {
+      "id": "usar-fotografias-actuales-y-autorizadas-no-imagenes-antiguas-o-de-procedencia-incierta",
+      "kind": "soft",
+      "label": "Usar fotografías actuales y autorizadas, no imágenes antiguas o de procedencia incierta.",
+      "patterns": [
+        "usar fotografias actuales y autorizadas, no imagenes antiguas o de procedencia incierta."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
