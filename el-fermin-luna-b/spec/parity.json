@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "menu-del-dia-actualizable-con-fecha-primeros-segundos-postres-opciones-veganas-y-precios-de-restaurante-bebida-ilimitada-y-domicilio",
+      "kind": "soft",
+      "label": "Menú del día actualizable con fecha, primeros, segundos, postres, opciones veganas y precios de restaurante, bebida ilimitada y domicilio.",
+      "patterns": [
+        "menu del dia actualizable con fecha, primeros, segundos, postres, opciones veganas y precios de restaurante, bebida ilimitada y domicilio."
+      ]
+    },
+    {
+      "id": "carta-completa-de-restaurante-y-domicilio-con-precios-alergenos-por-plato-y-platos-recomendados",
+      "kind": "soft",
+      "label": "Carta completa de restaurante y domicilio con precios, alérgenos por plato y platos recomendados.",
+      "patterns": [
+        "carta completa de restaurante y domicilio con precios, alergenos por plato y platos recomendados."
+      ]
+    },
+    {
+      "id": "pedido-a-domicilio-por-whatsapp-con-el-numero-640-293-202",
+      "kind": "soft",
+      "label": "Pedido a domicilio por WhatsApp con el número 640 293 202.",
+      "patterns": [
+        "pedido a domicilio por whatsapp con el numero 640 293 202."
+      ]
+    },
+    {
+      "id": "horario-de-reparto-diferenciado-entre-semana-y-fin-de-semana",
+      "kind": "soft",
+      "label": "Horario de reparto diferenciado entre semana y fin de semana.",
+      "patterns": [
+        "horario de reparto diferenciado entre semana y fin de semana."
+      ]
+    },
+    {
+      "id": "reserva-online-mediante-covermanager-con-zona-salon-turnos-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Reserva online mediante CoverManager, con zona Salón, turnos y lista de espera.",
+      "patterns": [
+        "reserva online mediante covermanager, con zona salon, turnos y lista de espera."
+      ]
+    },
+    {
+      "id": "aviso-visible-de-que-la-reserva-requiere-confirmacion-por-email-o-sms-y-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Aviso visible de que la reserva requiere confirmación por email o SMS y una señal de 5 € por comensal.",
+      "patterns": [
+        "aviso visible de que la reserva requiere confirmacion por email o sms y una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "telefono-de-reservas-916-10-31-03",
+      "kind": "soft",
+      "label": "Teléfono de reservas 916 10 31 03.",
+      "patterns": [
+        "telefono de reservas 916 10 31 03."
+      ]
+    },
+    {
+      "id": "ludoteca-club-infantil-los-pinchitos-con-edades-aforo-horarios-gratuidad-condicionada-y-precio-de-2",
+      "kind": "soft",
+      "label": "Ludoteca Club infantil Los Pinchitos con edades, aforo, horarios, gratuidad condicionada y precio de 2 €.",
+      "patterns": [
+        "ludoteca club infantil los pinchitos con edades, aforo, horarios, gratuidad condicionada y precio de 2 €."
+      ]
+    },
+    {
+      "id": "menu-infantil-de-13-50-con-postre-y-bebida",
+      "kind": "soft",
+      "label": "Menú infantil de 13,50 € con postre y bebida.",
+      "patterns": [
+        "menu infantil de 13,50 € con postre y bebida."
+      ]
+    },
+    {
+      "id": "monologos-de-los-jueves",
+      "kind": "soft",
+      "label": "Monólogos de los jueves.",
+      "patterns": [
+        "monologos de los jueves."
+      ]
+    },
+    {
+      "id": "rincon-vegano-y-platos-de-comida-vegana",
+      "kind": "soft",
+      "label": "Rincón vegano y platos de comida vegana.",
+      "patterns": [
+        "rincon vegano y platos de comida vegana."
+      ]
+    },
+    {
+      "id": "pagina-o-bloque-funcional-para-eventos-cenas-de-amigos-empresas-bodas-bautizos-comuniones-y-otros-eventos",
+      "kind": "soft",
+      "label": "Página o bloque funcional para eventos: cenas de amigos, empresas, bodas, bautizos, comuniones y otros eventos.",
+      "patterns": [
+        "pagina o bloque funcional para eventos: cenas de amigos, empresas, bodas, bautizos, comuniones y otros eventos."
+      ]
+    },
+    {
+      "id": "tabla-de-alergenos-en-pdf-o-contenido-equivalente",
+      "kind": "soft",
+      "label": "Tabla de alérgenos en PDF o contenido equivalente.",
+      "patterns": [
+        "tabla de alergenos en pdf o contenido equivalente."
+      ]
+    },
+    {
+      "id": "horario-completo-del-restaurante-destacando-que-los-martes-esta-cerrado",
+      "kind": "soft",
+      "label": "Horario completo del restaurante destacando que los martes está cerrado.",
+      "patterns": [
+        "horario completo del restaurante destacando que los martes esta cerrado."
+      ]
+    },
+    {
+      "id": "direccion-y-los-dos-telefonos-reales",
+      "kind": "soft",
+      "label": "Dirección y los dos teléfonos reales.",
+      "patterns": [
+        "direccion y los dos telefonos reales."
+      ]
+    },
+    {
+      "id": "ficha-de-google-valoracion-de-4-4-estrellas-y-6-158-resenas-si-se-decide-mantener-la-prueba-social",
+      "kind": "soft",
+      "label": "Ficha de Google, valoración de 4,4 estrellas y 6.158 reseñas, si se decide mantener la prueba social.",
+      "patterns": [
+        "ficha de google, valoracion de 4,4 estrellas y 6.158 resenas, si se decide mantener la prueba social."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-publicitarios-de-terceros",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces publicitarios de terceros.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces publicitarios de terceros."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-del-dia-en-imagen-por-contenido-textual-legible-traducible-e-indexable",
+      "kind": "soft",
+      "label": "Sustituir el menú del día en imagen por contenido textual legible, traducible e indexable.",
+      "patterns": [
+        "sustituir el menu del dia en imagen por contenido textual legible, traducible e indexable."
+      ]
+    },
+    {
+      "id": "corregir-o-redirigir-la-url-de-eventos-que-actualmente-devuelve-404",
+      "kind": "soft",
+      "label": "Corregir o redirigir la URL de eventos que actualmente devuelve 404.",
+      "patterns": [
+        "corregir o redirigir la url de eventos que actualmente devuelve 404."
+      ]
+    },
+    {
+      "id": "usar-una-identidad-de-sitio-y-titulos-de-pagina-descriptivos-en-lugar-de-og-site-name-vacio-y-el-titulo-generico-inicio",
+      "kind": "soft",
+      "label": "Usar una identidad de sitio y títulos de página descriptivos en lugar de og:site_name vacío y el título genérico INICIO -.",
+      "patterns": [
+        "usar una identidad de sitio y titulos de pagina descriptivos en lugar de og:site_name vacio y el titulo generico inicio -."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
