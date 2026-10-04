@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-en-texto-actualizable-con-fecha-primeros-segundos-postres-y-precios",
+      "kind": "soft",
+      "label": "Mostrar el menú del día en texto actualizable, con fecha, primeros, segundos, postres y precios.",
+      "patterns": [
+        "mostrar el menu del dia en texto actualizable, con fecha, primeros, segundos, postres y precios."
+      ]
+    },
+    {
+      "id": "cubrir-el-menu-del-dia-del-restaurante-la-opcion-con-bebida-ilimitada-y-el-menu-del-dia-a-domicilio",
+      "kind": "soft",
+      "label": "Cubrir el menú del día del restaurante, la opción con bebida ilimitada y el menú del día a domicilio.",
+      "patterns": [
+        "cubrir el menu del dia del restaurante, la opcion con bebida ilimitada y el menu del dia a domicilio."
+      ]
+    },
+    {
+      "id": "incluir-la-carta-completa-o-una-representacion-suficiente-de-raciones-mariscos-carnes-ensaladas-arroces-bocadillos-comida-vegana-postres-y-vinos-con-precios-y-alergenos",
+      "kind": "soft",
+      "label": "Incluir la carta completa o una representación suficiente de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos, con precios y alérgenos.",
+      "patterns": [
+        "incluir la carta completa o una representacion suficiente de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos, con precios y alergenos."
+      ]
+    },
+    {
+      "id": "mantener-el-menu-infantil-de-13-50-y-sus-opciones-principales",
+      "kind": "soft",
+      "label": "Mantener el menú infantil de 13,50 € y sus opciones principales.",
+      "patterns": [
+        "mantener el menu infantil de 13,50 € y sus opciones principales."
+      ]
+    },
+    {
+      "id": "incluir-pedidos-a-domicilio-por-whatsapp-con-el-telefono-640-293-202-y-el-horario-de-reparto",
+      "kind": "soft",
+      "label": "Incluir pedidos a domicilio por WhatsApp con el teléfono 640 293 202 y el horario de reparto.",
+      "patterns": [
+        "incluir pedidos a domicilio por whatsapp con el telefono 640 293 202 y el horario de reparto."
+      ]
+    },
+    {
+      "id": "incluir-un-enlace-funcional-a-covermanager-para-reservar-con-zona-salon-turnos-disponibles-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Incluir un enlace funcional a CoverManager para reservar, con zona Salón, turnos disponibles y lista de espera.",
+      "patterns": [
+        "incluir un enlace funcional a covermanager para reservar, con zona salon, turnos disponibles y lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-requiere-confirmacion-por-email-o-sms-y-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva requiere confirmación por email o SMS y una señal de 5 € por comensal.",
+      "patterns": [
+        "mostrar claramente que la reserva requiere confirmacion por email o sms y una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-y-destacar-que-los-martes-esta-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante y destacar que los martes está cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante y destacar que los martes esta cerrado."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-los-pinchitos-con-edades-aforo-horarios-y-politica-de-precio",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Los Pinchitos con edades, aforo, horarios y política de precio.",
+      "patterns": [
+        "cubrir la ludoteca los pinchitos con edades, aforo, horarios y politica de precio."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves.",
+      "patterns": [
+        "cubrir los monologos de los jueves."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano-y-las-opciones-veganas-de-la-carta",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano y las opciones veganas de la carta.",
+      "patterns": [
+        "cubrir el rincon vegano y las opciones veganas de la carta."
+      ]
+    },
+    {
+      "id": "mantener-una-seccion-de-eventos-para-cenas-de-empresas-bodas-bautizos-comuniones-y-otras-celebraciones",
+      "kind": "soft",
+      "label": "Mantener una sección de eventos para cenas de empresas, bodas, bautizos, comuniones y otras celebraciones.",
+      "patterns": [
+        "mantener una seccion de eventos para cenas de empresas, bodas, bautizos, comuniones y otras celebraciones."
+      ]
+    },
+    {
+      "id": "incluir-o-enlazar-la-tabla-de-alergenos-en-pdf",
+      "kind": "soft",
+      "label": "Incluir o enlazar la tabla de alérgenos en PDF.",
+      "patterns": [
+        "incluir o enlazar la tabla de alergenos en pdf."
+      ]
+    },
+    {
+      "id": "mostrar-los-dos-telefonos-con-su-finalidad-diferenciada-reservas-y-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar los dos teléfonos con su finalidad diferenciada: reservas y pedidos a domicilio.",
+      "patterns": [
+        "mostrar los dos telefonos con su finalidad diferenciada: reservas y pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "incluir-direccion-accesibilidad-y-enlace-a-google-maps",
+      "kind": "soft",
+      "label": "Incluir dirección, accesibilidad y enlace a Google Maps.",
+      "patterns": [
+        "incluir direccion, accesibilidad y enlace a google maps."
+      ]
+    },
+    {
+      "id": "conservar-la-identidad-del-restaurante-y-su-logo-evitando-presentar-imagenes-antiguas-o-no-verificadas-como-fotografias-actuales",
+      "kind": "soft",
+      "label": "Conservar la identidad del restaurante y su logo, evitando presentar imágenes antiguas o no verificadas como fotografías actuales.",
+      "patterns": [
+        "conservar la identidad del restaurante y su logo, evitando presentar imagenes antiguas o no verificadas como fotografias actuales."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-terceros-y-los-enlaces-publicitarios-de-la-experiencia-principal",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de terceros y los enlaces publicitarios de la experiencia principal.",
+      "patterns": [
+        "eliminar los anuncios de terceros y los enlaces publicitarios de la experiencia principal."
+      ]
+    },
+    {
+      "id": "resolver-la-pagina-indexada-de-comidas-y-cenas-de-empresa-que-actualmente-devuelve-404",
+      "kind": "soft",
+      "label": "Resolver la página indexada de comidas y cenas de empresa que actualmente devuelve 404.",
+      "patterns": [
+        "resolver la pagina indexada de comidas y cenas de empresa que actualmente devuelve 404."
+      ]
+    },
+    {
+      "id": "no-recrear-una-seccion-de-menu-de-fin-de-semana-vacia-sin-contenido-confirmado",
+      "kind": "soft",
+      "label": "No recrear una sección de menú de fin de semana vacía sin contenido confirmado.",
+      "patterns": [
+        "no recrear una seccion de menu de fin de semana vacia sin contenido confirmado."
+      ]
+    },
+    {
+      "id": "conservar-o-sustituir-conscientemente-las-dos-paginas-de-facebook-enlazadas-ya-que-no-se-pudo-confirmar-cual-esta-activa",
+      "kind": "soft",
+      "label": "Conservar o sustituir conscientemente las dos páginas de Facebook enlazadas, ya que no se pudo confirmar cuál está activa.",
+      "patterns": [
+        "conservar o sustituir conscientemente las dos paginas de facebook enlazadas, ya que no se pudo confirmar cual esta activa."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
