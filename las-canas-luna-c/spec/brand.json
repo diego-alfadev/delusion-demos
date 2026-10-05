@@ -1,0 +1,17 @@
+{
+  "projectId": "canas-luna-C",
+  "title": "Asador Restaurante Las Cañas | Parrilla y Eventos en Móstoles",
+  "description": "Asador Restaurante Las Cañas en Móstoles: parrilla, salones para bodas y eventos, jardines, ocio infantil y menús. Contacta en el 916 16 61 46.",
+  "direction": "parrilla-rustica-acogedora",
+  "bootstrappedAt": "2026-10-05T00:15:35.380Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-foreground",
+      "background": "#C98B3C",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.9,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 5.81
+    }
+  ]
+}

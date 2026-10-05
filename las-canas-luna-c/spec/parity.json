@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "presentar-el-negocio-como-restaurante-asador-y-parrilla",
+      "kind": "soft",
+      "label": "Presentar el negocio como restaurante asador y parrilla.",
+      "patterns": [
+        "presentar el negocio como restaurante asador y parrilla."
+      ]
+    },
+    {
+      "id": "cubrir-la-oferta-de-bodas-comuniones-bautizos-cumpleanos-y-otros-eventos",
+      "kind": "soft",
+      "label": "Cubrir la oferta de bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+      "patterns": [
+        "cubrir la oferta de bodas, comuniones, bautizos, cumpleanos y otros eventos."
+      ]
+    },
+    {
+      "id": "conservar-o-representar-la-informacion-del-entorno-exterior-de-5-000-m-jardines-parking-propio-y-zona-de-ocio-infantil-con-columpios-y-castillos-hinchables-tratandola-como-contenido-procedente-de-la-web",
+      "kind": "soft",
+      "label": "Conservar o representar la información del entorno exterior de 5.000 m², jardines, parking propio y zona de ocio infantil con columpios y castillos hinchables, tratándola como contenido procedente de la web.",
+      "patterns": [
+        "conservar o representar la informacion del entorno exterior de 5.000 m², jardines, parking propio y zona de ocio infantil con columpios y castillos hinchables, tratandola como contenido procedente de la web."
+      ]
+    },
+    {
+      "id": "cubrir-los-salones-para-eventos-con-capacidad-para-mas-de-500-personas-tratandolo-como-contenido-procedente-de-la-web",
+      "kind": "soft",
+      "label": "Cubrir los salones para eventos con capacidad para más de 500 personas, tratándolo como contenido procedente de la web.",
+      "patterns": [
+        "cubrir los salones para eventos con capacidad para mas de 500 personas, tratandolo como contenido procedente de la web."
+      ]
+    },
+    {
+      "id": "mostrar-la-oferta-de-menus-diarios-y-especiales-menu-de-fin-de-semana-y-cenas-con-orquesta-y-baile",
+      "kind": "soft",
+      "label": "Mostrar la oferta de menús diarios y especiales, menú de fin de semana y cenas con orquesta y baile.",
+      "patterns": [
+        "mostrar la oferta de menus diarios y especiales, menu de fin de semana y cenas con orquesta y baile."
+      ]
+    },
+    {
+      "id": "incluir-una-galeria-con-material-fotografico-propio-del-negocio-el-dossier-identifica-67-fotos-utilizables-en-la-demo-pendientes-de-confirmacion-del-propietario-antes-de-publicar",
+      "kind": "soft",
+      "label": "Incluir una galería con material fotográfico propio del negocio; el dossier identifica 67 fotos utilizables en la demo, pendientes de confirmación del propietario antes de publicar.",
+      "patterns": [
+        "incluir una galeria con material fotografico propio del negocio; el dossier identifica 67 fotos utilizables en la demo, pendientes de confirmacion del propietario antes de publicar."
+      ]
+    },
+    {
+      "id": "mantener-acceso-a-las-resenas-positivas-seleccionadas-de-google-y-a-la-ficha-de-google-para-consultar-fotos-y-resenas",
+      "kind": "soft",
+      "label": "Mantener acceso a las reseñas positivas seleccionadas de Google y a la ficha de Google para consultar fotos y reseñas.",
+      "patterns": [
+        "mantener acceso a las resenas positivas seleccionadas de google y a la ficha de google para consultar fotos y resenas."
+      ]
+    },
+    {
+      "id": "incluir-direccion-telefono-y-horario-de-apertura",
+      "kind": "soft",
+      "label": "Incluir dirección, teléfono y horario de apertura.",
+      "patterns": [
+        "incluir direccion, telefono y horario de apertura."
+      ]
+    },
+    {
+      "id": "incluir-los-dos-pdfs-disponibles-en-la-web-o-decidir-conscientemente-descartarlos",
+      "kind": "soft",
+      "label": "Incluir los dos PDFs disponibles en la web o decidir conscientemente descartarlos.",
+      "patterns": [
+        "incluir los dos pdfs disponibles en la web o decidir conscientemente descartarlos."
+      ]
+    },
+    {
+      "id": "no-inventar-una-carta-completa-ni-precios-adicionales-la-web-no-contiene-precios-en-texto-y-solo-hay-precios-aislados-no-confirmados",
+      "kind": "soft",
+      "label": "No inventar una carta completa ni precios adicionales: la web no contiene precios en texto y solo hay precios aislados no confirmados.",
+      "patterns": [
+        "no inventar una carta completa ni precios adicionales: la web no contiene precios en texto y solo hay precios aislados no confirmados."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,41 @@
 [
   {
+    "project": "las-canas-luna-c",
+    "deployedAt": "2026-10-05 02:21",
+    "expiresAt": "2026-11-04",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "424bc32",
+    "title": "Asador Restaurante Las Cañas | Parrilla y celebraciones en Móstoles",
+    "description": "Asador, parrilla y salones para bodas, comuniones, bautizos, cumpleaños y eventos en Móstoles.",
+    "theme": "brand",
+    "direction": "parrilla-rustica-acogedora",
+    "pitchedAt": "2026-10-05 00:16",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: <title> is 67 chars (max 65) (Asador Restaurante Las Cañas | Parrilla y celebraciones en Móstoles)",
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "PARITY WARN: falta Presentar el negocio como restaurante asador y parrilla.",
+      "PARITY WARN: falta Cubrir la oferta de bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+      "PARITY WARN: falta Conservar o representar la información del entorno exterior de 5.000 m², jardines, parking propio y zona de ocio infantil con columpios y castillos hinchables, tratándola como contenido procedente de la web.",
+      "PARITY WARN: falta Cubrir los salones para eventos con capacidad para más de 500 personas, tratándolo como contenido procedente de la web.",
+      "PARITY WARN: falta Mostrar la oferta de menús diarios y especiales, menú de fin de semana y cenas con orquesta y baile.",
+      "PARITY WARN: falta Incluir una galería con material fotográfico propio del negocio; el dossier identifica 67 fotos utilizables en la demo, pendientes de confirmación del propietario antes de publicar.",
+      "PARITY WARN: falta Mantener acceso a las reseñas positivas seleccionadas de Google y a la ficha de Google para consultar fotos y reseñas.",
+      "PARITY WARN: falta Incluir dirección, teléfono y horario de apertura.",
+      "PARITY WARN: falta Incluir los dos PDFs disponibles en la web o decidir conscientemente descartarlos.",
+      "PARITY WARN: falta No inventar una carta completa ni precios adicionales: la web no contiene precios en texto y solo hay precios aislados no confirmados."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "las-canas-luna-c",
+    "url": "./las-canas-luna-c/"
+  },
+  {
     "project": "el-fermin-luna-h",
     "deployedAt": "2026-10-05 02:20",
     "expiresAt": "2026-11-04",
