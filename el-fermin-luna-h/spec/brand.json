@@ -1,0 +1,25 @@
+{
+  "projectId": "fermin-luna-H",
+  "title": "Restaurante El Fermín | Reservas y menú del día en Alcorcón",
+  "description": "Restaurante El Fermín en Alcorcón: cocina mediterránea, menú del día, carta, eventos y reservas. Consulta horarios, menú y pide por WhatsApp.",
+  "direction": "clasico-mediterraneo",
+  "bootstrappedAt": "2026-10-05T00:13:06.293Z",
+  "legibilityFixes": [
+    {
+      "pair": "secondary/secondary-foreground",
+      "background": "#C59D5F",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.51,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 6.71
+    },
+    {
+      "pair": "accent/accent-foreground",
+      "background": "#D86F3D",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 3.35,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 5.03
+    }
+  ]
+}
