@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-en-texto-con-fecha-platos-alergenos-cuando-corresponda-y-precios-de-restaurante-opcion-con-bebida-ilimitada-y-domicilio",
+      "kind": "soft",
+      "label": "Mostrar el menú del día en texto, con fecha, platos, alérgenos cuando corresponda y precios de restaurante, opción con bebida ilimitada y domicilio.",
+      "patterns": [
+        "mostrar el menu del dia en texto, con fecha, platos, alergenos cuando corresponda y precios de restaurante, opcion con bebida ilimitada y domicilio."
+      ]
+    },
+    {
+      "id": "mantener-una-carta-completa-con-precios-y-alergenos-incluyendo-raciones-mariscos-carnes-arroces-bocadillos-opciones-veganas-postres-y-vinos",
+      "kind": "soft",
+      "label": "Mantener una carta completa con precios y alérgenos, incluyendo raciones, mariscos, carnes, arroces, bocadillos, opciones veganas, postres y vinos.",
+      "patterns": [
+        "mantener una carta completa con precios y alergenos, incluyendo raciones, mariscos, carnes, arroces, bocadillos, opciones veganas, postres y vinos."
+      ]
+    },
+    {
+      "id": "cubrir-los-pedidos-a-domicilio-por-whatsapp-con-el-telefono-640-293-202-y-el-horario-de-reparto",
+      "kind": "soft",
+      "label": "Cubrir los pedidos a domicilio por WhatsApp con el teléfono 640 293 202 y el horario de reparto.",
+      "patterns": [
+        "cubrir los pedidos a domicilio por whatsapp con el telefono 640 293 202 y el horario de reparto."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-de-reservas-de-covermanager-la-zona-salon-los-turnos-disponibles-y-la-lista-de-espera",
+      "kind": "soft",
+      "label": "Mantener el enlace de reservas de CoverManager, la zona Salón, los turnos disponibles y la lista de espera.",
+      "patterns": [
+        "mantener el enlace de reservas de covermanager, la zona salon, los turnos disponibles y la lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-la-senal-de-5-por-comensal-y-que-la-reserva-solo-queda-confirmada-mediante-email-o-sms-del-restaurante",
+      "kind": "soft",
+      "label": "Mostrar claramente la señal de 5 € por comensal y que la reserva solo queda confirmada mediante email o SMS del restaurante.",
+      "patterns": [
+        "mostrar claramente la senal de 5 € por comensal y que la reserva solo queda confirmada mediante email o sms del restaurante."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-incluido-el-cierre-de-los-martes",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante, incluido el cierre de los martes.",
+      "patterns": [
+        "mostrar el horario del restaurante, incluido el cierre de los martes."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-los-pinchitos-con-edades-aforo-horarios-y-precio",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Los Pinchitos con edades, aforo, horarios y precio.",
+      "patterns": [
+        "cubrir la ludoteca los pinchitos con edades, aforo, horarios y precio."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-de-13-50-con-sus-platos-postre-y-bebida",
+      "kind": "soft",
+      "label": "Incluir el menú infantil de 13,50 € con sus platos, postre y bebida.",
+      "patterns": [
+        "incluir el menu infantil de 13,50 € con sus platos, postre y bebida."
+      ]
+    },
+    {
+      "id": "mantener-el-contenido-de-monologos-de-los-jueves-sin-presentar-carteles-antiguos-como-eventos-actuales",
+      "kind": "soft",
+      "label": "Mantener el contenido de monólogos de los jueves, sin presentar carteles antiguos como eventos actuales.",
+      "patterns": [
+        "mantener el contenido de monologos de los jueves, sin presentar carteles antiguos como eventos actuales."
+      ]
+    },
+    {
+      "id": "mantener-el-rincon-vegano-y-las-opciones-de-comida-vegana",
+      "kind": "soft",
+      "label": "Mantener el rincón vegano y las opciones de comida vegana.",
+      "patterns": [
+        "mantener el rincon vegano y las opciones de comida vegana."
+      ]
+    },
+    {
+      "id": "recuperar-una-pagina-funcional-para-eventos-empresas-bodas-bautizos-y-comuniones-en-lugar-de-dejar-el-trafico-en-una-url-404",
+      "kind": "soft",
+      "label": "Recuperar una página funcional para eventos, empresas, bodas, bautizos y comuniones en lugar de dejar el tráfico en una URL 404.",
+      "patterns": [
+        "recuperar una pagina funcional para eventos, empresas, bodas, bautizos y comuniones en lugar de dejar el trafico en una url 404."
+      ]
+    },
+    {
+      "id": "incluir-o-enlazar-la-tabla-de-alergenos-en-pdf",
+      "kind": "soft",
+      "label": "Incluir o enlazar la tabla de alérgenos en PDF.",
+      "patterns": [
+        "incluir o enlazar la tabla de alergenos en pdf."
+      ]
+    },
+    {
+      "id": "mostrar-los-dos-telefonos-con-funciones-diferenciadas-reservas-y-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar los dos teléfonos con funciones diferenciadas: reservas y pedidos a domicilio.",
+      "patterns": [
+        "mostrar los dos telefonos con funciones diferenciadas: reservas y pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "conservar-la-informacion-de-accesibilidad-confirmada",
+      "kind": "soft",
+      "label": "Conservar la información de accesibilidad confirmada.",
+      "patterns": [
+        "conservar la informacion de accesibilidad confirmada."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-cualquier-apariencia-de-publicidad-de-terceros",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y cualquier apariencia de publicidad de terceros.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y cualquier apariencia de publicidad de terceros."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-basado-unicamente-en-una-imagen-por-contenido-html-legible-copiable-y-traducible",
+      "kind": "soft",
+      "label": "Sustituir el menú basado únicamente en una imagen por contenido HTML legible, copiable y traducible.",
+      "patterns": [
+        "sustituir el menu basado unicamente en una imagen por contenido html legible, copiable y traducible."
+      ]
+    },
+    {
+      "id": "usar-solo-fotografias-actuales-con-procedencia-y-permisos-confirmados-o-prescindir-conscientemente-de-las-imagenes-no-verificadas",
+      "kind": "soft",
+      "label": "Usar solo fotografías actuales con procedencia y permisos confirmados, o prescindir conscientemente de las imágenes no verificadas.",
+      "patterns": [
+        "usar solo fotografias actuales con procedencia y permisos confirmados, o prescindir conscientemente de las imagenes no verificadas."
+      ]
+    },
+    {
+      "id": "resolver-las-urls-duplicadas-y-la-errata-de-parque-infantail-durante-la-migracion",
+      "kind": "soft",
+      "label": "Resolver las URLs duplicadas y la errata de parque-infantail durante la migración.",
+      "patterns": [
+        "resolver las urls duplicadas y la errata de parque-infantail durante la migracion."
+      ]
+    },
+    {
+      "id": "mejorar-los-metadatos-y-titulos-de-pagina-ya-que-el-sitio-actual-tiene-og-site-name-vacio-y-un-titulo-de-inicio-generico",
+      "kind": "soft",
+      "label": "Mejorar los metadatos y títulos de página, ya que el sitio actual tiene og:site_name vacío y un título de inicio genérico.",
+      "patterns": [
+        "mejorar los metadatos y titulos de pagina, ya que el sitio actual tiene og:site_name vacio y un titulo de inicio generico."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
