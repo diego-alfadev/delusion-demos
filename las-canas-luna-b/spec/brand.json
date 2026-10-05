@@ -1,0 +1,25 @@
+{
+  "projectId": "canas-luna-B",
+  "title": "Asador Restaurante Las Cañas | Móstoles",
+  "description": "Asador y restaurante en Móstoles con parrilla, menús y salones para bodas, comuniones, banquetes y eventos.",
+  "direction": "artesano-calido",
+  "bootstrappedAt": "2026-10-05T00:02:01.480Z",
+  "legibilityFixes": [
+    {
+      "pair": "primary/primary-foreground",
+      "background": "#2F8F4E",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 4.07,
+      "correctedContent": "#FFFFFF",
+      "correctedRatio": 4.72
+    },
+    {
+      "pair": "accent/accent-foreground",
+      "background": "#D97706",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 3.19,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 5.29
+    }
+  ]
+}

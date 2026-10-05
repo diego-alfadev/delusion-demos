@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-la-presentacion-como-restaurante-asador-y-espacio-para-celebraciones-y-eventos",
+      "kind": "soft",
+      "label": "Mantener la presentación como restaurante asador y espacio para celebraciones y eventos.",
+      "patterns": [
+        "mantener la presentacion como restaurante asador y espacio para celebraciones y eventos."
+      ]
+    },
+    {
+      "id": "cubrir-los-servicios-y-contenidos-de-bodas-comuniones-bautizos-cumpleanos-banquetes-y-otros-eventos",
+      "kind": "soft",
+      "label": "Cubrir los servicios y contenidos de bodas, comuniones, bautizos, cumpleaños, banquetes y otros eventos.",
+      "patterns": [
+        "cubrir los servicios y contenidos de bodas, comuniones, bautizos, cumpleanos, banquetes y otros eventos."
+      ]
+    },
+    {
+      "id": "conservar-la-informacion-sobre-menus-diarios-menus-especiales-y-menu-de-fin-de-semana",
+      "kind": "soft",
+      "label": "Conservar la información sobre menús diarios, menús especiales y menú de fin de semana.",
+      "patterns": [
+        "conservar la informacion sobre menus diarios, menus especiales y menu de fin de semana."
+      ]
+    },
+    {
+      "id": "conservar-o-representar-la-propuesta-de-cenas-de-sabado-con-orquesta-y-baile",
+      "kind": "soft",
+      "label": "Conservar o representar la propuesta de cenas de sábado con orquesta y baile.",
+      "patterns": [
+        "conservar o representar la propuesta de cenas de sabado con orquesta y baile."
+      ]
+    },
+    {
+      "id": "mostrar-el-entorno-exterior-jardines-parking-propio-y-zona-de-ocio-infantil-tal-como-aparecen-en-el-contenido-actual",
+      "kind": "soft",
+      "label": "Mostrar el entorno exterior, jardines, parking propio y zona de ocio infantil tal como aparecen en el contenido actual.",
+      "patterns": [
+        "mostrar el entorno exterior, jardines, parking propio y zona de ocio infantil tal como aparecen en el contenido actual."
+      ]
+    },
+    {
+      "id": "representar-la-capacidad-para-eventos-y-los-salones-para-grupos-grandes-sin-anadir-cifras-no-verificadas-fuera-del-contenido-existente",
+      "kind": "soft",
+      "label": "Representar la capacidad para eventos y los salones para grupos grandes sin añadir cifras no verificadas fuera del contenido existente.",
+      "patterns": [
+        "representar la capacidad para eventos y los salones para grupos grandes sin anadir cifras no verificadas fuera del contenido existente."
+      ]
+    },
+    {
+      "id": "incluir-una-galeria-con-material-fotografico-propio-del-negocio-no-usar-fotos-de-clientes-sin-permiso",
+      "kind": "soft",
+      "label": "Incluir una galería con material fotográfico propio del negocio; no usar fotos de clientes sin permiso.",
+      "patterns": [
+        "incluir una galeria con material fotografico propio del negocio; no usar fotos de clientes sin permiso."
+      ]
+    },
+    {
+      "id": "mantener-el-acceso-a-los-pdfs-actualmente-enlazados-desde-la-web-o-decidir-explicitamente-su-eliminacion",
+      "kind": "soft",
+      "label": "Mantener el acceso a los PDFs actualmente enlazados desde la web o decidir explícitamente su eliminación.",
+      "patterns": [
+        "mantener el acceso a los pdfs actualmente enlazados desde la web o decidir explicitamente su eliminacion."
+      ]
+    },
+    {
+      "id": "mantener-el-acceso-a-la-ficha-de-google-para-consultar-fotos-y-resenas",
+      "kind": "soft",
+      "label": "Mantener el acceso a la ficha de Google para consultar fotos y reseñas.",
+      "patterns": [
+        "mantener el acceso a la ficha de google para consultar fotos y resenas."
+      ]
+    },
+    {
+      "id": "mantener-visibles-la-direccion-el-horario-y-el-telefono-como-informacion-operativa-principal",
+      "kind": "soft",
+      "label": "Mantener visibles la dirección, el horario y el teléfono como información operativa principal.",
+      "patterns": [
+        "mantener visibles la direccion, el horario y el telefono como informacion operativa principal."
+      ]
+    },
+    {
+      "id": "revisar-los-carteles-de-eventos-de-navidad-nochebuena-fin-de-ano-y-reyes-antes-de-publicarlos-porque-son-contenidos-fechados-de-la-web-actual",
+      "kind": "soft",
+      "label": "Revisar los carteles de eventos de Navidad, Nochebuena, Fin de Año y Reyes antes de publicarlos, porque son contenidos fechados de la web actual.",
+      "patterns": [
+        "revisar los carteles de eventos de navidad, nochebuena, fin de ano y reyes antes de publicarlos, porque son contenidos fechados de la web actual."
+      ]
+    },
+    {
+      "id": "la-presencia-actual-no-ofrece-reserva-pedidos-ni-pago-online-la-nueva-web-debe-mantener-esa-ausencia-o-anadir-esas-funciones-de-forma-explicita-y-real",
+      "kind": "soft",
+      "label": "La presencia actual no ofrece reserva, pedidos ni pago online; la nueva web debe mantener esa ausencia o añadir esas funciones de forma explícita y real.",
+      "patterns": [
+        "la presencia actual no ofrece reserva, pedidos ni pago online; la nueva web debe mantener esa ausencia o anadir esas funciones de forma explicita y real."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}

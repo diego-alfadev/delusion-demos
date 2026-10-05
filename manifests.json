@@ -1,5 +1,42 @@
 [
   {
+    "project": "las-canas-luna-b",
+    "deployedAt": "2026-10-05 02:05",
+    "expiresAt": "2026-11-04",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "b36c635",
+    "title": "Asador Restaurante Las Cañas | Móstoles",
+    "description": "Asador y restaurante en Móstoles con parrilla, menús y salones para bodas, comuniones, banquetes y eventos.",
+    "theme": "brand",
+    "direction": "artesano-calido",
+    "pitchedAt": "2026-10-05 00:03",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "PARITY WARN: falta Mantener la presentación como restaurante asador y espacio para celebraciones y eventos.",
+      "PARITY WARN: falta Cubrir los servicios y contenidos de bodas, comuniones, bautizos, cumpleaños, banquetes y otros eventos.",
+      "PARITY WARN: falta Conservar la información sobre menús diarios, menús especiales y menú de fin de semana.",
+      "PARITY WARN: falta Conservar o representar la propuesta de cenas de sábado con orquesta y baile.",
+      "PARITY WARN: falta Mostrar el entorno exterior, jardines, parking propio y zona de ocio infantil tal como aparecen en el contenido actual.",
+      "PARITY WARN: falta Representar la capacidad para eventos y los salones para grupos grandes sin añadir cifras no verificadas fuera del contenido existente.",
+      "PARITY WARN: falta Incluir una galería con material fotográfico propio del negocio; no usar fotos de clientes sin permiso.",
+      "PARITY WARN: falta Mantener el acceso a los PDFs actualmente enlazados desde la web o decidir explícitamente su eliminación.",
+      "PARITY WARN: falta Mantener el acceso a la ficha de Google para consultar fotos y reseñas.",
+      "PARITY WARN: falta Mantener visibles la dirección, el horario y el teléfono como información operativa principal.",
+      "PARITY WARN: falta Revisar los carteles de eventos de Navidad, Nochebuena, Fin de Año y Reyes antes de publicarlos, porque son contenidos fechados de la web actual.",
+      "PARITY WARN: falta La presencia actual no ofrece reserva, pedidos ni pago online; la nueva web debe mantener esa ausencia o añadir esas funciones de forma explícita y real."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "las-canas-luna-b",
+    "url": "./las-canas-luna-b/"
+  },
+  {
     "project": "el-fermin-luna-g",
     "deployedAt": "2026-10-05 02:04",
     "expiresAt": "2026-11-04",
