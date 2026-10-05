@@ -1,0 +1,17 @@
+{
+  "projectId": "fermin-luna-G",
+  "title": "Restaurante El Fermín | Alcorcón",
+  "description": "Restaurante El Fermín en Alcorcón: cocina mediterránea, menú del día, carta, eventos y reservas online.",
+  "direction": "artesano-castizo",
+  "bootstrappedAt": "2026-10-04T23:59:07.374Z",
+  "legibilityFixes": [
+    {
+      "pair": "secondary/secondary-foreground",
+      "background": "#C59D5F",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 2.51,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 6.71
+    }
+  ]
+}

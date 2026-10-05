@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "menu-del-dia-actualizable-en-texto-con-fecha-platos-opciones-dieteticas-y-precios-unicamente-tras-revalidacion",
+      "kind": "soft",
+      "label": "Menú del día actualizable en texto, con fecha, platos, opciones dietéticas y precios únicamente tras revalidación.",
+      "patterns": [
+        "menu del dia actualizable en texto, con fecha, platos, opciones dieteticas y precios unicamente tras revalidacion."
+      ]
+    },
+    {
+      "id": "carta-completa-de-restaurante-y-domicilio-con-categorias-precios-y-alergenos-o-una-decision-explicita-de-no-trasladarla-completa",
+      "kind": "soft",
+      "label": "Carta completa de restaurante y domicilio con categorías, precios y alérgenos, o una decisión explícita de no trasladarla completa.",
+      "patterns": [
+        "carta completa de restaurante y domicilio con categorias, precios y alergenos, o una decision explicita de no trasladarla completa."
+      ]
+    },
+    {
+      "id": "pedidos-a-domicilio-por-whatsapp-al-640-293-202",
+      "kind": "soft",
+      "label": "Pedidos a domicilio por WhatsApp al 640 293 202.",
+      "patterns": [
+        "pedidos a domicilio por whatsapp al 640 293 202."
+      ]
+    },
+    {
+      "id": "horario-literal-de-reparto-entre-semana-de-13-00-a-16-00-y-de-20-00-a-00-00-excepto-lunes-por-la-tarde-y-martes-fin-de-semana-de-13-00-a-15-30-y-de-20-00-a-00-00",
+      "kind": "soft",
+      "label": "Horario literal de reparto: entre semana de 13:00 a 16:00 y de 20:00 a 00:00, excepto lunes por la tarde y martes; fin de semana de 13:00 a 15:30 y de 20:00 a 00:00.",
+      "patterns": [
+        "horario literal de reparto: entre semana de 13:00 a 16:00 y de 20:00 a 00:00, excepto lunes por la tarde y martes; fin de semana de 13:00 a 15:30 y de 20:00 a 00:00."
+      ]
+    },
+    {
+      "id": "reserva-online-mediante-covermanager-incluyendo-calendario-comensales-hora-zona-salon-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Reserva online mediante CoverManager, incluyendo calendario, comensales, hora, zona Salón y lista de espera.",
+      "patterns": [
+        "reserva online mediante covermanager, incluyendo calendario, comensales, hora, zona salon y lista de espera."
+      ]
+    },
+    {
+      "id": "aviso-del-proceso-de-reserva-la-mesa-no-queda-confirmada-hasta-recibir-email-o-sms-del-restaurante-y-pagar-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Aviso del proceso de reserva: la mesa no queda confirmada hasta recibir email o SMS del restaurante y pagar una señal de 5 € por comensal.",
+      "patterns": [
+        "aviso del proceso de reserva: la mesa no queda confirmada hasta recibir email o sms del restaurante y pagar una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "telefono-de-reservas-916-10-31-03",
+      "kind": "soft",
+      "label": "Teléfono de reservas 916 10 31 03.",
+      "patterns": [
+        "telefono de reservas 916 10 31 03."
+      ]
+    },
+    {
+      "id": "ludoteca-o-club-infantil-los-pinchitos-edades-de-3-a-12-anos-aforo-maximo-de-15-ninos-horarios-de-viernes-a-domingo-y-precio-de-2-salvo-que-el-nino-haya-comido-o-cenado-alli",
+      "kind": "soft",
+      "label": "Ludoteca o club infantil Los Pinchitos: edades de 3 a 12 años, aforo máximo de 15 niños, horarios de viernes a domingo y precio de 2 € salvo que el niño haya comido o cenado allí.",
+      "patterns": [
+        "ludoteca o club infantil los pinchitos: edades de 3 a 12 anos, aforo maximo de 15 ninos, horarios de viernes a domingo y precio de 2 € salvo que el nino haya comido o cenado alli."
+      ]
+    },
+    {
+      "id": "menu-infantil-con-su-contenido-y-precio-solo-despues-de-revalidar-la-informacion-publicada",
+      "kind": "soft",
+      "label": "Menú infantil, con su contenido y precio solo después de revalidar la información publicada.",
+      "patterns": [
+        "menu infantil, con su contenido y precio solo despues de revalidar la informacion publicada."
+      ]
+    },
+    {
+      "id": "monologos-de-los-jueves-evitando-anunciar-artistas-o-fechas-concretas-no-confirmadas",
+      "kind": "soft",
+      "label": "Monólogos de los jueves, evitando anunciar artistas o fechas concretas no confirmadas.",
+      "patterns": [
+        "monologos de los jueves, evitando anunciar artistas o fechas concretas no confirmadas."
+      ]
+    },
+    {
+      "id": "rincon-vegano-y-opciones-veganas-de-la-carta",
+      "kind": "soft",
+      "label": "Rincón vegano y opciones veganas de la carta.",
+      "patterns": [
+        "rincon vegano y opciones veganas de la carta."
+      ]
+    },
+    {
+      "id": "eventos-para-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones-reparar-o-sustituir-la-pagina-de-eventos-que-actualmente-devuelve-404",
+      "kind": "soft",
+      "label": "Eventos para cenas de amigos, empresas, bodas, bautizos y comuniones; reparar o sustituir la página de eventos que actualmente devuelve 404.",
+      "patterns": [
+        "eventos para cenas de amigos, empresas, bodas, bautizos y comuniones; reparar o sustituir la pagina de eventos que actualmente devuelve 404."
+      ]
+    },
+    {
+      "id": "tabla-de-alergenos-en-pdf-o-una-version-accesible-equivalente",
+      "kind": "soft",
+      "label": "Tabla de alérgenos en PDF o una versión accesible equivalente.",
+      "patterns": [
+        "tabla de alergenos en pdf o una version accesible equivalente."
+      ]
+    },
+    {
+      "id": "horario-del-restaurante-con-martes-cerrado",
+      "kind": "soft",
+      "label": "Horario del restaurante con martes cerrado.",
+      "patterns": [
+        "horario del restaurante con martes cerrado."
+      ]
+    },
+    {
+      "id": "contenido-de-contacto-y-ubicacion-sin-usar-el-numero-42-ni-el-valor-s-n",
+      "kind": "soft",
+      "label": "Contenido de contacto y ubicación sin usar el número 42 ni el valor s/n.",
+      "patterns": [
+        "contenido de contacto y ubicacion sin usar el numero 42 ni el valor s/n."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-las-referencias-a-afiliacion-de-amazon-presentes-en-la-web-actual",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y las referencias a afiliación de Amazon presentes en la web actual.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y las referencias a afiliacion de amazon presentes en la web actual."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-del-dia-basado-solo-en-imagen-por-contenido-textual-legible-copiable-y-traducible",
+      "kind": "soft",
+      "label": "Sustituir el menú del día basado solo en imagen por contenido textual legible, copiable y traducible.",
+      "patterns": [
+        "sustituir el menu del dia basado solo en imagen por contenido textual legible, copiable y traducible."
+      ]
+    },
+    {
+      "id": "mantener-una-identificacion-clara-de-restaurante-el-fermin-y-su-cocina-mediterranea",
+      "kind": "soft",
+      "label": "Mantener una identificación clara de Restaurante El Fermín y su cocina mediterránea.",
+      "patterns": [
+        "mantener una identificacion clara de restaurante el fermin y su cocina mediterranea."
+      ]
+    },
+    {
+      "id": "revisar-fotos-usar-unicamente-material-propio-autorizado-y-actual-sin-presentar-imagenes-antiguas-o-no-confirmadas-como-actuales",
+      "kind": "soft",
+      "label": "Revisar fotos: usar únicamente material propio autorizado y actual, sin presentar imágenes antiguas o no confirmadas como actuales.",
+      "patterns": [
+        "revisar fotos: usar unicamente material propio autorizado y actual, sin presentar imagenes antiguas o no confirmadas como actuales."
+      ]
+    },
+    {
+      "id": "resolver-urls-duplicadas-y-la-errata-de-parque-infantail",
+      "kind": "soft",
+      "label": "Resolver URLs duplicadas y la errata de parque-infantail.",
+      "patterns": [
+        "resolver urls duplicadas y la errata de parque-infantail."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
