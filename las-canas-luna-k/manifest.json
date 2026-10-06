@@ -1,0 +1,36 @@
+{
+  "project": "las-canas-luna-k",
+  "deployedAt": "2026-10-06 15:53",
+  "expiresAt": "2026-11-05",
+  "stage": "preview",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "477ffc3",
+  "title": "Asador Restaurante Las Cañas en Móstoles",
+  "description": "Parrilla, jardín y salones para comer y celebrar en Móstoles. Reserva y consulta tus eventos por teléfono.",
+  "theme": "brand",
+  "direction": "evolution: Reading this as: an open-air asador and events venue for diners, families and celebrations, with a welcoming garden-and-banquet language, leaning toward editorial hospitality photography.",
+  "pitchedAt": "2026-10-06 13:50",
+  "dossierUsed": true,
+  "qaNotes": [
+    "G9 seo + cta: Missing LocalBusiness JSON-LD",
+    "G9 seo + cta: Missing canonical link",
+    "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (LA NENA VIAJERA) (/img/a443553779fc2314.jpg)",
+    "G14 skeleton: The first section of the home is not the ready Hero component",
+    "PARITY WARN: falta Cubrir la información del restaurante y su propuesta como asador, parrilla y espacio para celebraciones.",
+    "PARITY WARN: falta Mantener una sección de eventos que contemple bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+    "PARITY WARN: falta Representar el entorno de 5.000 m², las zonas exteriores, los jardines y el parking propio únicamente tras revisión del contenido antes de publicar.",
+    "PARITY WARN: falta Cubrir la zona de ocio infantil, incluyendo columpios y castillos hinchables, únicamente como contenido revisado del negocio.",
+    "PARITY WARN: falta Indicar que existen salones con capacidad para más de 500 personas solo si el negocio vuelve a validar esa información.",
+    "PARITY WARN: falta Mantener la información sobre menús diarios y especiales y sobre el menú de fin de semana y las cenas con orquesta y baile, sin inventar precios ni cartas.",
+    "PARITY WARN: falta Conservar una galería con material propio del negocio; no usar fotos de clientes sin permiso.",
+    "PARITY WARN: falta Incluir o decidir conscientemente la sustitución de los dos PDFs enlazados desde la web actual.",
+    "PARITY WARN: falta Mantener un acceso visible a la ficha de Google para reseñas y fotos.",
+    "PARITY WARN: falta La presencia actual no ofrece reserva, pedidos ni pago online; la nueva web debe cubrir esa ausencia o declarar conscientemente que la conversión seguirá siendo telefónica.",
+    "PARITY WARN: falta Conservar la información de contacto y ubicación de la web actual."
+  ],
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
+}
