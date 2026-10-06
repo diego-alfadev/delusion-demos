@@ -1,0 +1,35 @@
+{
+  "project": "las-canas-luna-f",
+  "deployedAt": "2026-10-06 13:40",
+  "expiresAt": "2026-11-05",
+  "stage": "preview",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "a5a0242",
+  "title": "Asador Restaurante Las Cañas | Móstoles",
+  "description": "Parrilla, terraza ajardinada y celebraciones en Asador Restaurante Las Cañas, Móstoles.",
+  "theme": "brand",
+  "direction": "evolution: Reading this as: an Móstoles asador and event venue for diners, families and wedding groups, with an open-air, celebratory language, leaning toward confident photography and garden-green identity.",
+  "pitchedAt": "2026-10-06 11:38",
+  "dossierUsed": true,
+  "qaNotes": [
+    "G9 seo + cta: Missing LocalBusiness JSON-LD",
+    "G9 seo + cta: Missing canonical link",
+    "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (LA NENA VIAJERA) (/img/a443553779fc2314.jpg)",
+    "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (Miguel angel Manzaneque gallego) (/img/9c9255acbc727d4a.jpg)",
+    "PARITY WARN: falta Mantener o cubrir la presentación como restaurante asador y parrilla.",
+    "PARITY WARN: falta Cubrir las páginas o contenidos sobre bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+    "PARITY WARN: falta Cubrir la propuesta de salones para banquetes y celebraciones, o declarar conscientemente si se elimina.",
+    "PARITY WARN: falta Reflejar el entorno exterior, jardines, aparcamiento y zona infantil solo si se conservan como contenido pendiente de validación.",
+    "PARITY WARN: falta Cubrir la oferta descrita de menús diarios y especiales.",
+    "PARITY WARN: falta Cubrir el menú de fin de semana de los sábados y las cenas con orquesta y baile, evitando convertirlo en una agenda actual sin confirmación.",
+    "PARITY WARN: falta Conservar una galería de imágenes del negocio y de eventos usando el material propio identificado, pendiente de confirmación final del propietario.",
+    "PARITY WARN: falta Incluir acceso a la ficha de Google para reseñas y fotos si se mantiene el flujo actual.",
+    "PARITY WARN: falta Mantener visible la dirección y la información de horarios.",
+    "PARITY WARN: falta Mantener la llamada telefónica como vía de contacto principal; la presencia actual no ofrece reserva, pedidos ni pago online."
+  ],
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
+}

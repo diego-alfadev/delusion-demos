@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-o-cubrir-la-presentacion-como-restaurante-asador-y-parrilla",
+      "kind": "soft",
+      "label": "Mantener o cubrir la presentación como restaurante asador y parrilla.",
+      "patterns": [
+        "mantener o cubrir la presentacion como restaurante asador y parrilla."
+      ]
+    },
+    {
+      "id": "cubrir-las-paginas-o-contenidos-sobre-bodas-comuniones-bautizos-cumpleanos-y-otros-eventos",
+      "kind": "soft",
+      "label": "Cubrir las páginas o contenidos sobre bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+      "patterns": [
+        "cubrir las paginas o contenidos sobre bodas, comuniones, bautizos, cumpleanos y otros eventos."
+      ]
+    },
+    {
+      "id": "cubrir-la-propuesta-de-salones-para-banquetes-y-celebraciones-o-declarar-conscientemente-si-se-elimina",
+      "kind": "soft",
+      "label": "Cubrir la propuesta de salones para banquetes y celebraciones, o declarar conscientemente si se elimina.",
+      "patterns": [
+        "cubrir la propuesta de salones para banquetes y celebraciones, o declarar conscientemente si se elimina."
+      ]
+    },
+    {
+      "id": "reflejar-el-entorno-exterior-jardines-aparcamiento-y-zona-infantil-solo-si-se-conservan-como-contenido-pendiente-de-validacion",
+      "kind": "soft",
+      "label": "Reflejar el entorno exterior, jardines, aparcamiento y zona infantil solo si se conservan como contenido pendiente de validación.",
+      "patterns": [
+        "reflejar el entorno exterior, jardines, aparcamiento y zona infantil solo si se conservan como contenido pendiente de validacion."
+      ]
+    },
+    {
+      "id": "cubrir-la-oferta-descrita-de-menus-diarios-y-especiales",
+      "kind": "soft",
+      "label": "Cubrir la oferta descrita de menús diarios y especiales.",
+      "patterns": [
+        "cubrir la oferta descrita de menus diarios y especiales."
+      ]
+    },
+    {
+      "id": "cubrir-el-menu-de-fin-de-semana-de-los-sabados-y-las-cenas-con-orquesta-y-baile-evitando-convertirlo-en-una-agenda-actual-sin-confirmacion",
+      "kind": "soft",
+      "label": "Cubrir el menú de fin de semana de los sábados y las cenas con orquesta y baile, evitando convertirlo en una agenda actual sin confirmación.",
+      "patterns": [
+        "cubrir el menu de fin de semana de los sabados y las cenas con orquesta y baile, evitando convertirlo en una agenda actual sin confirmacion."
+      ]
+    },
+    {
+      "id": "conservar-una-galeria-de-imagenes-del-negocio-y-de-eventos-usando-el-material-propio-identificado-pendiente-de-confirmacion-final-del-propietario",
+      "kind": "soft",
+      "label": "Conservar una galería de imágenes del negocio y de eventos usando el material propio identificado, pendiente de confirmación final del propietario.",
+      "patterns": [
+        "conservar una galeria de imagenes del negocio y de eventos usando el material propio identificado, pendiente de confirmacion final del propietario."
+      ]
+    },
+    {
+      "id": "incluir-acceso-a-la-ficha-de-google-para-resenas-y-fotos-si-se-mantiene-el-flujo-actual",
+      "kind": "soft",
+      "label": "Incluir acceso a la ficha de Google para reseñas y fotos si se mantiene el flujo actual.",
+      "patterns": [
+        "incluir acceso a la ficha de google para resenas y fotos si se mantiene el flujo actual."
+      ]
+    },
+    {
+      "id": "mantener-visible-la-direccion-y-la-informacion-de-horarios",
+      "kind": "soft",
+      "label": "Mantener visible la dirección y la información de horarios.",
+      "patterns": [
+        "mantener visible la direccion y la informacion de horarios."
+      ]
+    },
+    {
+      "id": "mantener-la-llamada-telefonica-como-via-de-contacto-principal-la-presencia-actual-no-ofrece-reserva-pedidos-ni-pago-online",
+      "kind": "soft",
+      "label": "Mantener la llamada telefónica como vía de contacto principal; la presencia actual no ofrece reserva, pedidos ni pago online.",
+      "patterns": [
+        "mantener la llamada telefonica como via de contacto principal; la presencia actual no ofrece reserva, pedidos ni pago online."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}
