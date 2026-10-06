@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-actualizable-en-texto-con-fecha-primeros-segundos-postres-y-etiquetas-de-opciones-saludables-o-veganas",
+      "kind": "soft",
+      "label": "Mostrar el menú del día actualizable en texto, con fecha, primeros, segundos, postres y etiquetas de opciones saludables o veganas.",
+      "patterns": [
+        "mostrar el menu del dia actualizable en texto, con fecha, primeros, segundos, postres y etiquetas de opciones saludables o veganas."
+      ]
+    },
+    {
+      "id": "incluir-los-precios-confirmados-del-menu-del-dia-16-00-34-00-con-bebida-ilimitada-y-16-00-a-domicilio",
+      "kind": "soft",
+      "label": "Incluir los precios confirmados del menú del día: 16,00 €, 34,00 € con bebida ilimitada y 16,00 € a domicilio.",
+      "patterns": [
+        "incluir los precios confirmados del menu del dia: 16,00 €, 34,00 € con bebida ilimitada y 16,00 € a domicilio."
+      ]
+    },
+    {
+      "id": "cubrir-la-carta-de-restaurante-y-domicilio-con-las-secciones-precios-y-alergenos-capturados-sin-inventar-los-elementos-no-documentados",
+      "kind": "soft",
+      "label": "Cubrir la carta de restaurante y domicilio con las secciones, precios y alérgenos capturados, sin inventar los elementos no documentados.",
+      "patterns": [
+        "cubrir la carta de restaurante y domicilio con las secciones, precios y alergenos capturados, sin inventar los elementos no documentados."
+      ]
+    },
+    {
+      "id": "mantener-el-pedido-a-domicilio-por-whatsapp-al-640-293-202",
+      "kind": "soft",
+      "label": "Mantener el pedido a domicilio por WhatsApp al 640 293 202.",
+      "patterns": [
+        "mantener el pedido a domicilio por whatsapp al 640 293 202."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-de-reparto-diferenciado-entre-semana-y-fin-de-semana-incluyendo-lunes-por-la-tarde-y-martes-como-excepciones",
+      "kind": "soft",
+      "label": "Mostrar el horario de reparto diferenciado entre semana y fin de semana, incluyendo lunes por la tarde y martes como excepciones.",
+      "patterns": [
+        "mostrar el horario de reparto diferenciado entre semana y fin de semana, incluyendo lunes por la tarde y martes como excepciones."
+      ]
+    },
+    {
+      "id": "mantener-la-reserva-online-mediante-covermanager-con-zona-salon-turnos-disponibles-y-lista-de-espera-si-el-proveedor-la-ofrece",
+      "kind": "soft",
+      "label": "Mantener la reserva online mediante CoverManager, con zona Salón, turnos disponibles y lista de espera si el proveedor la ofrece.",
+      "patterns": [
+        "mantener la reserva online mediante covermanager, con zona salon, turnos disponibles y lista de espera si el proveedor la ofrece."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-no-queda-confirmada-hasta-recibir-email-o-sms-del-restaurante-y-pagar-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva no queda confirmada hasta recibir email o SMS del restaurante y pagar una señal de 5 € por comensal.",
+      "patterns": [
+        "mostrar claramente que la reserva no queda confirmada hasta recibir email o sms del restaurante y pagar una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "incluir-el-telefono-de-reservas-916-10-31-03-y-diferenciarlo-del-telefono-de-pedidos-por-whatsapp",
+      "kind": "soft",
+      "label": "Incluir el teléfono de reservas 916 10 31 03 y diferenciarlo del teléfono de pedidos por WhatsApp.",
+      "patterns": [
+        "incluir el telefono de reservas 916 10 31 03 y diferenciarlo del telefono de pedidos por whatsapp."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-con-el-martes-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante con el martes cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante con el martes cerrado."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-club-infantil-los-pinchitos-con-edades-aforo-horarios-y-precio",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Club infantil Los Pinchitos con edades, aforo, horarios y precio.",
+      "patterns": [
+        "cubrir la ludoteca club infantil los pinchitos con edades, aforo, horarios y precio."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-de-13-50-con-postre-y-bebida-y-sus-cuatro-opciones-documentadas",
+      "kind": "soft",
+      "label": "Incluir el menú infantil de 13,50 €, con postre y bebida, y sus cuatro opciones documentadas.",
+      "patterns": [
+        "incluir el menu infantil de 13,50 €, con postre y bebida, y sus cuatro opciones documentadas."
+      ]
+    },
+    {
+      "id": "mantener-el-contenido-del-rincon-vegano-y-las-opciones-veganas-del-menu-y-la-carta",
+      "kind": "soft",
+      "label": "Mantener el contenido del rincón vegano y las opciones veganas del menú y la carta.",
+      "patterns": [
+        "mantener el contenido del rincon vegano y las opciones veganas del menu y la carta."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves-sin-presentar-carteles-antiguos-como-eventos-actuales",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves, sin presentar carteles antiguos como eventos actuales.",
+      "patterns": [
+        "cubrir los monologos de los jueves, sin presentar carteles antiguos como eventos actuales."
+      ]
+    },
+    {
+      "id": "cubrir-la-captacion-de-eventos-para-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones-mediante-una-pagina-funcional",
+      "kind": "soft",
+      "label": "Cubrir la captación de eventos para cenas de amigos, empresas, bodas, bautizos y comuniones mediante una página funcional.",
+      "patterns": [
+        "cubrir la captacion de eventos para cenas de amigos, empresas, bodas, bautizos y comuniones mediante una pagina funcional."
+      ]
+    },
+    {
+      "id": "enlazar-o-presentar-la-tabla-de-alergenos-en-pdf",
+      "kind": "soft",
+      "label": "Enlazar o presentar la tabla de alérgenos en PDF.",
+      "patterns": [
+        "enlazar o presentar la tabla de alergenos en pdf."
+      ]
+    },
+    {
+      "id": "incluir-la-direccion-confirmada-y-la-informacion-de-accesibilidad-disponible",
+      "kind": "soft",
+      "label": "Incluir la dirección confirmada y la información de accesibilidad disponible.",
+      "patterns": [
+        "incluir la direccion confirmada y la informacion de accesibilidad disponible."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-de-afiliado-de-amazon-presentes-en-la-web-actual",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces de afiliado de Amazon presentes en la web actual.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces de afiliado de amazon presentes en la web actual."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-basado-unicamente-en-imagen-por-contenido-textual-legible-copiable-y-traducible",
+      "kind": "soft",
+      "label": "Sustituir el menú basado únicamente en imagen por contenido textual legible, copiable y traducible.",
+      "patterns": [
+        "sustituir el menu basado unicamente en imagen por contenido textual legible, copiable y traducible."
+      ]
+    },
+    {
+      "id": "evitar-usar-fotos-no-confirmadas-antiguas-o-con-caras-visibles-sin-permiso",
+      "kind": "soft",
+      "label": "Evitar usar fotos no confirmadas, antiguas o con caras visibles sin permiso.",
+      "patterns": [
+        "evitar usar fotos no confirmadas, antiguas o con caras visibles sin permiso."
+      ]
+    },
+    {
+      "id": "resolver-las-deficiencias-tecnicas-de-titulos-og-site-name-urls-duplicadas-y-la-errata-de-parque-infantail",
+      "kind": "soft",
+      "label": "Resolver las deficiencias técnicas de títulos, og:site_name, URLs duplicadas y la errata de parque-infantail.",
+      "patterns": [
+        "resolver las deficiencias tecnicas de titulos, og:site_name, urls duplicadas y la errata de parque-infantail."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
