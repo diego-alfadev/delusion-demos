@@ -91,6 +91,42 @@
     "url": "./el-fermin-luna-n/"
   },
   {
+    "project": "las-canas-luna-l",
+    "deployedAt": "2026-10-06 16:04",
+    "expiresAt": "2026-11-05",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "c16e7d1",
+    "title": "Asador Restaurante Las Cañas | Móstoles",
+    "description": "Asador, parrilla y salón para bodas y eventos en Móstoles. Consulta horarios y contacta en el 916 16 61 46.",
+    "theme": "brand",
+    "direction": "evolution: Reading this as: un asador con terraza y salones para reservas, bodas y eventos en Móstoles, con un lenguaje acogedor y celebrativo, apoyado en fotografía amplia de sus espacios.",
+    "pitchedAt": "2026-10-06 14:01",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "G11 contrast tokens: <a> hover:text-primary without bg-primary (<a class=\"btn-outline border-primary-foreground text-primary-foreground mt-6 inline-block hover:bg-primary-foreground ho…)",
+      "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (LA NENA VIAJERA) (/img/a443553779fc2314.jpg)",
+      "PARITY WARN: falta Mantener una presentación del restaurante como espacio para bodas, comuniones y otros eventos, o decidir explícitamente si ese contenido se elimina.",
+      "PARITY WARN: falta Cubrir las categorías de eventos visibles en la presencia actual: bodas, comuniones, bautizos y cumpleaños.",
+      "PARITY WARN: falta Mantener o sustituir conscientemente la galería de fotos del negocio; hay 67 fotos propias utilizables, sujetas a confirmación final del propietario antes de publicar.",
+      "PARITY WARN: falta Conservar el acceso a los dos PDFs actualmente publicados o decidir explícitamente su eliminación.",
+      "PARITY WARN: falta Cubrir la información actual sobre menús diarios, menús especiales y menú de fin de semana únicamente si se vuelve a confirmar su vigencia.",
+      "PARITY WARN: falta Cubrir el contenido actual sobre cenas con orquesta y baile únicamente si se confirma que continúa siendo una oferta vigente.",
+      "PARITY WARN: falta Incluir la ubicación y el contexto de visita que presenta la web, como entorno exterior, jardines, zona infantil, salones y aparcamiento, solo tras verificar las afirmaciones no confirmadas.",
+      "PARITY WARN: falta Conservar un enlace o referencia a la ficha de Google para fotos y reseñas, sin inventar perfiles sociales ni datos de TripAdvisor.",
+      "PARITY WARN: falta No añadir reserva, pedidos, reparto ni pago online como equivalentes funcionales: el dossier indica que la presencia actual no ofrece esas funciones."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "las-canas-luna-l",
+    "url": "./las-canas-luna-l/"
+  },
+  {
     "project": "el-fermin-luna-r",
     "deployedAt": "2026-10-06 16:02",
     "expiresAt": "2026-11-05",

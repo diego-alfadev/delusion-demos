@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-una-presentacion-del-restaurante-como-espacio-para-bodas-comuniones-y-otros-eventos-o-decidir-explicitamente-si-ese-contenido-se-elimina",
+      "kind": "soft",
+      "label": "Mantener una presentación del restaurante como espacio para bodas, comuniones y otros eventos, o decidir explícitamente si ese contenido se elimina.",
+      "patterns": [
+        "mantener una presentacion del restaurante como espacio para bodas, comuniones y otros eventos, o decidir explicitamente si ese contenido se elimina."
+      ]
+    },
+    {
+      "id": "cubrir-las-categorias-de-eventos-visibles-en-la-presencia-actual-bodas-comuniones-bautizos-y-cumpleanos",
+      "kind": "soft",
+      "label": "Cubrir las categorías de eventos visibles en la presencia actual: bodas, comuniones, bautizos y cumpleaños.",
+      "patterns": [
+        "cubrir las categorias de eventos visibles en la presencia actual: bodas, comuniones, bautizos y cumpleanos."
+      ]
+    },
+    {
+      "id": "mantener-o-sustituir-conscientemente-la-galeria-de-fotos-del-negocio-hay-67-fotos-propias-utilizables-sujetas-a-confirmacion-final-del-propietario-antes-de-publicar",
+      "kind": "soft",
+      "label": "Mantener o sustituir conscientemente la galería de fotos del negocio; hay 67 fotos propias utilizables, sujetas a confirmación final del propietario antes de publicar.",
+      "patterns": [
+        "mantener o sustituir conscientemente la galeria de fotos del negocio; hay 67 fotos propias utilizables, sujetas a confirmacion final del propietario antes de publicar."
+      ]
+    },
+    {
+      "id": "conservar-el-acceso-a-los-dos-pdfs-actualmente-publicados-o-decidir-explicitamente-su-eliminacion",
+      "kind": "soft",
+      "label": "Conservar el acceso a los dos PDFs actualmente publicados o decidir explícitamente su eliminación.",
+      "patterns": [
+        "conservar el acceso a los dos pdfs actualmente publicados o decidir explicitamente su eliminacion."
+      ]
+    },
+    {
+      "id": "cubrir-la-informacion-actual-sobre-menus-diarios-menus-especiales-y-menu-de-fin-de-semana-unicamente-si-se-vuelve-a-confirmar-su-vigencia",
+      "kind": "soft",
+      "label": "Cubrir la información actual sobre menús diarios, menús especiales y menú de fin de semana únicamente si se vuelve a confirmar su vigencia.",
+      "patterns": [
+        "cubrir la informacion actual sobre menus diarios, menus especiales y menu de fin de semana unicamente si se vuelve a confirmar su vigencia."
+      ]
+    },
+    {
+      "id": "cubrir-el-contenido-actual-sobre-cenas-con-orquesta-y-baile-unicamente-si-se-confirma-que-continua-siendo-una-oferta-vigente",
+      "kind": "soft",
+      "label": "Cubrir el contenido actual sobre cenas con orquesta y baile únicamente si se confirma que continúa siendo una oferta vigente.",
+      "patterns": [
+        "cubrir el contenido actual sobre cenas con orquesta y baile unicamente si se confirma que continua siendo una oferta vigente."
+      ]
+    },
+    {
+      "id": "incluir-la-ubicacion-y-el-contexto-de-visita-que-presenta-la-web-como-entorno-exterior-jardines-zona-infantil-salones-y-aparcamiento-solo-tras-verificar-las-afirmaciones-no-confirmadas",
+      "kind": "soft",
+      "label": "Incluir la ubicación y el contexto de visita que presenta la web, como entorno exterior, jardines, zona infantil, salones y aparcamiento, solo tras verificar las afirmaciones no confirmadas.",
+      "patterns": [
+        "incluir la ubicacion y el contexto de visita que presenta la web, como entorno exterior, jardines, zona infantil, salones y aparcamiento, solo tras verificar las afirmaciones no confirmadas."
+      ]
+    },
+    {
+      "id": "conservar-un-enlace-o-referencia-a-la-ficha-de-google-para-fotos-y-resenas-sin-inventar-perfiles-sociales-ni-datos-de-tripadvisor",
+      "kind": "soft",
+      "label": "Conservar un enlace o referencia a la ficha de Google para fotos y reseñas, sin inventar perfiles sociales ni datos de TripAdvisor.",
+      "patterns": [
+        "conservar un enlace o referencia a la ficha de google para fotos y resenas, sin inventar perfiles sociales ni datos de tripadvisor."
+      ]
+    },
+    {
+      "id": "no-anadir-reserva-pedidos-reparto-ni-pago-online-como-equivalentes-funcionales-el-dossier-indica-que-la-presencia-actual-no-ofrece-esas-funciones",
+      "kind": "soft",
+      "label": "No añadir reserva, pedidos, reparto ni pago online como equivalentes funcionales: el dossier indica que la presencia actual no ofrece esas funciones.",
+      "patterns": [
+        "no anadir reserva, pedidos, reparto ni pago online como equivalentes funcionales: el dossier indica que la presencia actual no ofrece esas funciones."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}
