@@ -1,0 +1,22 @@
+{
+  "projectId": "fermin-luna-L",
+  "title": "Restaurante El Fermín | Cocina mediterránea en Alcorcón",
+  "description": "Restaurante El Fermín en Alcorcón, desde 1976. Consulta el menú del día, la carta, eventos y reserva tu mesa.",
+  "direction": "evolution: Reading this as: un restaurante local con menú del día, carta y eventos para comensales de Alcorcón, con un lenguaje cercano y contundente, leaning toward fotografía gastronómica de parrilla y una identidad editorial cálida.",
+  "bootstrappedAt": "2026-10-06T11:44:27.520Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-foreground",
+      "background": "#F4511E",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 3.48,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 4.85
+    }
+  ],
+  "concept": {
+    "stance": "evolution",
+    "summary": "Parrilla, identidad verde y reservas visibles sin ruido.",
+    "profile": "taste-v1"
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-en-texto-con-fecha-actualizable-primeros-segundos-postres-y-marcadores-de-opciones-saludable-o-vegana",
+      "kind": "soft",
+      "label": "Mostrar el menú del día en texto, con fecha actualizable, primeros, segundos, postres y marcadores de opciones saludable o vegana.",
+      "patterns": [
+        "mostrar el menu del dia en texto, con fecha actualizable, primeros, segundos, postres y marcadores de opciones saludable o vegana."
+      ]
+    },
+    {
+      "id": "mantener-los-precios-publicados-del-menu-del-dia-16-00-34-00-con-bebida-ilimitada-y-16-00-a-domicilio",
+      "kind": "soft",
+      "label": "Mantener los precios publicados del menú del día: 16,00 €, 34,00 € con bebida ilimitada y 16,00 € a domicilio.",
+      "patterns": [
+        "mantener los precios publicados del menu del dia: 16,00 €, 34,00 € con bebida ilimitada y 16,00 € a domicilio."
+      ]
+    },
+    {
+      "id": "incluir-la-carta-completa-de-restaurante-y-domicilio-con-precios-y-alergenos-sin-sustituirla-por-una-lista-parcial-inventada",
+      "kind": "soft",
+      "label": "Incluir la carta completa de restaurante y domicilio con precios y alérgenos, sin sustituirla por una lista parcial inventada.",
+      "patterns": [
+        "incluir la carta completa de restaurante y domicilio con precios y alergenos, sin sustituirla por una lista parcial inventada."
+      ]
+    },
+    {
+      "id": "incluir-pedidos-a-domicilio-por-whatsapp-al-640-293-202-y-el-horario-de-reparto-entre-semana-y-fin-de-semana",
+      "kind": "soft",
+      "label": "Incluir pedidos a domicilio por WhatsApp al 640 293 202 y el horario de reparto entre semana y fin de semana.",
+      "patterns": [
+        "incluir pedidos a domicilio por whatsapp al 640 293 202 y el horario de reparto entre semana y fin de semana."
+      ]
+    },
+    {
+      "id": "incluir-el-boton-de-reserva-de-covermanager-y-la-informacion-de-turnos-zona-salon-lista-de-espera-y-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Incluir el botón de reserva de CoverManager y la información de turnos, zona Salón, lista de espera y señal de 5 € por comensal.",
+      "patterns": [
+        "incluir el boton de reserva de covermanager y la informacion de turnos, zona salon, lista de espera y senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "mostrar-de-forma-visible-el-telefono-de-reservas-916-10-31-03-y-el-telefono-de-pedidos-640-293-202",
+      "kind": "soft",
+      "label": "Mostrar de forma visible el teléfono de reservas 916 10 31 03 y el teléfono de pedidos 640 293 202.",
+      "patterns": [
+        "mostrar de forma visible el telefono de reservas 916 10 31 03 y el telefono de pedidos 640 293 202."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-destacando-que-el-martes-esta-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante, destacando que el martes está cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante, destacando que el martes esta cerrado."
+      ]
+    },
+    {
+      "id": "conservar-la-informacion-de-la-ludoteca-edades-de-3-a-12-anos-aforo-maximo-de-15-ninos-horarios-y-precio-de-2-o-gratuita-con-consumicion",
+      "kind": "soft",
+      "label": "Conservar la información de la ludoteca: edades de 3 a 12 años, aforo máximo de 15 niños, horarios y precio de 2 € o gratuita con consumición.",
+      "patterns": [
+        "conservar la informacion de la ludoteca: edades de 3 a 12 anos, aforo maximo de 15 ninos, horarios y precio de 2 € o gratuita con consumicion."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-de-13-50-con-sus-cuatro-opciones-publicadas",
+      "kind": "soft",
+      "label": "Incluir el menú infantil de 13,50 € con sus cuatro opciones publicadas.",
+      "patterns": [
+        "incluir el menu infantil de 13,50 € con sus cuatro opciones publicadas."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano-y-las-opciones-veganas-de-la-carta-y-del-menu-del-dia",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano y las opciones veganas de la carta y del menú del día.",
+      "patterns": [
+        "cubrir el rincon vegano y las opciones veganas de la carta y del menu del dia."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves-sin-inventar-una-programacion-o-artistas-actuales",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves sin inventar una programación o artistas actuales.",
+      "patterns": [
+        "cubrir los monologos de los jueves sin inventar una programacion o artistas actuales."
+      ]
+    },
+    {
+      "id": "cubrir-la-captacion-de-eventos-para-empresas-bodas-bautizos-comuniones-y-cenas-recuperando-una-pagina-funcional-que-sustituya-a-la-url-404",
+      "kind": "soft",
+      "label": "Cubrir la captación de eventos para empresas, bodas, bautizos, comuniones y cenas, recuperando una página funcional que sustituya a la URL 404.",
+      "patterns": [
+        "cubrir la captacion de eventos para empresas, bodas, bautizos, comuniones y cenas, recuperando una pagina funcional que sustituya a la url 404."
+      ]
+    },
+    {
+      "id": "enlazar-o-presentar-la-tabla-de-alergenos-en-pdf",
+      "kind": "soft",
+      "label": "Enlazar o presentar la tabla de alérgenos en PDF.",
+      "patterns": [
+        "enlazar o presentar la tabla de alergenos en pdf."
+      ]
+    },
+    {
+      "id": "mantener-la-informacion-de-accesibilidad-confirmada-por-google",
+      "kind": "soft",
+      "label": "Mantener la información de accesibilidad confirmada por Google.",
+      "patterns": [
+        "mantener la informacion de accesibilidad confirmada por google."
+      ]
+    },
+    {
+      "id": "incluir-la-valoracion-y-el-volumen-de-resenas-de-google-sin-presentar-las-cinco-resenas-destacadas-como-muestra-representativa-de-toda-la-reputacion",
+      "kind": "soft",
+      "label": "Incluir la valoración y el volumen de reseñas de Google sin presentar las cinco reseñas destacadas como muestra representativa de toda la reputación.",
+      "patterns": [
+        "incluir la valoracion y el volumen de resenas de google sin presentar las cinco resenas destacadas como muestra representativa de toda la reputacion."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-publicitarios-de-la-experiencia-del-restaurante",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces publicitarios de la experiencia del restaurante.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces publicitarios de la experiencia del restaurante."
+      ]
+    },
+    {
+      "id": "convertir-el-menu-actualmente-publicado-como-imagen-en-contenido-de-texto-legible-indexable-y-actualizable",
+      "kind": "soft",
+      "label": "Convertir el menú, actualmente publicado como imagen, en contenido de texto legible, indexable y actualizable.",
+      "patterns": [
+        "convertir el menu, actualmente publicado como imagen, en contenido de texto legible, indexable y actualizable."
+      ]
+    },
+    {
+      "id": "no-usar-como-contenido-principal-las-fotos-antiguas-o-no-verificadas-conseguir-material-real-y-actual-antes-de-presentarlo-como-fotografia-del-negocio",
+      "kind": "soft",
+      "label": "No usar como contenido principal las fotos antiguas o no verificadas; conseguir material real y actual antes de presentarlo como fotografía del negocio.",
+      "patterns": [
+        "no usar como contenido principal las fotos antiguas o no verificadas; conseguir material real y actual antes de presentarlo como fotografia del negocio."
+      ]
+    },
+    {
+      "id": "resolver-la-arquitectura-y-los-enlaces-duplicados-o-con-errata-especialmente-la-ruta-parque-infantail",
+      "kind": "soft",
+      "label": "Resolver la arquitectura y los enlaces duplicados o con errata, especialmente la ruta parque-infantail.",
+      "patterns": [
+        "resolver la arquitectura y los enlaces duplicados o con errata, especialmente la ruta parque-infantail."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
