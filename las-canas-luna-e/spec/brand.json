@@ -1,0 +1,22 @@
+{
+  "projectId": "canas-luna-E",
+  "title": "Asador Restaurante Las Cañas | Parrilla y Eventos en Móstoles",
+  "description": "Asador Restaurante Las Cañas en Móstoles: parrilla, restaurante, sala de banquetes y espacio para bodas y eventos. Consulta y reserva por teléfono.",
+  "direction": "evolution: Reading this as: an asador and event venue for diners, celebrations and weddings in Móstoles, with a confident, spacious hospitality language leaning toward editorial photography and formal black-gold contrast.",
+  "bootstrappedAt": "2026-10-06T11:26:30.107Z",
+  "legibilityFixes": [
+    {
+      "pair": "accent/accent-foreground",
+      "background": "#7A9B2F",
+      "naiveContent": "#FFFFFF",
+      "naiveRatio": 3.2,
+      "correctedContent": "#1B1D22",
+      "correctedRatio": 5.26
+    }
+  ],
+  "concept": {
+    "stance": "evolution",
+    "summary": "Parrilla y celebraciones, con una presencia editorial negra y dorada.",
+    "profile": "taste-v1"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-o-cubrir-conscientemente-la-presentacion-como-restaurante-parrilla-sala-de-banquetes-y-espacio-para-eventos-y-bodas",
+      "kind": "soft",
+      "label": "Mantener o cubrir conscientemente la presentación como restaurante, parrilla, sala de banquetes y espacio para eventos y bodas.",
+      "patterns": [
+        "mantener o cubrir conscientemente la presentacion como restaurante, parrilla, sala de banquetes y espacio para eventos y bodas."
+      ]
+    },
+    {
+      "id": "cubrir-o-retirar-conscientemente-el-contenido-actual-sobre-una-extension-de-5-000-m-entorno-al-aire-libre-jardines-y-parking-propio-no-presentarlo-como-dato-verificado-sin-una-revision-adicional",
+      "kind": "soft",
+      "label": "Cubrir o retirar conscientemente el contenido actual sobre una extensión de 5.000 m², entorno al aire libre, jardines y parking propio; no presentarlo como dato verificado sin una revisión adicional.",
+      "patterns": [
+        "cubrir o retirar conscientemente el contenido actual sobre una extension de 5.000 m², entorno al aire libre, jardines y parking propio; no presentarlo como dato verificado sin una revision adicional."
+      ]
+    },
+    {
+      "id": "cubrir-o-retirar-conscientemente-la-zona-de-ocio-infantil-columpios-y-castillos-hinchables-mencionados-en-la-web",
+      "kind": "soft",
+      "label": "Cubrir o retirar conscientemente la zona de ocio infantil, columpios y castillos hinchables mencionados en la web.",
+      "patterns": [
+        "cubrir o retirar conscientemente la zona de ocio infantil, columpios y castillos hinchables mencionados en la web."
+      ]
+    },
+    {
+      "id": "cubrir-o-retirar-conscientemente-los-salones-con-capacidad-para-mas-de-500-personas-mencionados-en-la-web",
+      "kind": "soft",
+      "label": "Cubrir o retirar conscientemente los salones con capacidad para más de 500 personas mencionados en la web.",
+      "patterns": [
+        "cubrir o retirar conscientemente los salones con capacidad para mas de 500 personas mencionados en la web."
+      ]
+    },
+    {
+      "id": "incluir-la-oferta-comunicada-de-menus-diarios-y-especiales-menu-de-fin-de-semana-y-cenas-de-sabado-con-orquesta-y-baile-validando-previamente-que-siga-vigente",
+      "kind": "soft",
+      "label": "Incluir la oferta comunicada de menús diarios y especiales, menú de fin de semana y cenas de sábado con orquesta y baile, validando previamente que siga vigente.",
+      "patterns": [
+        "incluir la oferta comunicada de menus diarios y especiales, menu de fin de semana y cenas de sabado con orquesta y baile, validando previamente que siga vigente."
+      ]
+    },
+    {
+      "id": "mantener-las-lineas-de-eventos-mostradas-actualmente-bodas-comuniones-bautizos-cumpleanos-y-otros-eventos",
+      "kind": "soft",
+      "label": "Mantener las líneas de eventos mostradas actualmente: bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+      "patterns": [
+        "mantener las lineas de eventos mostradas actualmente: bodas, comuniones, bautizos, cumpleanos y otros eventos."
+      ]
+    },
+    {
+      "id": "conservar-una-galeria-con-material-propio-del-negocio-y-no-usar-las-fotos-de-clientes-de-google-sin-permiso",
+      "kind": "soft",
+      "label": "Conservar una galería con material propio del negocio y no usar las fotos de clientes de Google sin permiso.",
+      "patterns": [
+        "conservar una galeria con material propio del negocio y no usar las fotos de clientes de google sin permiso."
+      ]
+    },
+    {
+      "id": "cubrir-la-posibilidad-actual-de-consultar-fotos-y-resenas-mediante-la-ficha-de-google",
+      "kind": "soft",
+      "label": "Cubrir la posibilidad actual de consultar fotos y reseñas mediante la ficha de Google.",
+      "patterns": [
+        "cubrir la posibilidad actual de consultar fotos y resenas mediante la ficha de google."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-direccion-telefono-y-horario-actual",
+      "kind": "soft",
+      "label": "Mostrar claramente dirección, teléfono y horario actual.",
+      "patterns": [
+        "mostrar claramente direccion, telefono y horario actual."
+      ]
+    },
+    {
+      "id": "revisar-o-enlazar-conscientemente-los-dos-pdfs-descargables-existentes-o-explicar-su-eliminacion-en-la-nueva-experiencia",
+      "kind": "soft",
+      "label": "Revisar o enlazar conscientemente los dos PDFs descargables existentes, o explicar su eliminación en la nueva experiencia.",
+      "patterns": [
+        "revisar o enlazar conscientemente los dos pdfs descargables existentes, o explicar su eliminacion en la nueva experiencia."
+      ]
+    },
+    {
+      "id": "no-convertir-en-funcionalidades-aparentes-las-reservas-pedidos-o-pagos-online-ya-que-la-presencia-actual-no-los-enlaza",
+      "kind": "soft",
+      "label": "No convertir en funcionalidades aparentes las reservas, pedidos o pagos online, ya que la presencia actual no los enlaza.",
+      "patterns": [
+        "no convertir en funcionalidades aparentes las reservas, pedidos o pagos online, ya que la presencia actual no los enlaza."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}

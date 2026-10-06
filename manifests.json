@@ -1,5 +1,44 @@
 [
   {
+    "project": "las-canas-luna-e",
+    "deployedAt": "2026-10-06 13:29",
+    "expiresAt": "2026-11-05",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "6a71939",
+    "title": "Asador Restaurante Las Cañas | Parrilla y celebraciones en Móstoles",
+    "description": "Parrilla, restaurante y espacio para celebraciones en Móstoles. Consulta carta, eventos y disponibilidad por teléfono.",
+    "theme": "brand",
+    "direction": "evolution: Reading this as: an asador and event venue for diners, celebrations and weddings in Móstoles, with a confident, spacious hospitality language leaning toward editorial photography and formal black-gold contrast.",
+    "pitchedAt": "2026-10-06 11:27",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: <title> is 67 chars (max 65) (Asador Restaurante Las Cañas | Parrilla y celebraciones en Móstoles)",
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (Maricarmen Blázquez De Jesús) (/img/177d342694712f86.jpg)",
+      "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (Mont_1977) (/img/a56069eb71deca63.jpg)",
+      "PARITY WARN: falta Mantener o cubrir conscientemente la presentación como restaurante, parrilla, sala de banquetes y espacio para eventos y bodas.",
+      "PARITY WARN: falta Cubrir o retirar conscientemente el contenido actual sobre una extensión de 5.000 m², entorno al aire libre, jardines y parking propio; no presentarlo como dato verificado sin una revisión adicional.",
+      "PARITY WARN: falta Cubrir o retirar conscientemente la zona de ocio infantil, columpios y castillos hinchables mencionados en la web.",
+      "PARITY WARN: falta Cubrir o retirar conscientemente los salones con capacidad para más de 500 personas mencionados en la web.",
+      "PARITY WARN: falta Incluir la oferta comunicada de menús diarios y especiales, menú de fin de semana y cenas de sábado con orquesta y baile, validando previamente que siga vigente.",
+      "PARITY WARN: falta Mantener las líneas de eventos mostradas actualmente: bodas, comuniones, bautizos, cumpleaños y otros eventos.",
+      "PARITY WARN: falta Conservar una galería con material propio del negocio y no usar las fotos de clientes de Google sin permiso.",
+      "PARITY WARN: falta Cubrir la posibilidad actual de consultar fotos y reseñas mediante la ficha de Google.",
+      "PARITY WARN: falta Mostrar claramente dirección, teléfono y horario actual.",
+      "PARITY WARN: falta Revisar o enlazar conscientemente los dos PDFs descargables existentes, o explicar su eliminación en la nueva experiencia.",
+      "PARITY WARN: falta No convertir en funcionalidades aparentes las reservas, pedidos o pagos online, ya que la presencia actual no los enlaza."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "las-canas-luna-e",
+    "url": "./las-canas-luna-e/"
+  },
+  {
     "project": "el-fermin-luna-j",
     "deployedAt": "2026-10-06 13:28",
     "expiresAt": "2026-11-05",
