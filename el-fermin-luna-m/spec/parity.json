@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-actual-en-texto-con-fecha-y-precios-en-lugar-de-depender-unicamente-de-una-imagen",
+      "kind": "soft",
+      "label": "Mostrar el menú del día actual en texto, con fecha y precios, en lugar de depender únicamente de una imagen.",
+      "patterns": [
+        "mostrar el menu del dia actual en texto, con fecha y precios, en lugar de depender unicamente de una imagen."
+      ]
+    },
+    {
+      "id": "cubrir-el-menu-del-dia-del-restaurante-el-menu-con-bebida-ilimitada-y-la-opcion-a-domicilio-manteniendo-los-importes-sujetos-a-actualizacion",
+      "kind": "soft",
+      "label": "Cubrir el menú del día del restaurante, el menú con bebida ilimitada y la opción a domicilio, manteniendo los importes sujetos a actualización.",
+      "patterns": [
+        "cubrir el menu del dia del restaurante, el menu con bebida ilimitada y la opcion a domicilio, manteniendo los importes sujetos a actualizacion."
+      ]
+    },
+    {
+      "id": "incluir-la-carta-completa-de-restaurante-y-domicilio-con-precios-y-alergenos",
+      "kind": "soft",
+      "label": "Incluir la carta completa de restaurante y domicilio con precios y alérgenos.",
+      "patterns": [
+        "incluir la carta completa de restaurante y domicilio con precios y alergenos."
+      ]
+    },
+    {
+      "id": "incluir-el-canal-de-pedidos-a-domicilio-por-whatsapp-y-el-horario-literal-de-reparto",
+      "kind": "soft",
+      "label": "Incluir el canal de pedidos a domicilio por WhatsApp y el horario literal de reparto.",
+      "patterns": [
+        "incluir el canal de pedidos a domicilio por whatsapp y el horario literal de reparto."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-funcional-a-covermanager-con-calendario-comensales-hora-zona-salon-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Mantener el enlace funcional a CoverManager, con calendario, comensales, hora, zona Salón y lista de espera.",
+      "patterns": [
+        "mantener el enlace funcional a covermanager, con calendario, comensales, hora, zona salon y lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-queda-pendiente-de-confirmacion-por-email-o-sms-y-requiere-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva queda pendiente de confirmación por email o SMS y requiere una señal de 5 € por comensal.",
+      "patterns": [
+        "mostrar claramente que la reserva queda pendiente de confirmacion por email o sms y requiere una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "mantener-telefono-de-reservas-y-telefono-de-pedidos-a-domicilio-como-canales-diferenciados",
+      "kind": "soft",
+      "label": "Mantener teléfono de reservas y teléfono de pedidos a domicilio como canales diferenciados.",
+      "patterns": [
+        "mantener telefono de reservas y telefono de pedidos a domicilio como canales diferenciados."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-club-infantil-los-pinchitos-edades-de-3-a-12-anos-aforo-maximo-de-15-ninos-horarios-publicados-y-tarifa-de-2-o-gratuidad-cuando-el-nino-ha-comido-o-cenado-alli",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Club infantil Los Pinchitos: edades de 3 a 12 años, aforo máximo de 15 niños, horarios publicados y tarifa de 2 € o gratuidad cuando el niño ha comido o cenado allí.",
+      "patterns": [
+        "cubrir la ludoteca club infantil los pinchitos: edades de 3 a 12 anos, aforo maximo de 15 ninos, horarios publicados y tarifa de 2 € o gratuidad cuando el nino ha comido o cenado alli."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-y-su-precio-publicado-como-contenido-actualizable",
+      "kind": "soft",
+      "label": "Incluir el menú infantil y su precio publicado como contenido actualizable.",
+      "patterns": [
+        "incluir el menu infantil y su precio publicado como contenido actualizable."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves-sin-afirmar-eventos-concretos-no-confirmados",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves sin afirmar eventos concretos no confirmados.",
+      "patterns": [
+        "cubrir los monologos de los jueves sin afirmar eventos concretos no confirmados."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano-y-las-opciones-veganas-del-menu-y-la-carta",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano y las opciones veganas del menú y la carta.",
+      "patterns": [
+        "cubrir el rincon vegano y las opciones veganas del menu y la carta."
+      ]
+    },
+    {
+      "id": "cubrir-la-captacion-de-eventos-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones",
+      "kind": "soft",
+      "label": "Cubrir la captación de eventos: cenas de amigos, empresas, bodas, bautizos y comuniones.",
+      "patterns": [
+        "cubrir la captacion de eventos: cenas de amigos, empresas, bodas, bautizos y comuniones."
+      ]
+    },
+    {
+      "id": "incluir-o-enlazar-la-tabla-de-alergenos-en-pdf-indicando-que-debe-revisarse-y-actualizarse",
+      "kind": "soft",
+      "label": "Incluir o enlazar la tabla de alérgenos en PDF, indicando que debe revisarse y actualizarse.",
+      "patterns": [
+        "incluir o enlazar la tabla de alergenos en pdf, indicando que debe revisarse y actualizarse."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-completo-del-restaurante-incluyendo-el-martes-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario completo del restaurante, incluyendo el martes cerrado.",
+      "patterns": [
+        "mostrar el horario completo del restaurante, incluyendo el martes cerrado."
+      ]
+    },
+    {
+      "id": "conservar-la-identidad-de-restaurante-el-fermin-y-la-direccion-confirmada-de-alcorcon",
+      "kind": "soft",
+      "label": "Conservar la identidad de Restaurante El Fermín y la dirección confirmada de Alcorcón.",
+      "patterns": [
+        "conservar la identidad de restaurante el fermin y la direccion confirmada de alcorcon."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-cualquier-publicidad-de-terceros-presente-en-la-web-actual",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y cualquier publicidad de terceros presente en la web actual.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y cualquier publicidad de terceros presente en la web actual."
+      ]
+    },
+    {
+      "id": "resolver-la-pagina-de-eventos-que-actualmente-devuelve-404",
+      "kind": "soft",
+      "label": "Resolver la página de eventos que actualmente devuelve 404.",
+      "patterns": [
+        "resolver la pagina de eventos que actualmente devuelve 404."
+      ]
+    },
+    {
+      "id": "evitar-presentar-como-propias-o-actuales-las-fotografias-antiguas-o-no-verificadas-obtener-fotos-reales-y-actuales-antes-de-usarlas",
+      "kind": "soft",
+      "label": "Evitar presentar como propias o actuales las fotografías antiguas o no verificadas; obtener fotos reales y actuales antes de usarlas.",
+      "patterns": [
+        "evitar presentar como propias o actuales las fotografias antiguas o no verificadas; obtener fotos reales y actuales antes de usarlas."
+      ]
+    },
+    {
+      "id": "mejorar-titulos-metadatos-y-urls-para-evitar-titulos-genericos-etiquetas-og-site-name-vacias-y-erratas-como-parque-infantail",
+      "kind": "soft",
+      "label": "Mejorar títulos, metadatos y URLs para evitar títulos genéricos, etiquetas og:site_name vacías y erratas como parque-infantail.",
+      "patterns": [
+        "mejorar titulos, metadatos y urls para evitar titulos genericos, etiquetas og:site_name vacias y erratas como parque-infantail."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
