@@ -1,0 +1,230 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-actual-en-texto-con-fecha-primeros-segundos-postres-opciones-veganas-y-precios-de-16-00-34-00-y-domicilio-16-00",
+      "kind": "soft",
+      "label": "Mostrar el menú del día actual en texto, con fecha, primeros, segundos, postres, opciones veganas y precios de 16,00 €, 34,00 € y domicilio 16,00 €.",
+      "patterns": [
+        "mostrar el menu del dia actual en texto, con fecha, primeros, segundos, postres, opciones veganas y precios de 16,00 €, 34,00 € y domicilio 16,00 €."
+      ]
+    },
+    {
+      "id": "incluir-la-carta-completa-de-restaurante-y-domicilio-con-precios-alergenos-y-platos-recomendados-o-indicar-conscientemente-que-se-excluye",
+      "kind": "soft",
+      "label": "Incluir la carta completa de restaurante y domicilio con precios, alérgenos y platos recomendados, o indicar conscientemente qué se excluye.",
+      "patterns": [
+        "incluir la carta completa de restaurante y domicilio con precios, alergenos y platos recomendados, o indicar conscientemente que se excluye."
+      ]
+    },
+    {
+      "id": "mantener-el-canal-de-pedidos-por-whatsapp-al-640-293-202-y-el-horario-literal-de-reparto",
+      "kind": "soft",
+      "label": "Mantener el canal de pedidos por WhatsApp al 640 293 202 y el horario literal de reparto.",
+      "patterns": [
+        "mantener el canal de pedidos por whatsapp al 640 293 202 y el horario literal de reparto."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-de-reserva-de-covermanager-incluyendo-zona-salon-turnos-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Mantener el enlace de reserva de CoverManager, incluyendo zona Salón, turnos y lista de espera.",
+      "patterns": [
+        "mantener el enlace de reserva de covermanager, incluyendo zona salon, turnos y lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-requiere-confirmacion-por-email-o-sms-y-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva requiere confirmación por email o SMS y una señal de 5 € por comensal.",
+      "patterns": [
+        "mostrar claramente que la reserva requiere confirmacion por email o sms y una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-club-infantil-los-pinchitos-con-edades-de-3-a-12-anos-aforo-de-15-ninos-horarios-y-precio-de-2-o-gratuita-si-el-nino-come-o-cena-alli",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca Club infantil Los Pinchitos con edades de 3 a 12 años, aforo de 15 niños, horarios y precio de 2 € o gratuita si el niño come o cena allí.",
+      "patterns": [
+        "cubrir la ludoteca club infantil los pinchitos con edades de 3 a 12 anos, aforo de 15 ninos, horarios y precio de 2 € o gratuita si el nino come o cena alli."
+      ]
+    },
+    {
+      "id": "incluir-el-menu-infantil-de-13-50-con-postre-y-bebida-y-sus-cuatro-opciones-publicadas",
+      "kind": "soft",
+      "label": "Incluir el menú infantil de 13,50 €, con postre y bebida, y sus cuatro opciones publicadas.",
+      "patterns": [
+        "incluir el menu infantil de 13,50 €, con postre y bebida, y sus cuatro opciones publicadas."
+      ]
+    },
+    {
+      "id": "mantener-el-horario-del-restaurante-con-martes-cerrado",
+      "kind": "soft",
+      "label": "Mantener el horario del restaurante con martes cerrado.",
+      "patterns": [
+        "mantener el horario del restaurante con martes cerrado."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-de-los-jueves-sin-anadir-fechas-o-artistas-no-confirmados",
+      "kind": "soft",
+      "label": "Cubrir los monólogos de los jueves, sin añadir fechas o artistas no confirmados.",
+      "patterns": [
+        "cubrir los monologos de los jueves, sin anadir fechas o artistas no confirmados."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano-y-las-opciones-veganas-del-menu-y-de-la-carta",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano y las opciones veganas del menú y de la carta.",
+      "patterns": [
+        "cubrir el rincon vegano y las opciones veganas del menu y de la carta."
+      ]
+    },
+    {
+      "id": "recuperar-una-pagina-funcional-para-eventos-y-comunicar-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones",
+      "kind": "soft",
+      "label": "Recuperar una página funcional para eventos y comunicar cenas de amigos, empresas, bodas, bautizos y comuniones.",
+      "patterns": [
+        "recuperar una pagina funcional para eventos y comunicar cenas de amigos, empresas, bodas, bautizos y comuniones."
+      ]
+    },
+    {
+      "id": "incluir-la-tabla-de-alergenos-o-un-acceso-al-documento-correspondiente",
+      "kind": "soft",
+      "label": "Incluir la tabla de alérgenos o un acceso al documento correspondiente.",
+      "patterns": [
+        "incluir la tabla de alergenos o un acceso al documento correspondiente."
+      ]
+    },
+    {
+      "id": "mostrar-ambos-telefonos-con-su-finalidad-diferenciada-reservas-y-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar ambos teléfonos con su finalidad diferenciada: reservas y pedidos a domicilio.",
+      "patterns": [
+        "mostrar ambos telefonos con su finalidad diferenciada: reservas y pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "conservar-la-informacion-de-accesibilidad-confirmada-por-google",
+      "kind": "soft",
+      "label": "Conservar la información de accesibilidad confirmada por Google.",
+      "patterns": [
+        "conservar la informacion de accesibilidad confirmada por google."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-de-afiliado-de-amazon-presentes-en-la-web-actual",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces de afiliado de Amazon presentes en la web actual.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces de afiliado de amazon presentes en la web actual."
+      ]
+    },
+    {
+      "id": "sustituir-la-imagen-no-indexable-del-menu-por-contenido-de-texto-actualizable",
+      "kind": "soft",
+      "label": "Sustituir la imagen no indexable del menú por contenido de texto actualizable.",
+      "patterns": [
+        "sustituir la imagen no indexable del menu por contenido de texto actualizable."
+      ]
+    },
+    {
+      "id": "resolver-la-seccion-vacia-de-menu-de-fin-de-semana-o-eliminarla-conscientemente",
+      "kind": "soft",
+      "label": "Resolver la sección vacía de menú de fin de semana o eliminarla conscientemente.",
+      "patterns": [
+        "resolver la seccion vacia de menu de fin de semana o eliminarla conscientemente."
+      ]
+    },
+    {
+      "id": "corregir-la-url-erronea-de-parque-infantail-y-evitar-urls-duplicadas",
+      "kind": "soft",
+      "label": "Corregir la URL errónea de parque-infantail y evitar URLs duplicadas.",
+      "patterns": [
+        "corregir la url erronea de parque-infantail y evitar urls duplicadas."
+      ]
+    },
+    {
+      "id": "no-reutilizar-automaticamente-fotografias-antiguas-de-procedencia-no-confirmada-o-con-clientes-identificables",
+      "kind": "soft",
+      "label": "No reutilizar automáticamente fotografías antiguas, de procedencia no confirmada o con clientes identificables.",
+      "patterns": [
+        "no reutilizar automaticamente fotografias antiguas, de procedencia no confirmada o con clientes identificables."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
