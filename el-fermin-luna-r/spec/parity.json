@@ -1,0 +1,238 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-idealmente-en-texto-actualizable-y-con-fecha-manteniendo-el-contenido-que-cambia-diariamente",
+      "kind": "soft",
+      "label": "Mostrar el menú del día, idealmente en texto actualizable y con fecha, manteniendo el contenido que cambia diariamente.",
+      "patterns": [
+        "mostrar el menu del dia, idealmente en texto actualizable y con fecha, manteniendo el contenido que cambia diariamente."
+      ]
+    },
+    {
+      "id": "cubrir-el-menu-del-dia-para-comer-en-el-restaurante-y-la-opcion-de-pedirlo-a-domicilio",
+      "kind": "soft",
+      "label": "Cubrir el menú del día para comer en el restaurante y la opción de pedirlo a domicilio.",
+      "patterns": [
+        "cubrir el menu del dia para comer en el restaurante y la opcion de pedirlo a domicilio."
+      ]
+    },
+    {
+      "id": "mantener-la-carta-completa-de-raciones-mariscos-carnes-ensaladas-arroces-bocadillos-comida-vegana-postres-y-vinos-con-precios-y-alergenos-cuando-esten-confirmados-y-vigentes",
+      "kind": "soft",
+      "label": "Mantener la carta completa de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos, con precios y alérgenos cuando estén confirmados y vigentes.",
+      "patterns": [
+        "mantener la carta completa de raciones, mariscos, carnes, ensaladas, arroces, bocadillos, comida vegana, postres y vinos, con precios y alergenos cuando esten confirmados y vigentes."
+      ]
+    },
+    {
+      "id": "incluir-pedidos-a-domicilio-por-whatsapp-y-el-horario-de-reparto-sujeto-a-confirmacion-operativa",
+      "kind": "soft",
+      "label": "Incluir pedidos a domicilio por WhatsApp y el horario de reparto, sujeto a confirmación operativa.",
+      "patterns": [
+        "incluir pedidos a domicilio por whatsapp y el horario de reparto, sujeto a confirmacion operativa."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-de-reserva-de-covermanager-incluyendo-calendario-comensales-hora-zona-salon-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Mantener el enlace de reserva de CoverManager, incluyendo calendario, comensales, hora, zona Salón y lista de espera.",
+      "patterns": [
+        "mantener el enlace de reserva de covermanager, incluyendo calendario, comensales, hora, zona salon y lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-queda-pendiente-de-confirmacion-por-email-o-sms-y-que-requiere-una-senal-de-5-por-comensal-previa-validacion-con-el-negocio",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva queda pendiente de confirmación por email o SMS y que requiere una señal de 5 € por comensal, previa validación con el negocio.",
+      "patterns": [
+        "mostrar claramente que la reserva queda pendiente de confirmacion por email o sms y que requiere una senal de 5 € por comensal, previa validacion con el negocio."
+      ]
+    },
+    {
+      "id": "incluir-telefono-de-reservas-y-telefono-de-pedidos-a-domicilio-whatsapp",
+      "kind": "soft",
+      "label": "Incluir teléfono de reservas y teléfono de pedidos a domicilio/WhatsApp.",
+      "patterns": [
+        "incluir telefono de reservas y telefono de pedidos a domicilio/whatsapp."
+      ]
+    },
+    {
+      "id": "cubrir-la-ludoteca-o-zona-infantil-con-sus-condiciones-edades-aforo-y-horarios-solo-si-se-mantienen-confirmados",
+      "kind": "soft",
+      "label": "Cubrir la ludoteca o zona infantil, con sus condiciones, edades, aforo y horarios solo si se mantienen confirmados.",
+      "patterns": [
+        "cubrir la ludoteca o zona infantil, con sus condiciones, edades, aforo y horarios solo si se mantienen confirmados."
+      ]
+    },
+    {
+      "id": "mantener-el-menu-infantil-como-contenido-diferenciador-verificando-antes-su-precio-y-composicion",
+      "kind": "soft",
+      "label": "Mantener el menú infantil como contenido diferenciador, verificando antes su precio y composición.",
+      "patterns": [
+        "mantener el menu infantil como contenido diferenciador, verificando antes su precio y composicion."
+      ]
+    },
+    {
+      "id": "cubrir-el-rincon-vegano-y-las-opciones-veganas-del-menu-o-carta",
+      "kind": "soft",
+      "label": "Cubrir el rincón vegano y las opciones veganas del menú o carta.",
+      "patterns": [
+        "cubrir el rincon vegano y las opciones veganas del menu o carta."
+      ]
+    },
+    {
+      "id": "cubrir-los-monologos-y-su-calendario-unicamente-con-programacion-vigente-confirmada",
+      "kind": "soft",
+      "label": "Cubrir los monólogos y su calendario únicamente con programación vigente confirmada.",
+      "patterns": [
+        "cubrir los monologos y su calendario unicamente con programacion vigente confirmada."
+      ]
+    },
+    {
+      "id": "mantener-la-captacion-de-eventos-para-cenas-de-amigos-empresas-bodas-bautizos-y-comuniones-sustituyendo-la-url-rota-por-una-pagina-funcional-solo-si-el-servicio-sigue-activo",
+      "kind": "soft",
+      "label": "Mantener la captación de eventos para cenas de amigos, empresas, bodas, bautizos y comuniones, sustituyendo la URL rota por una página funcional solo si el servicio sigue activo.",
+      "patterns": [
+        "mantener la captacion de eventos para cenas de amigos, empresas, bodas, bautizos y comuniones, sustituyendo la url rota por una pagina funcional solo si el servicio sigue activo."
+      ]
+    },
+    {
+      "id": "incluir-la-tabla-de-alergenos-o-un-acceso-claro-al-documento-vigente",
+      "kind": "soft",
+      "label": "Incluir la tabla de alérgenos o un acceso claro al documento vigente.",
+      "patterns": [
+        "incluir la tabla de alergenos o un acceso claro al documento vigente."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-con-el-martes-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante con el martes cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante con el martes cerrado."
+      ]
+    },
+    {
+      "id": "mostrar-la-direccion-confirmada-de-calle-sierra-de-la-estrella-8-28923-alcorcon-madrid",
+      "kind": "soft",
+      "label": "Mostrar la dirección confirmada de Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid.",
+      "patterns": [
+        "mostrar la direccion confirmada de calle sierra de la estrella, 8, 28923 alcorcon, madrid."
+      ]
+    },
+    {
+      "id": "conservar-la-valoracion-y-el-volumen-de-resenas-de-google-si-se-presentan-con-fecha-de-consulta",
+      "kind": "soft",
+      "label": "Conservar la valoración y el volumen de reseñas de Google si se presentan con fecha de consulta.",
+      "patterns": [
+        "conservar la valoracion y el volumen de resenas de google si se presentan con fecha de consulta."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-de-afiliado-de-amazon-de-la-experiencia-del-restaurante",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces de afiliado de Amazon de la experiencia del restaurante.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces de afiliado de amazon de la experiencia del restaurante."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-del-dia-presentado-unicamente-como-imagen-por-contenido-textual-accesible-indexable-y-traducible",
+      "kind": "soft",
+      "label": "Sustituir el menú del día presentado únicamente como imagen por contenido textual accesible, indexable y traducible.",
+      "patterns": [
+        "sustituir el menu del dia presentado unicamente como imagen por contenido textual accesible, indexable y traducible."
+      ]
+    },
+    {
+      "id": "corregir-la-pagina-de-eventos-rota-y-las-etiquetas-o-titulos-tecnicos-deficientes-de-la-web-actual",
+      "kind": "soft",
+      "label": "Corregir la página de eventos rota y las etiquetas o títulos técnicos deficientes de la web actual.",
+      "patterns": [
+        "corregir la pagina de eventos rota y las etiquetas o titulos tecnicos deficientes de la web actual."
+      ]
+    },
+    {
+      "id": "usar-unicamente-fotografias-actuales-y-autorizadas-no-reutilizar-imagenes-antiguas-o-de-procedencia-no-confirmada-como-si-fueran-actuales",
+      "kind": "soft",
+      "label": "Usar únicamente fotografías actuales y autorizadas; no reutilizar imágenes antiguas o de procedencia no confirmada como si fueran actuales.",
+      "patterns": [
+        "usar unicamente fotografias actuales y autorizadas; no reutilizar imagenes antiguas o de procedencia no confirmada como si fueran actuales."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}
