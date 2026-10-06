@@ -1,0 +1,39 @@
+{
+  "project": "las-canas-luna-h",
+  "deployedAt": "2026-10-06 15:28",
+  "expiresAt": "2026-11-05",
+  "stage": "preview",
+  "pipelineVersion": "0.4.0",
+  "gitRef": "87cb25f",
+  "title": "Asador Restaurante Las Cañas | Móstoles",
+  "description": "Asador, parrilla y salones para bodas, comuniones, eventos y celebraciones en Móstoles.",
+  "theme": "brand",
+  "direction": "evolution: Leyendo esto como: un asador y espacio para celebraciones en Móstoles, para reservas, bodas y eventos, con un lenguaje acogedor y festivo, inclinado hacia una dirección fotográfica de jardín, salón y mesa preparada.",
+  "pitchedAt": "2026-10-06 13:25",
+  "dossierUsed": true,
+  "qaNotes": [
+    "G9 seo + cta: Missing LocalBusiness JSON-LD",
+    "G9 seo + cta: 1 <img> without alt (<img src=\"/img/a3a9cbbcae0c6155.png\" alt=\"\" width=\"100\" height=\"100\" class=\"w-12 h-12 object-contain)",
+    "G9 seo + cta: Missing canonical link",
+    "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (DaP's Reviews & Opinions) (/img/3de614789506646e.jpg)",
+    "G13 photos: Customer photo from Google Maps in the demo: replace before publishing (LA NENA VIAJERA) (/img/a443553779fc2314.jpg)",
+    "PARITY WARN: falta Cubrir la identidad de Asador Restaurante Las Cañas y sus categorías de restaurante, parrilla, banquetes, eventos y bodas",
+    "PARITY WARN: falta Mantener la dirección, el teléfono y la información de horarios",
+    "PARITY WARN: falta Explicar la celebración de bodas, comuniones y otros eventos",
+    "PARITY WARN: falta Cubrir los servicios o espacios mostrados para bodas, comuniones, bautizos y cumpleaños",
+    "PARITY WARN: falta Representar la extensión de 5.000 m², el entorno al aire libre y los jardines solo tras revisión humana del contenido publicado",
+    "PARITY WARN: falta Representar el parking propio, la zona de ocio infantil, columpios y castillos hinchables solo tras revisión humana del contenido publicado",
+    "PARITY WARN: falta Cubrir los salones con capacidad para más de 500 personas solo tras revisión humana del contenido publicado",
+    "PARITY WARN: falta Mantener la referencia a menús diarios y especiales y al menú de fin de semana",
+    "PARITY WARN: falta Mantener la referencia a cenas con orquesta y baile los sábados, sin convertirla en una programación actual no confirmada",
+    "PARITY WARN: falta Incluir una galería con material propio del negocio, pendiente de confirmación final de titularidad",
+    "PARITY WARN: falta Conservar el acceso a los dos PDFs descargables o decidir conscientemente su retirada",
+    "PARITY WARN: falta Mantener el acceso a la ficha de Google para fotos y reseñas",
+    "PARITY WARN: falta No añadir reserva online, pedidos, reparto ni pago online como si fueran funciones existentes, porque la presencia actual no los enlaza"
+  ],
+  "spec": [
+    "spec/parity.json",
+    "spec/brand.json",
+    "spec/intent-analysis.md"
+  ]
+}
