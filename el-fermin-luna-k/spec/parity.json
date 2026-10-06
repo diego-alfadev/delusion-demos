@@ -1,0 +1,222 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid",
+      "patterns": [
+        "calle sierra de la estrella, 8, 28923 alcorcon, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono (reservas): 916 10 31 03",
+      "patterns": [
+        "916103103"
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "kind": "exact",
+      "label": "Teléfono (pedidos a domicilio / WhatsApp): 640 293 202",
+      "patterns": [
+        "640293202"
+      ]
+    },
+    {
+      "id": "mostrar-el-menu-del-dia-actual-en-texto-con-fecha-primeros-segundos-postres-opciones-veganas-y-precios-de-16-00-34-00-y-domicilio-16-00",
+      "kind": "soft",
+      "label": "Mostrar el menú del día actual en texto, con fecha, primeros, segundos, postres, opciones veganas y precios de 16,00 €, 34,00 € y domicilio 16,00 €.",
+      "patterns": [
+        "mostrar el menu del dia actual en texto, con fecha, primeros, segundos, postres, opciones veganas y precios de 16,00 €, 34,00 € y domicilio 16,00 €."
+      ]
+    },
+    {
+      "id": "mantener-la-carta-completa-de-restaurante-y-domicilio-con-precios-y-alergenos-por-plato",
+      "kind": "soft",
+      "label": "Mantener la carta completa de restaurante y domicilio con precios y alérgenos por plato.",
+      "patterns": [
+        "mantener la carta completa de restaurante y domicilio con precios y alergenos por plato."
+      ]
+    },
+    {
+      "id": "mantener-el-pedido-a-domicilio-por-whatsapp-al-640-293-202-y-publicar-los-horarios-de-reparto",
+      "kind": "soft",
+      "label": "Mantener el pedido a domicilio por WhatsApp al 640 293 202 y publicar los horarios de reparto.",
+      "patterns": [
+        "mantener el pedido a domicilio por whatsapp al 640 293 202 y publicar los horarios de reparto."
+      ]
+    },
+    {
+      "id": "mantener-el-enlace-funcional-a-covermanager-con-calendario-comensales-hora-zona-salon-y-lista-de-espera",
+      "kind": "soft",
+      "label": "Mantener el enlace funcional a CoverManager, con calendario, comensales, hora, zona Salón y lista de espera.",
+      "patterns": [
+        "mantener el enlace funcional a covermanager, con calendario, comensales, hora, zona salon y lista de espera."
+      ]
+    },
+    {
+      "id": "mostrar-claramente-que-la-reserva-requiere-confirmacion-por-email-o-sms-y-una-senal-de-5-por-comensal",
+      "kind": "soft",
+      "label": "Mostrar claramente que la reserva requiere confirmación por email o SMS y una señal de 5 € por comensal.",
+      "patterns": [
+        "mostrar claramente que la reserva requiere confirmacion por email o sms y una senal de 5 € por comensal."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-del-restaurante-incluido-el-martes-cerrado",
+      "kind": "soft",
+      "label": "Mostrar el horario del restaurante, incluido el martes cerrado.",
+      "patterns": [
+        "mostrar el horario del restaurante, incluido el martes cerrado."
+      ]
+    },
+    {
+      "id": "mantener-la-ludoteca-club-infantil-los-pinchitos-con-edades-de-3-a-12-anos-aforo-maximo-de-15-ninos-horarios-y-tarifas",
+      "kind": "soft",
+      "label": "Mantener la ludoteca Club infantil Los Pinchitos con edades de 3 a 12 años, aforo máximo de 15 niños, horarios y tarifas.",
+      "patterns": [
+        "mantener la ludoteca club infantil los pinchitos con edades de 3 a 12 anos, aforo maximo de 15 ninos, horarios y tarifas."
+      ]
+    },
+    {
+      "id": "mantener-el-menu-infantil-de-13-50-con-postre-y-bebida",
+      "kind": "soft",
+      "label": "Mantener el menú infantil de 13,50 € con postre y bebida.",
+      "patterns": [
+        "mantener el menu infantil de 13,50 € con postre y bebida."
+      ]
+    },
+    {
+      "id": "mantener-el-contenido-sobre-monologos-de-los-jueves",
+      "kind": "soft",
+      "label": "Mantener el contenido sobre monólogos de los jueves.",
+      "patterns": [
+        "mantener el contenido sobre monologos de los jueves."
+      ]
+    },
+    {
+      "id": "mantener-el-rincon-vegano-y-las-opciones-veganas-de-la-carta-y-del-menu-del-dia",
+      "kind": "soft",
+      "label": "Mantener el rincón vegano y las opciones veganas de la carta y del menú del día.",
+      "patterns": [
+        "mantener el rincon vegano y las opciones veganas de la carta y del menu del dia."
+      ]
+    },
+    {
+      "id": "mantener-la-captacion-de-eventos-para-empresas-bodas-bautizos-comuniones-y-otras-celebraciones-mediante-una-pagina-de-eventos-funcional",
+      "kind": "soft",
+      "label": "Mantener la captación de eventos para empresas, bodas, bautizos, comuniones y otras celebraciones mediante una página de eventos funcional.",
+      "patterns": [
+        "mantener la captacion de eventos para empresas, bodas, bautizos, comuniones y otras celebraciones mediante una pagina de eventos funcional."
+      ]
+    },
+    {
+      "id": "mantener-la-tabla-de-alergenos-en-pdf-o-una-version-accesible-equivalente",
+      "kind": "soft",
+      "label": "Mantener la tabla de alérgenos en PDF o una versión accesible equivalente.",
+      "patterns": [
+        "mantener la tabla de alergenos en pdf o una version accesible equivalente."
+      ]
+    },
+    {
+      "id": "mostrar-los-dos-telefonos-con-funciones-diferenciadas-reservas-y-pedidos-a-domicilio",
+      "kind": "soft",
+      "label": "Mostrar los dos teléfonos con funciones diferenciadas: reservas y pedidos a domicilio.",
+      "patterns": [
+        "mostrar los dos telefonos con funciones diferenciadas: reservas y pedidos a domicilio."
+      ]
+    },
+    {
+      "id": "mostrar-la-direccion-confirmada-de-calle-sierra-de-la-estrella-8-28923-alcorcon-madrid",
+      "kind": "soft",
+      "label": "Mostrar la dirección confirmada de Calle Sierra de la Estrella, 8, 28923 Alcorcón, Madrid.",
+      "patterns": [
+        "mostrar la direccion confirmada de calle sierra de la estrella, 8, 28923 alcorcon, madrid."
+      ]
+    },
+    {
+      "id": "conservar-informacion-de-accesibilidad-confirmada-por-google",
+      "kind": "soft",
+      "label": "Conservar información de accesibilidad confirmada por Google.",
+      "patterns": [
+        "conservar informacion de accesibilidad confirmada por google."
+      ]
+    },
+    {
+      "id": "eliminar-los-anuncios-de-google-adsense-y-los-enlaces-de-afiliado-de-amazon-de-la-experiencia-del-restaurante",
+      "kind": "soft",
+      "label": "Eliminar los anuncios de Google AdSense y los enlaces de afiliado de Amazon de la experiencia del restaurante.",
+      "patterns": [
+        "eliminar los anuncios de google adsense y los enlaces de afiliado de amazon de la experiencia del restaurante."
+      ]
+    },
+    {
+      "id": "sustituir-el-menu-del-dia-basado-unicamente-en-una-imagen-por-contenido-html-legible-copiable-y-traducible",
+      "kind": "soft",
+      "label": "Sustituir el menú del día basado únicamente en una imagen por contenido HTML legible, copiable y traducible.",
+      "patterns": [
+        "sustituir el menu del dia basado unicamente en una imagen por contenido html legible, copiable y traducible."
+      ]
+    },
+    {
+      "id": "revisar-o-reemplazar-las-imagenes-antiguas-y-no-confirmadas-antes-de-presentarlas-como-fotografias-actuales",
+      "kind": "soft",
+      "label": "Revisar o reemplazar las imágenes antiguas y no confirmadas antes de presentarlas como fotografías actuales.",
+      "patterns": [
+        "revisar o reemplazar las imagenes antiguas y no confirmadas antes de presentarlas como fotografias actuales."
+      ]
+    },
+    {
+      "id": "inv-menus",
+      "kind": "exact",
+      "label": "Original section: Menús",
+      "patterns": [
+        "menus"
+      ]
+    },
+    {
+      "id": "inv-a-domicilio",
+      "kind": "exact",
+      "label": "Original section: A domicilio",
+      "patterns": [
+        "domicilio"
+      ]
+    },
+    {
+      "id": "inv-rincon-vegano",
+      "kind": "exact",
+      "label": "Original section: Rincón vegano",
+      "patterns": [
+        "rincon",
+        "vegano"
+      ]
+    },
+    {
+      "id": "inv-parque-infantil",
+      "kind": "exact",
+      "label": "Original section: Parque infantil",
+      "patterns": [
+        "parque",
+        "infantil"
+      ]
+    },
+    {
+      "id": "inv-contacto",
+      "kind": "exact",
+      "label": "Original section: Contacto",
+      "patterns": [
+        "contacto"
+      ]
+    },
+    {
+      "id": "inv-monologos",
+      "kind": "exact",
+      "label": "Original section: Monólogos",
+      "patterns": [
+        "monologos"
+      ]
+    }
+  ]
+}

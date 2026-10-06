@@ -1,0 +1,13 @@
+{
+  "projectId": "fermin-luna-K",
+  "title": "Restaurante El Fermín | Menú, carta y reservas en Alcorcón",
+  "description": "Restaurante El Fermín en Alcorcón: cocina mediterránea, menú del día, carta, eventos y reservas. Consulta horarios y contacta.",
+  "direction": "evolution: Reading this as: an Alcorcón restaurant offering menú del día, carta and events, with a direct, appetising language leaning toward dark-green identity and dramatic grill photography.",
+  "bootstrappedAt": "2026-10-06T11:33:40.101Z",
+  "legibilityFixes": [],
+  "concept": {
+    "stance": "evolution",
+    "summary": "Verde oscuro, fuego en primer plano y reservas siempre visibles.",
+    "profile": "taste-v1"
+  }
+}
