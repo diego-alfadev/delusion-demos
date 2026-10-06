@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "id": "address",
+      "kind": "exact",
+      "label": "Dirección: C. Puerto Linera, 9, 28935 Móstoles, Madrid",
+      "patterns": [
+        "c. puerto linera, 9, 28935 mostoles, madrid"
+      ]
+    },
+    {
+      "id": "phone",
+      "kind": "exact",
+      "label": "Teléfono: 916 16 61 46",
+      "patterns": [
+        "916166146"
+      ]
+    },
+    {
+      "id": "mantener-informacion-del-restaurante-y-su-ubicacion-en-mostoles",
+      "kind": "soft",
+      "label": "Mantener información del restaurante y su ubicación en Móstoles.",
+      "patterns": [
+        "mantener informacion del restaurante y su ubicacion en mostoles."
+      ]
+    },
+    {
+      "id": "cubrir-la-propuesta-para-bodas-comuniones-y-otros-eventos",
+      "kind": "soft",
+      "label": "Cubrir la propuesta para bodas, comuniones y otros eventos.",
+      "patterns": [
+        "cubrir la propuesta para bodas, comuniones y otros eventos."
+      ]
+    },
+    {
+      "id": "mostrar-el-entorno-de-5-000-m-jardines-parking-propio-y-zona-infantil",
+      "kind": "soft",
+      "label": "Mostrar el entorno de 5.000 m², jardines, parking propio y zona infantil.",
+      "patterns": [
+        "mostrar el entorno de 5.000 m², jardines, parking propio y zona infantil."
+      ]
+    },
+    {
+      "id": "comunicar-la-capacidad-de-los-salones-para-mas-de-500-personas",
+      "kind": "soft",
+      "label": "Comunicar la capacidad de los salones para más de 500 personas.",
+      "patterns": [
+        "comunicar la capacidad de los salones para mas de 500 personas."
+      ]
+    },
+    {
+      "id": "incluir-menus-diarios-menus-especiales-y-menu-de-fin-de-semana",
+      "kind": "soft",
+      "label": "Incluir menús diarios, menús especiales y menú de fin de semana.",
+      "patterns": [
+        "incluir menus diarios, menus especiales y menu de fin de semana."
+      ]
+    },
+    {
+      "id": "cubrir-las-cenas-de-los-sabados-con-orquesta-y-baile",
+      "kind": "soft",
+      "label": "Cubrir las cenas de los sábados con orquesta y baile.",
+      "patterns": [
+        "cubrir las cenas de los sabados con orquesta y baile."
+      ]
+    },
+    {
+      "id": "conservar-una-galeria-de-imagenes-usando-unicamente-material-propio-autorizado",
+      "kind": "soft",
+      "label": "Conservar una galería de imágenes usando únicamente material propio autorizado.",
+      "patterns": [
+        "conservar una galeria de imagenes usando unicamente material propio autorizado."
+      ]
+    },
+    {
+      "id": "mantener-acceso-a-los-dos-pdfs-actualmente-disponibles",
+      "kind": "soft",
+      "label": "Mantener acceso a los dos PDFs actualmente disponibles.",
+      "patterns": [
+        "mantener acceso a los dos pdfs actualmente disponibles."
+      ]
+    },
+    {
+      "id": "mostrar-el-horario-confirmado-de-google-con-formato-claro-sin-inventar-horarios-adicionales",
+      "kind": "soft",
+      "label": "Mostrar el horario confirmado de Google con formato claro, sin inventar horarios adicionales.",
+      "patterns": [
+        "mostrar el horario confirmado de google con formato claro, sin inventar horarios adicionales."
+      ]
+    },
+    {
+      "id": "mantener-una-via-directa-de-contacto-telefonico",
+      "kind": "soft",
+      "label": "Mantener una vía directa de contacto telefónico.",
+      "patterns": [
+        "mantener una via directa de contacto telefonico."
+      ]
+    },
+    {
+      "id": "si-se-muestran-resenas-usar-unicamente-resenas-de-4-5-permitidas-por-el-dossier-y-no-las-marcadas-como",
+      "kind": "soft",
+      "label": "Si se muestran reseñas, usar únicamente reseñas de 4–5★ permitidas por el dossier y no las marcadas como ⛔.",
+      "patterns": [
+        "si se muestran resenas, usar unicamente resenas de 4–5★ permitidas por el dossier y no las marcadas como ⛔."
+      ]
+    },
+    {
+      "id": "no-presentar-reserva-pedidos-reparto-ni-pago-online-como-funcionalidades-existentes-salvo-que-se-incorporen-y-verifiquen-expresamente",
+      "kind": "soft",
+      "label": "No presentar reserva, pedidos, reparto ni pago online como funcionalidades existentes, salvo que se incorporen y verifiquen expresamente.",
+      "patterns": [
+        "no presentar reserva, pedidos, reparto ni pago online como funcionalidades existentes, salvo que se incorporen y verifiquen expresamente."
+      ]
+    },
+    {
+      "id": "inv-bodas-2026",
+      "kind": "exact",
+      "label": "Original section: Bodas 2026",
+      "patterns": [
+        "bodas",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-comuniones-2026-2027",
+      "kind": "exact",
+      "label": "Original section: Comuniones 2026 2027",
+      "patterns": [
+        "comuniones",
+        "2026",
+        "2027"
+      ]
+    },
+    {
+      "id": "inv-celebraciones-en-las-canas",
+      "kind": "exact",
+      "label": "Original section: Celebraciones en Las Cañas",
+      "patterns": [
+        "celebraciones",
+        "canas"
+      ]
+    },
+    {
+      "id": "inv-navidades-2026",
+      "kind": "exact",
+      "label": "Original section: Navidades 2026",
+      "patterns": [
+        "navidades",
+        "2026"
+      ]
+    },
+    {
+      "id": "inv-mejores-opiniones-restaurante-en-mostoles-precio-calidad-y-atencion",
+      "kind": "exact",
+      "label": "Original section: Mejores opiniones restaurante en Móstoles precio calidad y atención",
+      "patterns": [
+        "mejores",
+        "opiniones",
+        "restaurante",
+        "mostoles"
+      ]
+    }
+  ]
+}

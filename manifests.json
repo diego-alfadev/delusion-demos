@@ -1,5 +1,42 @@
 [
   {
+    "project": "las-canas-luna-g",
+    "deployedAt": "2026-10-06 13:51",
+    "expiresAt": "2026-11-05",
+    "stage": "preview",
+    "pipelineVersion": "0.4.0",
+    "gitRef": "11bca9f",
+    "title": "Asador Restaurante Las Cañas | Móstoles",
+    "description": "Parrilla, terraza y salones para bodas, comuniones y celebraciones en Móstoles.",
+    "theme": "brand",
+    "direction": "evolution: Reading this as: a Móstoles asador and event venue for diners, celebrations and weddings, with an open-air, welcoming language leaning toward bold photography and crisp contemporary typography.",
+    "pitchedAt": "2026-10-06 11:49",
+    "dossierUsed": true,
+    "qaNotes": [
+      "G9 seo + cta: Missing LocalBusiness JSON-LD",
+      "G9 seo + cta: Missing canonical link",
+      "PARITY WARN: falta Mantener información del restaurante y su ubicación en Móstoles.",
+      "PARITY WARN: falta Cubrir la propuesta para bodas, comuniones y otros eventos.",
+      "PARITY WARN: falta Mostrar el entorno de 5.000 m², jardines, parking propio y zona infantil.",
+      "PARITY WARN: falta Comunicar la capacidad de los salones para más de 500 personas.",
+      "PARITY WARN: falta Incluir menús diarios, menús especiales y menú de fin de semana.",
+      "PARITY WARN: falta Cubrir las cenas de los sábados con orquesta y baile.",
+      "PARITY WARN: falta Conservar una galería de imágenes usando únicamente material propio autorizado.",
+      "PARITY WARN: falta Mantener acceso a los dos PDFs actualmente disponibles.",
+      "PARITY WARN: falta Mostrar el horario confirmado de Google con formato claro, sin inventar horarios adicionales.",
+      "PARITY WARN: falta Mantener una vía directa de contacto telefónico.",
+      "PARITY WARN: falta Si se muestran reseñas, usar únicamente reseñas de 4–5★ permitidas por el dossier y no las marcadas como ⛔.",
+      "PARITY WARN: falta No presentar reserva, pedidos, reparto ni pago online como funcionalidades existentes, salvo que se incorporen y verifiquen expresamente."
+    ],
+    "spec": [
+      "spec/parity.json",
+      "spec/brand.json",
+      "spec/intent-analysis.md"
+    ],
+    "slug": "las-canas-luna-g",
+    "url": "./las-canas-luna-g/"
+  },
+  {
     "project": "el-fermin-luna-l",
     "deployedAt": "2026-10-06 13:50",
     "expiresAt": "2026-11-05",
