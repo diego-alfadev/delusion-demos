@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacaray Peluqueros | Peluquería y estética en Móstoles</title>
+  <meta name="description" content="Pacaray Peluqueros en Móstoles. Peluquería, estética, tratamientos capilares, depilación láser, manicura y pedicura.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#242225',
+            clay: '#c85f4a',
+            blush: '#f1ddd5',
+            sand: '#f7f3ef',
+            moss: '#66705c',
+            smoke: '#696466'
+          },
+          fontFamily: {
+            display: ['Cormorant Garamond', 'serif'],
+            sans: ['DM Sans', 'sans-serif']
+          },
+          boxShadow: {
+            soft: '0 20px 60px rgba(36,34,37,.10)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #f7f3ef; color: #242225; }
+    .display { font-family: "Cormorant Garamond", serif; }
+    .grain::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: .045;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.55'/%3E%3C/svg%3E");
+    }
+    .image-hover img { transition: transform .7s cubic-bezier(.16,1,.3,1), filter .7s ease; }
+    .image-hover:hover img { transform: scale(1.045); filter: saturate(1.08); }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
+</head>
+
+<body class="font-sans antialiased">
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-ink/10 bg-sand/90 backdrop-blur-md">
+    <nav class="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-5 lg:px-8" aria-label="Navegación principal">
+      <a href="#inicio" class="group flex items-center gap-3" aria-label="Pacaray Peluqueros, inicio">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-ink text-lg text-blush display font-semibold">P</span>
+        <span class="leading-none">
+          <span class="block text-[15px] font-semibold tracking-[-.02em]">Pacaray</span>
+          <span class="block text-[10px] uppercase tracking-[.18em] text-smoke">Peluqueros</span>
+        </span>
+      </a>
+
+      <div id="desktop-menu" class="hidden items-center gap-8 text-sm text-smoke lg:flex">
+        <a class="transition-colors hover:text-clay" href="#servicios">Servicios</a>
+        <a class="transition-colors hover:text-clay" href="#salon">El salón</a>
+        <a class="transition-colors hover:text-clay" href="#opiniones">Opiniones</a>
+        <a class="transition-colors hover:text-clay" href="#contacto">Contacto</a>
+      </div>
+
+      <a href="tel:916175752" class="hidden rounded-full bg-clay px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 active:scale-[.98] lg:inline-flex">
+        Llamar para pedir cita
+      </a>
+
+      <button id="menu-button" class="rounded-full border border-ink/15 p-2.5 transition hover:border-clay hover:text-clay lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menú">
+        <span class="block h-0.5 w-5 bg-current"></span>
+        <span class="mt-1.5 block h-0.5 w-5 bg-current"></span>
+      </button>
+    </nav>
+
+    <div id="mobile-menu" class="hidden border-t border-ink/10 bg-sand px-5 py-5 lg:hidden">
+      <div class="flex flex-col gap-4 text-sm">
+        <a href="#servicios">Servicios</a>
+        <a href="#salon">El salón</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+        <a href="tel:916175752" class="mt-2 rounded-full bg-clay px-5 py-3 text-center font-semibold text-white">Llamar para pedir cita</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="grain relative overflow-hidden bg-sand pt-[72px]">
+      <div class="mx-auto grid min-h-[calc(100dvh-72px)] max-w-7xl items-center gap-10 px-5 py-10 sm:py-14 lg:grid-cols-[.9fr_1.1fr] lg:gap-16 lg:px-8 lg:py-12">
+        <div class="relative z-10 max-w-xl">
+          <p class="mb-5 text-[11px] font-semibold uppercase tracking-[.24em] text-clay">Peluquería y estética en Móstoles</p>
+          <h1 class="display text-[clamp(3.7rem,8vw,7rem)] font-semibold leading-[.82] tracking-[-.055em] text-ink">
+            Tu pelo.<br>
+            Tu idea.<br>
+            <span class="text-clay">Tu momento.</span>
+          </h1>
+          <p class="mt-7 max-w-md text-base leading-7 text-smoke">
+            Un equipo cercano que escucha, asesora y explica cada opción para que salgas como querías.
+          </p>
+          <div class="mt-8 flex flex-wrap items-center gap-3">
+            <a href="tel:916175752" class="rounded-full bg-clay px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-1 active:scale-[.98]">
+              Llamar para pedir cita
+            </a>
+            <a href="#servicios" class="rounded-full border border-ink/20 px-6 py-3.5 text-sm font-semibold transition hover:-translate-y-1 hover:border-clay hover:text-clay active:scale-[.98]">
+              Ver servicios
+            </a>
+          </div>
+          <div class="mt-10 flex items-center gap-3 text-sm text-smoke">
+            <span class="display text-3xl font-semibold text-ink">4,7</span>
+            <span class="text-clay">★</span>
+            <span>en Google<br><span class="text-xs">160 reseñas</span></span>
+          </div>
+        </div>
+
+        <div class="relative ml-auto w-full max-w-[610px]">
+          <div class="absolute -left-5 -top-5 h-24 w-24 rounded-full bg-blush sm:-left-10 sm:-top-8 sm:h-36 sm:w-36"></div>
+          <div class="image-hover relative overflow-hidden rounded-[2rem] rounded-br-[7rem] bg-blush shadow-soft">
+            <img src="../img/1d42977abe2fe83d.jpg" alt="Cabello cobrizo recién arreglado en Pacaray Peluqueros" class="h-[58vh] min-h-[420px] w-full object-cover object-center lg:h-[75vh]">
+          </div>
+          <div class="absolute -bottom-5 -left-4 max-w-[220px] rounded-2xl bg-ink px-5 py-4 text-white shadow-soft sm:-bottom-7 sm:-left-8">
+            <p class="display text-2xl leading-none">Escucharte<br>es parte del resultado.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-y border-ink/10 bg-white">
+      <div class="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-ink/10 px-5 py-8 sm:grid-cols-4 lg:px-8">
+        <div class="px-4 first:pl-0 sm:px-7">
+          <p class="display text-3xl font-semibold text-clay">4,7★</p>
+          <p class="mt-1 text-xs text-smoke">valoración en Google</p>
+        </div>
+        <div class="px-4 sm:px-7">
+          <p class="display text-3xl font-semibold text-ink">160</p>
+          <p class="mt-1 text-xs text-smoke">reseñas publicadas</p>
+        </div>
+        <div class="mt-6 border-t border-ink/10 px-4 pt-5 sm:mt-0 sm:border-l sm:border-t-0 sm:px-7 sm:pt-0">
+          <p class="display text-3xl font-semibold text-ink">6</p>
+          <p class="mt-1 text-xs text-smoke">áreas de servicio</p>
+        </div>
+        <div class="mt-6 border-t border-ink/10 px-4 pt-5 sm:mt-0 sm:border-t-0 sm:px-7 sm:pt-0">
+          <p class="display text-3xl font-semibold text-ink">Móstoles</p>
+          <p class="mt-1 text-xs text-smoke">Madrid</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="bg-white px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-7xl">
+        <div class="max-w-2xl">
+          <p class="text-[11px] font-semibold uppercase tracking-[.24em] text-clay">Lo que hacemos</p>
+          <h2 class="display mt-4 text-5xl font-semibold leading-[.9] tracking-[-.04em] sm:text-6xl">Un espacio para cuidarte sin prisas.</h2>
+          <p class="mt-6 max-w-xl text-base leading-7 text-smoke">Pide información sobre el servicio que necesitas. Te ayudamos a encontrar la opción adecuada para ti.</p>
+        </div>
+
+        <div class="mt-14 grid gap-4 md:grid-cols-12">
+          <article class="rounded-2xl bg-ink p-7 text-white md:col-span-7 md:min-h-[330px] md:p-10">
+            <span class="display text-5xl text-blush">01</span>
+            <h3 class="display mt-16 text-4xl font-semibold">Peluquería</h3>
+            <p class="mt-3 max-w-md leading-7 text-white/65">Cortes, color, mechas y asesoramiento para encontrar un resultado que encaje contigo.</p>
+          </article>
+
+          <article class="rounded-2xl bg-blush p-7 md:col-span-5 md:min-h-[330px] md:p-10">
+            <span class="display text-5xl text-clay">02</span>
+            <h3 class="display mt-16 text-4xl font-semibold">Tratamientos capilares</h3>
+            <p class="mt-3 leading-7 text-smoke">Cuidado para cabellos estropeados y tratamientos como Olaplex.</p>
+          </article>
+
+          <article class="rounded-2xl bg-sand p-7 md:col-span-4 md:p-8">
+            <span class="display text-4xl text-clay">03</span>
+            <h3 class="display mt-12 text-3xl font-semibold">Estética</h3>
+            <p class="mt-3 leading-7 text-smoke">Un servicio de estética pensado para completar tu cuidado.</p>
+          </article>
+
+          <article class="rounded-2xl bg-moss p-7 text-white md:col-span-4 md:p-8">
+            <span class="display text-4xl text-blush">04</span>
+            <h3 class="display mt-12 text-3xl font-semibold">Depilación láser</h3>
+            <p class="mt-3 leading-7 text-white/70">Consulta las opciones disponibles en el centro.</p>
+          </article>
+
+          <article class="rounded-2xl bg-[#ead5c4] p-7 md:col-span-4 md:p-8">
+            <span class="display text-4xl text-clay">05</span>
+            <h3 class="display mt-12 text-3xl font-semibold">Manicura y pedicura</h3>
+            <p class="mt-3 leading-7 text-smoke">Cuida tus manos y tus pies en el mismo espacio.</p>
+          </article>
+
+          <article class="rounded-2xl border border-ink/15 bg-white p-7 md:col-span-5 md:p-8">
+            <span class="display text-4xl text-clay">06</span>
+            <h3 class="display mt-12 text-3xl font-semibold">Depilación con cera</h3>
+            <p class="mt-3 leading-7 text-smoke">Pregunta por el servicio que necesitas y te informamos.</p>
+          </article>
+
+          <div class="flex flex-col justify-between rounded-2xl bg-clay p-7 text-white md:col-span-7 md:p-10">
+            <p class="max-w-md text-lg leading-7">¿No tienes claro qué necesitas? Te explicamos las opciones antes de empezar.</p>
+            <a href="tel:916175752" class="mt-12 inline-flex w-fit rounded-full bg-white px-5 py-3 text-sm font-semibold text-ink transition hover:-translate-y-1 active:scale-[.98]">Llamar para pedir cita</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="salon" class="bg-ink px-5 py-20 text-white lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20">
+        <div>
+          <h2 class="display text-6xl font-semibold leading-[.86] tracking-[-.045em] sm:text-7xl">Un salón donde puedes sentirte cómoda.</h2>
+          <p class="mt-7 max-w-md text-base leading-7 text-white/65">
+            El equipo de Pacaray combina un trato cercano con asesoramiento profesional. Te explican cada paso y escuchan lo que buscas.
+          </p>
+          <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex rounded-full border border-white/30 px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:border-blush hover:text-blush active:scale-[.98]">Ver Instagram</a>
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="image-hover overflow-hidden rounded-2xl">
+            <img src="../img/2f934c735e653bf4.jpg" alt="Exterior de Pacaray Peluqueros" class="h-[280px] w-full object-cover sm:h-[390px]">
+          </div>
+          <div class="image-hover mt-12 overflow-hidden rounded-2xl">
+            <img src="../img/aa9ed4802c289788.jpg" alt="Interior y trabajo de Pacaray Peluqueros" class="h-[280px] w-full object-cover sm:h-[390px]">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="opiniones" class="bg-blush px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-[.7fr_1.3fr] lg:items-end">
+          <div>
+            <p class="text-[11px] font-semibold uppercase tracking-[.24em] text-clay">Lo que cuentan</p>
+            <h2 class="display mt-4 text-6xl font-semibold leading-[.84] tracking-[-.05em]">La confianza también se trabaja.</h2>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <blockquote class="rounded-2xl bg-white p-7 shadow-soft">
+              <div class="text-lg tracking-[.15em] text-clay">★★★★★</div>
+              <p class="mt-5 text-lg leading-8 text-ink">“Me explicó todas las opciones que tenía, resolvió todas mis dudas y me dio muy buenos consejos.”</p>
+              <footer class="mt-6 text-sm font-semibold text-smoke">Vanesa Pinilla Frutos</footer>
+            </blockquote>
+            <blockquote class="rounded-2xl bg-ink p-7 text-white shadow-soft">
+              <div class="text-lg tracking-[.15em] text-blush">★★★★★</div>
+              <p class="mt-5 text-lg leading-8 text-white/85">“Mi hijo apenas paraba de moverse. Su capacidad para cortar el pelo de igual forma fue alucinante.”</p>
+              <footer class="mt-6 text-sm font-semibold text-white/60">TERESA</footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="mt-12 border-t border-ink/15 pt-6 text-sm text-smoke">
+          Valoración media de 4,7★ sobre 160 reseñas en Google.
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sand px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-7xl">
+        <div class="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+          <div class="max-w-xl">
+            <h2 class="display text-6xl font-semibold leading-[.86] tracking-[-.05em]">Así se ve nuestro espacio.</h2>
+            <p class="mt-5 text-base leading-7 text-smoke">Una selección de imágenes propias del salón y de nuestro trabajo.</p>
+          </div>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener noreferrer" class="w-fit rounded-full border border-ink/20 px-5 py-3 text-sm font-semibold transition hover:-translate-y-1 hover:border-clay hover:text-clay active:scale-[.98]">Ver ficha de Google</a>
+        </div>
+
+        <div class="mt-12 columns-1 gap-4 sm:columns-2 lg:columns-4" id="gallery">
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/bb8efd3632e599e9.jpg" alt="Cabello largo en el salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/944ec7467a8d5c61.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/a4b3dc29ca1e1484.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/df28c3476dc6165f.jpg" alt="Trabajo de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/7204bb3f36e147b9.jpg" alt="Resultado de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/d1280911c94c8d90.jpg" alt="Trabajo realizado en el salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/d104c186ab1fd02b.jpg" alt="Detalle de cabello" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/16a9ee5a9385f62b.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/c6a2da633e8770a4.jpg" alt="Interior del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/c629c1889b2f46c7.jpg" alt="Trabajo de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/b52af15749b4f46e.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/69794b9a72d025ef.jpg" alt="Resultado de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/8d6849b4b1a7a964.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/2b0437284522de20.jpg" alt="Trabajo realizado en Pacaray Peluqueros" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/b239c84ecbd95512.jpg" alt="Trabajo de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/76a22d0fa1a77f19.jpg" alt="Detalle de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/a9d38ec71886050e.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/1d42977abe2fe83d.jpg" alt="Cabello cobrizo en el salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/5e9cf8743452b896.jpg" alt="Trabajo realizado en el salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/22409e2c093121ee.png" alt="Resultado de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/f8b107dbd76850c5.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/fbc90243d9c10730.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/acdb659001732933.jpg" alt="Trabajo de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/b73ca806783103de.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/bc3556e003d03816.jpg" alt="Resultado de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/ecce716dc7257043.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/31d84a7b643ef108.jpg" alt="Trabajo realizado en Pacaray Peluqueros" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/0bdb19470c1acd3a.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/75d8920c35926cfb.jpg" alt="Resultado de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/f0a6c021c6f3b020.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/127e6c34f99aeafe.jpg" alt="Trabajo realizado en el salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/0fd393cb8ea05568.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/ed2723c8d9b6b22b.jpg" alt="Resultado de peluquería" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/ede6c4101e85f077.jpg" alt="Detalle del salón" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/4d050182489331f0.jpg" alt="Trabajo de color" class="w-full"></div>
+          <div class="image-hover mb-4 overflow-hidden rounded-2xl"><img src="../img/8185733f9012f980.jpg" alt="Trabajo de peluquería" class="w-full"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="bg-clay px-5 py-20 text-white lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_.8fr] lg:items-end">
+        <div>
+          <h2 class="display max-w-3xl text-7xl font-semibold leading-[.82] tracking-[-.055em] sm:text-8xl">Hablemos de lo que necesitas.</h2>
+          <p class="mt-7 max-w-lg text-lg leading-8 text-white/80">Llámanos para consultar disponibilidad, servicios y pedir cita.</p>
+          <a href="tel:916175752" class="mt-8 inline-flex rounded-full bg-white px-6 py-4 text-sm font-semibold text-ink transition hover:-translate-y-1 active:scale-[.98]">916 17 57 52</a>
+        </div>
+
+        <div class="rounded-2xl bg-ink p-7 text-white sm:p-9">
+          <h3 class="display text-4xl font-semibold">Dónde encontrarnos</h3>
+          <p class="mt-5 leading-7 text-white/70">C. de las Palmas, 58, Loc<br>28938 Móstoles, Madrid</p>
+          <div class="mt-7 border-t border-white/15 pt-6">
+            <h4 class="text-sm font-semibold">Horario</h4>
+            <dl class="mt-4 grid grid-cols-2 gap-y-2 text-sm text-white/65">
+              <div class="flex justify-between gap-4"><dt>Lunes a viernes</dt><dd>9:30-19:00</dd></div>
+              <div class="flex justify-between gap-4"><dt>Sábado</dt><dd>9:00-14:00</dd></div>
+              <div class="flex justify-between gap-4"><dt>Domingo</dt><dd>Cerrado</dd></div>
+            </dl>
+          </div>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex text-sm font-semibold text-blush underline decoration-blush/40 underline-offset-4 transition hover:text-white">Abrir ubicación en Google</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink px-5 py-8 text-white lg:px-8">
+    <div class="mx-auto flex max-w-7xl flex-col justify-between gap-5 text-sm text-white/60 sm:flex-row sm:items-center">
+      <div class="flex items-center gap-3">
+        <span class="flex h-8 w-8 items-center justify-center rounded-full bg-blush text-lg text-ink display font-semibold">P</span>
+        <span>Pacaray Peluqueros</span>
+      </div>
+      <div class="flex flex-wrap gap-x-6 gap-y-2">
+        <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener noreferrer" class="transition hover:text-white">Instagram</a>
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener noreferrer" class="transition hover:text-white">Google</a>
+        <a href="tel:916175752" class="transition hover:text-white">Llamar</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.getElementById('menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>

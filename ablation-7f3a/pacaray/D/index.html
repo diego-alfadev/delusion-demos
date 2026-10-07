@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head><meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pacaray Peluqueros · Peluquería y estética en Móstoles</title>
+<meta name="description" content="Peluquería y estética en Móstoles. Corte, color, mechas, tratamientos del cabello, depilación, manicura y pedicura. 4,7 en Google sobre 160 reseñas.">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=Figtree:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="../img/1d42977abe2fe83d.jpg">
+<script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+          sans: ['Figtree', 'system-ui', 'sans-serif'],
+        },
+        colors: {
+          paper: 'rgb(var(--paper) / <alpha-value>)',
+          surface: 'rgb(var(--surface) / <alpha-value>)',
+          ink: 'rgb(var(--ink) / <alpha-value>)',
+          muted: 'rgb(var(--muted) / <alpha-value>)',
+          line: 'rgb(var(--line) / <alpha-value>)',
+          rust: 'rgb(var(--rust) / <alpha-value>)',
+          onrust: 'rgb(var(--onrust) / <alpha-value>)',
+          rusttint: 'rgb(var(--rusttint) / <alpha-value>)',
+          slab: 'rgb(var(--slab) / <alpha-value>)',
+          onslab: 'rgb(var(--onslab) / <alpha-value>)',
+        },
+      },
+    },
+  };
+</script>
+<style>
+  /* Tokens: one palette (Terracotta + Slate), swapped via prefers-color-scheme.
+     Shape rule: interactive buttons = full pill; images, tiles and panels = rounded-2xl (16px). */
+  :root{
+    --paper: 242 243 243;
+    --surface: 232 234 235;
+    --ink: 22 25 28;
+    --muted: 74 81 89;
+    --line: 205 209 213;
+    --rust: 180 83 42;
+    --onrust: 250 250 249;
+    --rusttint: 246 226 216;
+    --slab: 38 44 51;
+    --onslab: 236 238 240;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --paper: 18 20 23;
+      --surface: 28 31 36;
+      --ink: 232 234 236;
+      --muted: 168 175 183;
+      --line: 52 57 64;
+      --rust: 224 122 82;
+      --onrust: 18 20 23;
+      --rusttint: 52 33 26;
+      --slab: 40 46 54;
+      --onslab: 236 238 240;
+      color-scheme: dark;
+    }
+  }
+  body{ -webkit-font-smoothing: antialiased; }
+  .js .reveal{ opacity:0; transform: translateY(24px); transition: opacity .8s cubic-bezier(.16,1,.3,1), transform .8s cubic-bezier(.16,1,.3,1); }
+  .js .reveal.in{ opacity:1; transform:none; }
+  .hero-img{ animation: heroIn 1.2s cubic-bezier(.16,1,.3,1) both; }
+  .hero-copy > *{ animation: copyIn .9s cubic-bezier(.16,1,.3,1) both; }
+  .hero-copy > *:nth-child(2){ animation-delay:.08s }
+  .hero-copy > *:nth-child(3){ animation-delay:.16s }
+  .hero-copy > *:nth-child(4){ animation-delay:.24s }
+  @keyframes heroIn{ from{ opacity:0; transform: scale(1.04);} to{ opacity:1; transform:none;} }
+  @keyframes copyIn{ from{ opacity:0; transform: translateY(16px);} to{ opacity:1; transform:none;} }
+  .snap-row{ scrollbar-width: thin; }
+  @media (prefers-reduced-motion: reduce){
+    .js .reveal{ opacity:1; transform:none; transition:none; }
+    .hero-img, .hero-copy > *{ animation:none; }
+    html{ scroll-behavior:auto; }
+  }
+</style>
+</head>
+<body class="bg-paper text-ink font-sans">
+
+<!-- NAV -->
+<header class="sticky top-0 z-40 bg-paper/90 backdrop-blur border-b border-line">
+  <nav class="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between gap-6" aria-label="Principal">
+    <a href="#inicio" class="font-display text-xl font-semibold tracking-tight whitespace-nowrap">Pacaray<span class="text-rust"> Peluqueros</span></a>
+    <ul class="hidden lg:flex items-center gap-8 text-[15px] text-muted">
+      <li><a class="hover:text-ink transition-colors" href="#servicios">Servicios</a></li>
+      <li><a class="hover:text-ink transition-colors" href="#opiniones">Opiniones</a></li>
+      <li><a class="hover:text-ink transition-colors" href="#fotos">Fotos</a></li>
+      <li><a class="hover:text-ink transition-colors" href="#visitanos">Horario</a></li>
+    </ul>
+    <a href="tel:+34916175752" class="hidden md:inline-flex items-center gap-2 rounded-full bg-rust text-onrust px-5 py-2.5 text-sm font-semibold whitespace-nowrap transition-transform hover:-translate-y-[1px] active:scale-[0.98]">
+      <i class="ph ph-phone text-base" aria-hidden="true"></i>Llamar al 916 17 57 52
+    </a>
+    <a href="tel:+34916175752" class="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-full bg-rust text-onrust active:scale-[0.98]" aria-label="Llamar al 916 17 57 52">
+      <i class="ph ph-phone text-xl" aria-hidden="true"></i>
+    </a>
+  </nav>
+</header>
+
+<main id="inicio">
+
+  <!-- HERO: asymmetric split -->
+  <section class="max-w-7xl mx-auto px-4 md:px-8 pt-10 md:pt-16 pb-16 md:pb-20 grid md:grid-cols-12 gap-10 md:gap-12 items-center md:min-h-[calc(100dvh-4rem)]">
+    <div class="hero-copy md:col-span-6 lg:col-span-6 order-2 md:order-1">
+      <p class="text-[13px] uppercase tracking-[0.16em] text-rust font-semibold mb-5">Peluquería en Móstoles</p>
+      <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tighter leading-[0.98]">Te escuchamos antes de cortar.</h1>
+      <p class="mt-6 text-lg text-muted leading-relaxed max-w-[44ch]">Corte, color y estética. Te explicamos cada opción y decidimos contigo, sin prisas y sin venderte lo que no necesitas.</p>
+      <div class="mt-9 flex flex-wrap gap-3">
+        <a href="tel:+34916175752" class="inline-flex items-center gap-2 rounded-full bg-rust text-onrust px-7 py-4 font-semibold whitespace-nowrap transition-transform hover:-translate-y-[1px] active:scale-[0.98]">
+          <i class="ph ph-phone text-lg" aria-hidden="true"></i>Llamar al 916 17 57 52
+        </a>
+        <a href="#visitanos" class="inline-flex items-center gap-2 rounded-full border border-ink/25 px-7 py-4 font-semibold whitespace-nowrap hover:border-ink/60 transition-colors active:scale-[0.98]">
+          Ver horario<i class="ph ph-arrow-down-right text-lg" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="md:col-span-6 order-1 md:order-2 relative">
+      <div class="overflow-hidden rounded-2xl bg-surface aspect-[4/5] md:aspect-[3/4] max-h-[78dvh] md:ml-auto">
+        <img src="../img/1d42977abe2fe83d.jpg" width="1530" height="2048" fetchpriority="high"
+             alt="Melena cobriza recién arreglada en el salón Pacaray"
+             class="hero-img w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- RATING BAND: typographic numbers -->
+  <section class="border-y border-line bg-surface/60">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 py-14 md:py-16 grid md:grid-cols-12 gap-8 items-end reveal">
+      <div class="md:col-span-5 flex items-end gap-5">
+        <span class="font-display text-[7rem] md:text-[9rem] leading-[0.8] font-semibold tracking-tighter">4,7</span>
+        <div class="pb-2">
+          <div class="flex gap-0.5 text-rust text-xl" aria-hidden="true">
+            <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i>
+          </div>
+          <p class="mt-2 text-muted">de media en Google</p>
+        </div>
+      </div>
+      <div class="md:col-span-7 grid grid-cols-2 gap-8 md:pl-10 md:border-l border-line">
+        <div>
+          <p class="font-display text-4xl md:text-5xl font-semibold tracking-tight">160</p>
+          <p class="mt-1 text-muted">reseñas de clientes</p>
+        </div>
+        <div>
+          <p class="font-display text-4xl md:text-5xl font-semibold tracking-tight">137</p>
+          <p class="mt-1 text-muted">de ellas, con cinco estrellas</p>
+        </div>
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener"
+           class="col-span-2 inline-flex items-center gap-2 font-semibold text-rust hover:underline underline-offset-4 w-fit">
+          Leer las reseñas en Google<i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES: bento, 6 categories = 6 cells -->
+  <section id="servicios" class="max-w-7xl mx-auto px-4 md:px-8 py-20 md:py-28">
+    <div class="reveal max-w-[60ch]">
+      <h2 class="font-display text-4xl md:text-5xl font-semibold tracking-tighter leading-[1.02]">Todo lo que hacemos, en un mismo local.</h2>
+      <p class="mt-4 text-muted leading-relaxed">Pelo, estética y depilación con el mismo equipo. Para precios y disponibilidad, llámanos.</p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-6 gap-4 md:auto-rows-[minmax(220px,auto)]">
+      <!-- 1. Peluquería: image cell -->
+      <article class="reveal md:col-span-4 md:row-span-2 relative overflow-hidden rounded-2xl min-h-[380px] bg-slab group">
+        <img src="../img/bb8efd3632e599e9.jpg" width="1600" height="2001" loading="lazy"
+             alt="Melena larga y lisa peinada en el salón"
+             class="absolute inset-0 w-full h-full object-cover object-[50%_30%] transition-transform duration-700 group-hover:scale-[1.03]">
+        <div class="absolute inset-0 bg-gradient-to-t from-[rgb(14_16_19/0.85)] via-[rgb(14_16_19/0.25)] to-transparent"></div>
+        <div class="relative h-full flex flex-col justify-end p-7 md:p-9 text-[rgb(244_245_246)]">
+          <i class="ph ph-scissors text-3xl mb-4" aria-hidden="true"></i>
+          <h3 class="font-display text-3xl md:text-4xl font-semibold tracking-tight">Peluquería</h3>
+          <p class="mt-2 max-w-[46ch] text-[rgb(226_229_232)] leading-relaxed">Cortes para adultos y niños, color y mechas como el balayage. Si no lo tienes claro, te asesoramos.</p>
+        </div>
+      </article>
+
+      <!-- 2. Tratamientos: rust tint -->
+      <article class="reveal md:col-span-2 rounded-2xl bg-rusttint p-7 flex flex-col">
+        <i class="ph ph-drop text-3xl text-rust" aria-hidden="true"></i>
+        <h3 class="mt-auto pt-10 font-display text-2xl font-semibold tracking-tight">Tratamientos del cabello</h3>
+        <p class="mt-2 text-muted leading-relaxed">Para pelo estropeado: primero miramos cómo está y luego te proponemos qué hacer.</p>
+      </article>
+
+      <!-- 3. Estética -->
+      <article class="reveal md:col-span-2 rounded-2xl bg-surface p-7 flex flex-col">
+        <i class="ph ph-flower-lotus text-3xl text-rust" aria-hidden="true"></i>
+        <h3 class="mt-auto pt-10 font-display text-2xl font-semibold tracking-tight">Estética</h3>
+        <p class="mt-2 text-muted leading-relaxed">Servicios de estética con la esteticista del equipo, sin salir del salón.</p>
+      </article>
+
+      <!-- 4. Láser: slab -->
+      <article class="reveal md:col-span-2 rounded-2xl bg-slab text-onslab p-7 flex flex-col">
+        <i class="ph ph-sparkle text-3xl text-rust" aria-hidden="true"></i>
+        <h3 class="mt-auto pt-10 font-display text-2xl font-semibold tracking-tight">Depilación láser</h3>
+        <p class="mt-2 text-onslab/75 leading-relaxed">Pregúntanos por teléfono qué zonas tratamos y cómo funcionan las sesiones.</p>
+      </article>
+
+      <!-- 5. Cera -->
+      <article class="reveal md:col-span-2 rounded-2xl border border-line p-7 flex flex-col">
+        <i class="ph ph-leaf text-3xl text-rust" aria-hidden="true"></i>
+        <h3 class="mt-auto pt-10 font-display text-2xl font-semibold tracking-tight">Depilación con cera</h3>
+        <p class="mt-2 text-muted leading-relaxed">Si prefieres la cera de siempre, también la hacemos.</p>
+      </article>
+
+      <!-- 6. Manicura -->
+      <article class="reveal md:col-span-2 rounded-2xl bg-surface p-7 flex flex-col">
+        <i class="ph ph-hand-palm text-3xl text-rust" aria-hidden="true"></i>
+        <h3 class="mt-auto pt-10 font-display text-2xl font-semibold tracking-tight">Manicura y pedicura</h3>
+        <p class="mt-2 text-muted leading-relaxed">Cuidado de manos y pies en el mismo local.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS: horizontal scroll-snap -->
+  <section id="opiniones" class="py-20 md:py-24 border-t border-line">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 reveal">
+      <h2 class="font-display text-4xl md:text-5xl font-semibold tracking-tighter leading-[1.02] max-w-[22ch]">Lo que más se repite en las reseñas.</h2>
+    </div>
+    <div class="snap-row mt-12 flex gap-4 overflow-x-auto snap-x snap-mandatory px-4 md:px-[max(2rem,calc((100vw-80rem)/2+2rem))] pb-6">
+      <figure class="reveal snap-start shrink-0 w-[85%] sm:w-[420px] rounded-2xl bg-surface p-8 flex flex-col">
+        <i class="ph ph-chats-circle text-2xl text-rust" aria-hidden="true"></i>
+        <blockquote class="mt-6 font-display text-xl md:text-2xl leading-snug tracking-tight">“Me explicó todas las opciones que tenía, resolvió todas mis dudas y me dio muy buenos consejos.”</blockquote>
+        <figcaption class="mt-auto pt-8 text-sm"><span class="font-semibold">Vanesa Pinilla Frutos</span><br><span class="text-muted">Clienta, reseña de 5 estrellas en Google</span></figcaption>
+      </figure>
+      <figure class="reveal snap-start shrink-0 w-[85%] sm:w-[420px] rounded-2xl bg-surface p-8 flex flex-col">
+        <i class="ph ph-chats-circle text-2xl text-rust" aria-hidden="true"></i>
+        <blockquote class="mt-6 font-display text-xl md:text-2xl leading-snug tracking-tight">“Me hicieron unas mechas balayage que quedaron súper naturales.”</blockquote>
+        <figcaption class="mt-auto pt-8 text-sm"><span class="font-semibold">Lenny2</span><br><span class="text-muted">Local Guide, reseña de 5 estrellas en Google</span></figcaption>
+      </figure>
+      <figure class="reveal snap-start shrink-0 w-[85%] sm:w-[420px] rounded-2xl bg-rusttint p-8 flex flex-col">
+        <i class="ph ph-chats-circle text-2xl text-rust" aria-hidden="true"></i>
+        <blockquote class="mt-6 font-display text-xl md:text-2xl leading-snug tracking-tight">“Llegué con el pelo muy estropeado y Patricia muy buena profesional me supo aconsejar.”</blockquote>
+        <figcaption class="mt-auto pt-8 text-sm"><span class="font-semibold">Rebeca López</span><br><span class="text-muted">Clienta, reseña de 5 estrellas en Google</span></figcaption>
+      </figure>
+      <figure class="reveal snap-start shrink-0 w-[85%] sm:w-[420px] rounded-2xl bg-surface p-8 flex flex-col">
+        <i class="ph ph-chats-circle text-2xl text-rust" aria-hidden="true"></i>
+        <blockquote class="mt-6 font-display text-xl md:text-2xl leading-snug tracking-tight">“Cortes modernos, y se ciñen a lo que pides, o te asesoran y aconsejan.”</blockquote>
+        <figcaption class="mt-auto pt-8 text-sm"><span class="font-semibold">Borja Verdugo</span><br><span class="text-muted">Local Guide, reseña de 5 estrellas en Google</span></figcaption>
+      </figure>
+      <figure class="reveal snap-start shrink-0 w-[85%] sm:w-[420px] rounded-2xl bg-surface p-8 flex flex-col">
+        <i class="ph ph-chats-circle text-2xl text-rust" aria-hidden="true"></i>
+        <blockquote class="mt-6 font-display text-xl md:text-2xl leading-snug tracking-tight">“El personal es muy cercano, te explican cada paso y no intentan venderte cosas que no necesitas.”</blockquote>
+        <figcaption class="mt-auto pt-8 text-sm"><span class="font-semibold">Lenny2</span><br><span class="text-muted">Local Guide, reseña de 5 estrellas en Google</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- KIDS: large tinted panel, statement + stacked quotes -->
+  <section class="max-w-7xl mx-auto px-4 md:px-8 pb-20 md:pb-28">
+    <div class="reveal rounded-2xl bg-rusttint px-6 py-12 md:px-14 md:py-16 grid md:grid-cols-12 gap-10">
+      <div class="md:col-span-5">
+        <i class="ph ph-baby text-4xl text-rust" aria-hidden="true"></i>
+        <h2 class="mt-6 font-display text-4xl md:text-5xl font-semibold tracking-tighter leading-[1.02]">Con los peques, toda la paciencia.</h2>
+        <p class="mt-5 text-muted leading-relaxed max-w-[40ch]">Del primer corte a los que no quieren ni sentarse en la silla. Muchas familias de la zona repiten por eso.</p>
+      </div>
+      <div class="md:col-span-7 md:pl-6 flex flex-col gap-10 justify-center">
+        <figure>
+          <blockquote class="font-display text-2xl md:text-[1.75rem] leading-snug tracking-tight">“Mi hijo apenas paraba de moverse, alucinante su capacidad para cortar el pelo de igual forma.”</blockquote>
+          <figcaption class="mt-4 text-sm"><span class="font-semibold">Teresa</span> <span class="text-muted">- madre, sobre el primer corte de su hijo con Patricia Moreno</span></figcaption>
+        </figure>
+        <figure class="border-t border-ink/15 pt-10">
+          <blockquote class="font-display text-2xl md:text-[1.75rem] leading-snug tracking-tight">“La paciencia que tienen con los niños es increíble, sobre todo con mi hija, que odia sentarse en la silla.”</blockquote>
+          <figcaption class="mt-4 text-sm"><span class="font-semibold">Fernando Pardo</span> <span class="text-muted">- padre, cliente desde hace meses</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY: masonry -->
+  <section id="fotos" class="max-w-7xl mx-auto px-4 md:px-8 pb-20 md:pb-28">
+    <div class="reveal max-w-[60ch]">
+      <h2 class="font-display text-4xl md:text-5xl font-semibold tracking-tighter leading-[1.02]">El salón y nuestros trabajos.</h2>
+      <p class="mt-4 text-muted leading-relaxed">Fotos subidas por el propio equipo. Hay muchas más en nuestro Instagram.</p>
+    </div>
+    <div class="mt-12 columns-1 sm:columns-2 lg:columns-3 gap-4 [&>*]:mb-4">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/aa9ed4802c289788.jpg" width="1280" height="1600" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/b239c84ecbd95512.jpg" width="1600" height="1600" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/d1280911c94c8d90.jpg" width="720" height="900" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/76a22d0fa1a77f19.jpg" width="1440" height="1440" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/f8b107dbd76850c5.jpg" width="1279" height="1599" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/a9d38ec71886050e.jpg" width="1600" height="1600" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/16a9ee5a9385f62b.jpg" width="751" height="936" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/5e9cf8743452b896.jpg" width="1600" height="1600" alt="Trabajo realizado en Pacaray Peluqueros">
+      <img class="reveal w-full rounded-2xl bg-surface break-inside-avoid" loading="lazy" src="../img/acdb659001732933.jpg" width="720" height="960" alt="Trabajo realizado en Pacaray Peluqueros">
+    </div>
+    <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener"
+       class="mt-6 inline-flex items-center gap-2 rounded-full border border-ink/25 px-6 py-3 font-semibold whitespace-nowrap hover:border-ink/60 transition-colors active:scale-[0.98]">
+      <i class="ph ph-instagram-logo text-lg" aria-hidden="true"></i>Ver Instagram
+    </a>
+  </section>
+
+  <!-- VISIT: info + exterior photo -->
+  <section id="visitanos" class="border-t border-line bg-surface/60">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 py-20 md:py-24 grid md:grid-cols-12 gap-12 items-start">
+      <div class="md:col-span-6 reveal">
+        <h2 class="font-display text-4xl md:text-5xl font-semibold tracking-tighter leading-[1.02]">Pide tu cita por teléfono.</h2>
+        <p class="mt-4 text-muted leading-relaxed max-w-[48ch]">Cuéntanos qué quieres hacerte y te damos hora. Estamos en la calle de las Palmas, en Móstoles.</p>
+
+        <dl class="mt-10 grid gap-1" id="horario">
+          <div data-days="1,2,3,4,5" class="flex justify-between gap-6 rounded-2xl px-5 py-4">
+            <dt class="font-semibold">Lunes a viernes</dt><dd class="text-muted tabular-nums">9:30 - 19:00</dd>
+          </div>
+          <div data-days="6" class="flex justify-between gap-6 rounded-2xl px-5 py-4">
+            <dt class="font-semibold">Sábado</dt><dd class="text-muted tabular-nums">9:00 - 14:00</dd>
+          </div>
+          <div data-days="0" class="flex justify-between gap-6 rounded-2xl px-5 py-4">
+            <dt class="font-semibold">Domingo</dt><dd class="text-muted">Cerrado</dd>
+          </div>
+        </dl>
+
+        <div class="mt-8 flex items-start gap-3 text-muted">
+          <i class="ph ph-map-pin text-xl text-rust mt-0.5" aria-hidden="true"></i>
+          <address class="not-italic leading-relaxed">C. de las Palmas, 58, local<br>28938 Móstoles, Madrid</address>
+        </div>
+
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="tel:+34916175752" class="inline-flex items-center gap-2 rounded-full bg-rust text-onrust px-7 py-4 font-semibold whitespace-nowrap transition-transform hover:-translate-y-[1px] active:scale-[0.98]">
+            <i class="ph ph-phone text-lg" aria-hidden="true"></i>Llamar al 916 17 57 52
+          </a>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2 rounded-full border border-ink/25 px-7 py-4 font-semibold whitespace-nowrap hover:border-ink/60 transition-colors active:scale-[0.98]">
+            <i class="ph ph-navigation-arrow text-lg" aria-hidden="true"></i>Cómo llegar
+          </a>
+        </div>
+      </div>
+      <div class="md:col-span-6 reveal">
+        <div class="overflow-hidden rounded-2xl bg-surface aspect-square">
+          <img src="../img/2f934c735e653bf4.jpg" width="1600" height="1600" loading="lazy"
+               alt="Fachada de Pacaray Peluqueros en la calle de las Palmas, Móstoles"
+               class="w-full h-full object-cover">
+        </div>
+        <p class="mt-3 text-sm text-muted">La entrada del salón.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="border-t border-line">
+  <div class="max-w-7xl mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row gap-6 md:items-center md:justify-between text-sm text-muted">
+    <p><span class="font-display text-base font-semibold text-ink">Pacaray Peluqueros</span><br>Peluquería y estética en Móstoles</p>
+    <div class="flex flex-wrap gap-x-8 gap-y-2">
+      <a href="tel:+34916175752" class="hover:text-ink">916 17 57 52</a>
+      <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener" class="hover:text-ink">Instagram</a>
+      <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener" class="hover:text-ink">Google Maps</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Highlight today's opening hours (real semantic state).
+  (function(){
+    var d = new Date().getDay();
+    document.querySelectorAll('#horario [data-days]').forEach(function(row){
+      if (row.dataset.days.split(',').indexOf(String(d)) > -1){
+        row.classList.add('bg-paper','ring-1','ring-line');
+        var dt = row.querySelector('dt');
+        var tag = document.createElement('span');
+        tag.className = 'ml-2 text-rust font-semibold';
+        tag.textContent = '(hoy)';
+        dt.appendChild(tag);
+      }
+    });
+  })();
+
+  // Scroll reveal: one observer, reveals content in reading order. Disabled under reduced motion via CSS.
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      els.forEach(function(el){ el.classList.add('in'); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+    els.forEach(function(el){ io.observe(el); });
+  })();
+</script>
+</body>
+</html>

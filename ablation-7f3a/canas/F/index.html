@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asador Restaurante Las Cañas en Móstoles. Restaurante, parrilla, bodas, comuniones y eventos en un espacio ajardinado de 5.000 m².">
+  <title>Asador Restaurante Las Cañas | Móstoles</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            canas: {
+              green: '#3F8F46',
+              leaf: '#5F8B2D',
+              teal: '#1F8A82',
+              cream: '#EEE9DC',
+              ink: '#333333',
+              sand: '#F7F4EC'
+            }
+          },
+          fontFamily: {
+            display: ['Fraunces', 'serif'],
+            body: ['Inter', 'sans-serif']
+          },
+          boxShadow: {
+            soft: '0 18px 50px rgba(51, 51, 51, 0.12)',
+            line: '0 1px 0 rgba(51, 51, 51, 0.12)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #EEE9DC; color: #333333; }
+    .hero-overlay {
+      background:
+        linear-gradient(90deg, rgba(20, 35, 20, .82) 0%, rgba(20, 35, 20, .55) 46%, rgba(20, 35, 20, .08) 100%),
+        linear-gradient(0deg, rgba(20, 35, 20, .38), transparent 42%);
+    }
+    .image-zoom img { transition: transform .7s cubic-bezier(.16,1,.3,1); }
+    .image-zoom:hover img { transform: scale(1.045); }
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .image-zoom img { transition: none; }
+    }
+  </style>
+</head>
+<body class="font-body antialiased">
+
+  <header class="absolute top-0 left-0 right-0 z-20">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 lg:px-8" aria-label="Navegación principal">
+      <a href="#inicio" class="flex items-center gap-3" aria-label="Asador Restaurante Las Cañas, inicio">
+        <img src="../img/b49457c7c70258cf.png" alt="Logotipo de Asador Restaurante Las Cañas" class="h-14 w-14 rounded-full object-cover ring-2 ring-white/70">
+        <span class="hidden text-sm font-semibold tracking-wide text-white sm:block">LAS CAÑAS</span>
+      </a>
+
+      <div class="hidden items-center gap-8 text-sm font-medium text-white lg:flex">
+        <a href="#restaurante" class="transition hover:text-[#DCECC8]">El restaurante</a>
+        <a href="#celebraciones" class="transition hover:text-[#DCECC8]">Celebraciones</a>
+        <a href="#carta" class="transition hover:text-[#DCECC8]">Carta</a>
+        <a href="#horario" class="transition hover:text-[#DCECC8]">Horario</a>
+      </div>
+
+      <a href="tel:+34916166146" class="hidden rounded-full bg-[#1F8A82] px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-[#176E68] active:scale-95 sm:inline-flex">
+        Llamar al restaurante
+      </a>
+
+      <button id="menuButton" class="rounded-full border border-white/50 p-3 text-white lg:hidden" aria-label="Abrir menú" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="mx-4 hidden rounded-2xl bg-[#333333] p-5 text-white shadow-2xl lg:hidden">
+      <div class="grid gap-4 text-sm font-medium">
+        <a href="#restaurante">El restaurante</a>
+        <a href="#celebraciones">Celebraciones</a>
+        <a href="#carta">Carta</a>
+        <a href="#horario">Horario</a>
+        <a href="tel:+34916166146" class="mt-2 rounded-full bg-[#1F8A82] px-4 py-3 text-center">Llamar al restaurante</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="relative min-h-[100dvh] overflow-hidden">
+      <img src="../img/008f9c3a80529a77.jpg" alt="Terraza ajardinada de Asador Restaurante Las Cañas" class="absolute inset-0 h-full w-full object-cover">
+      <div class="hero-overlay absolute inset-0"></div>
+
+      <div class="relative mx-auto flex min-h-[100dvh] max-w-7xl items-end px-5 pb-14 pt-24 lg:items-center lg:px-8 lg:pb-20">
+        <div class="max-w-2xl text-white">
+          <p class="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-[#DCECC8]">Restaurante y celebraciones en Móstoles</p>
+          <h1 class="font-display text-5xl font-semibold leading-[1.02] tracking-[-0.035em] sm:text-6xl lg:text-7xl">
+            Un lugar para comer, celebrar y volver.
+          </h1>
+          <p class="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
+            Un espacio ajardinado de 5.000 m² para disfrutar de la mesa y compartir tus momentos importantes.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="tel:+34916166146" class="inline-flex items-center justify-center rounded-full bg-[#1F8A82] px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-[#176E68] active:scale-95">
+              Consultar disponibilidad
+            </a>
+            <a href="#celebraciones" class="inline-flex items-center justify-center rounded-full border border-white/70 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-white hover:text-[#333333] active:scale-95">
+              Ver celebraciones
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute bottom-6 right-5 hidden text-right text-xs text-white/80 md:block lg:right-8">
+        <span class="block font-semibold text-white">C. Puerto Linera, 9</span>
+        <span>28935 Móstoles, Madrid</span>
+      </div>
+    </section>
+
+    <section id="restaurante" class="bg-[#F7F4EC] px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[.8fr_1.2fr] lg:items-center lg:gap-20">
+        <div class="reveal">
+          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#3F8F46]">El restaurante</p>
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] text-[#333333] sm:text-5xl">
+            Espacio, jardín y mesa para compartir.
+          </h2>
+          <p class="mt-6 max-w-lg text-base leading-relaxed text-[#555555]">
+            Las Cañas reúne restaurante, parrilla y salones para eventos en un entorno al aire libre pensado para disfrutar en compañía.
+          </p>
+          <div class="mt-8 grid grid-cols-2 gap-x-6 gap-y-7 border-t border-[#333333]/15 pt-7">
+            <div>
+              <strong class="font-display text-3xl font-semibold text-[#3F8F46]">5.000 m²</strong>
+              <p class="mt-1 text-sm text-[#555555]">de extensión</p>
+            </div>
+            <div>
+              <strong class="font-display text-3xl font-semibold text-[#3F8F46]">500+</strong>
+              <p class="mt-1 text-sm text-[#555555]">personas en salones</p>
+            </div>
+            <div>
+              <strong class="font-display text-3xl font-semibold text-[#3F8F46]">4,4★</strong>
+              <p class="mt-1 text-sm text-[#555555]">en Google</p>
+            </div>
+            <div>
+              <strong class="font-display text-3xl font-semibold text-[#3F8F46]">1.988</strong>
+              <p class="mt-1 text-sm text-[#555555]">reseñas en Google</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal grid grid-cols-2 gap-4">
+          <div class="image-zoom overflow-hidden rounded-2xl">
+            <img src="../img/7c6d7615457b5e09.jpg" alt="Comedor preparado con manteles blancos y copas" class="h-full min-h-[250px] w-full object-cover">
+          </div>
+          <div class="image-zoom mt-10 overflow-hidden rounded-2xl">
+            <img src="../img/4c78bc06f2c5a99b.jpg" alt="Salón de restaurante preparado para una celebración" class="h-full min-h-[250px] w-full object-cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="celebraciones" class="bg-[#3F8F46] px-5 py-20 text-white lg:px-8 lg:py-28">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal max-w-2xl">
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] sm:text-5xl">
+            Celebraciones que empiezan mucho antes del primer brindis.
+          </h2>
+          <p class="mt-5 max-w-xl text-base leading-relaxed text-white/80">
+            Bodas, comuniones, bautizos y cumpleaños en un espacio amplio, con jardines, parking propio y zona de ocio infantil.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <a href="tel:+34916166146" class="reveal group overflow-hidden rounded-2xl bg-white/10">
+            <div class="image-zoom aspect-[4/3] overflow-hidden">
+              <img src="../img/3474905ed9e3c074.jpg" alt="Salón preparado para un banquete" class="h-full w-full object-cover">
+            </div>
+            <div class="p-5">
+              <h3 class="font-display text-2xl font-semibold">Bodas</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/75">Un salón y un entorno para cuidar cada parte de la celebración.</p>
+            </div>
+          </a>
+
+          <a href="tel:+34916166146" class="reveal group overflow-hidden rounded-2xl bg-white/10">
+            <div class="image-zoom aspect-[4/3] overflow-hidden">
+              <img src="../img/4940de159b044824.jpg" alt="Mesa decorada para una celebración" class="h-full w-full object-cover">
+            </div>
+            <div class="p-5">
+              <h3 class="font-display text-2xl font-semibold">Comuniones</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/75">Espacio para reunirse y disfrutar también después de la comida.</p>
+            </div>
+          </a>
+
+          <a href="tel:+34916166146" class="reveal group overflow-hidden rounded-2xl bg-white/10">
+            <div class="image-zoom aspect-[4/3] overflow-hidden">
+              <img src="../img/caacb2c78526307e.jpg" alt="Tarta de cumpleaños con frutas y velas" class="h-full w-full object-cover">
+            </div>
+            <div class="p-5">
+              <h3 class="font-display text-2xl font-semibold">Cumpleaños</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/75">Una celebración familiar en un entorno preparado para compartir.</p>
+            </div>
+          </a>
+
+          <a href="tel:+34916166146" class="reveal group overflow-hidden rounded-2xl bg-white/10">
+            <div class="image-zoom aspect-[4/3] overflow-hidden">
+              <img src="../img/b8443e8a1c5a5615.jpg" alt="Salón elegante preparado para un evento" class="h-full w-full object-cover">
+            </div>
+            <div class="p-5">
+              <h3 class="font-display text-2xl font-semibold">Eventos</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/75">Salones con capacidad para más de 500 personas y atención personalizada.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="carta" class="bg-[#EEE9DC] px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_.9fr] lg:items-center lg:gap-20">
+        <div class="reveal order-2 overflow-hidden rounded-2xl lg:order-1">
+          <img src="../img/d17ca1a8eb1f5426.jpg" alt="Carne a la parrilla con romero y pimiento rojo" class="h-[480px] w-full object-cover">
+        </div>
+        <div class="reveal order-1 lg:order-2">
+          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#1F8A82]">La carta</p>
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] sm:text-5xl">
+            Una carta para sentarse sin prisa.
+          </h2>
+          <p class="mt-6 max-w-lg text-base leading-relaxed text-[#555555]">
+            Descubre nuestras propuestas para compartir, los platos fuertes, los asados por encargo y una selección de bebidas para acompañar la mesa.
+          </p>
+
+          <div class="mt-8 grid gap-0 border-t border-[#333333]/15">
+            <a href="https://www.restauranteasadorenmostoles.com/carta-platos" class="flex items-center justify-between border-b border-[#333333]/15 py-4 text-base font-medium transition hover:text-[#1F8A82]">
+              <span>Para picar y compartir</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.restauranteasadorenmostoles.com/carta-platos" class="flex items-center justify-between border-b border-[#333333]/15 py-4 text-base font-medium transition hover:text-[#1F8A82]">
+              <span>Platos fuertes</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.restauranteasadorenmostoles.com/carta-platos" class="flex items-center justify-between border-b border-[#333333]/15 py-4 text-base font-medium transition hover:text-[#1F8A82]">
+              <span>Asados por encargo</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.restauranteasadorenmostoles.com/carta-platos" class="flex items-center justify-between border-b border-[#333333]/15 py-4 text-base font-medium transition hover:text-[#1F8A82]">
+              <span>Postres</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://www.restauranteasadorenmostoles.com/carta-bebidas" class="flex items-center justify-between border-b border-[#333333]/15 py-4 text-base font-medium transition hover:text-[#1F8A82]">
+              <span>Vinos, cavas y sidras</span>
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#F7F4EC] px-5 py-20 lg:px-8 lg:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center lg:gap-20">
+        <div class="reveal">
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] text-[#333333] sm:text-5xl">
+            También venimos por la música.
+          </h2>
+          <p class="mt-6 max-w-lg text-base leading-relaxed text-[#555555]">
+            Además de menús diarios y especiales, todos los sábados del año hay menú de fin de semana y cenas con orquesta y baile.
+          </p>
+          <a href="tel:+34916166146" class="mt-8 inline-flex items-center justify-center rounded-full bg-[#1F8A82] px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-[#176E68] active:scale-95">
+            Consultar próximas cenas
+          </a>
+        </div>
+
+        <div class="reveal relative overflow-hidden rounded-2xl">
+          <img src="../img/2610a901fbe3601f.jpg" alt="Copas de champán servidas en bandejas" class="h-[390px] w-full object-cover">
+          <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#333333]/70 to-transparent p-6 pt-20">
+            <p class="font-display text-3xl font-semibold text-white">Sábados con orquesta y baile</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="horario" class="bg-[#333333] px-5 py-20 text-white lg:px-8 lg:py-24">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[.9fr_1.1fr] lg:items-start lg:gap-24">
+        <div class="reveal">
+          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-[#B8D99C]">Visítanos</p>
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] sm:text-5xl">
+            Estamos en Móstoles.
+          </h2>
+          <p class="mt-5 max-w-md text-base leading-relaxed text-white/70">
+            C. Puerto Linera, 9<br>
+            28935 Móstoles, Madrid
+          </p>
+          <a href="tel:+34916166146" class="mt-8 inline-flex items-center justify-center rounded-full bg-[#1F8A82] px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-[#176E68] active:scale-95">
+            916 16 61 46
+          </a>
+        </div>
+
+        <div class="reveal">
+          <div class="grid gap-0 border-t border-white/20 text-sm">
+            <div class="flex items-center justify-between border-b border-white/15 py-4">
+              <span class="font-medium">Lunes a jueves</span>
+              <span class="text-white/70">8:00 - 20:00</span>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/15 py-4">
+              <span class="font-medium">Viernes</span>
+              <span class="text-white/70">8:00 - 2:30</span>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/15 py-4">
+              <span class="font-medium">Sábado</span>
+              <span class="text-white/70">10:00 - 2:30</span>
+            </div>
+            <div class="flex items-center justify-between border-b border-white/15 py-4">
+              <span class="font-medium">Domingo</span>
+              <span class="text-white/70">Cerrado</span>
+            </div>
+          </div>
+          <p class="mt-5 text-xs leading-relaxed text-white/50">El horario puede variar en fechas especiales. Consulta por teléfono antes de venir.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#1F8A82] px-5 py-20 text-white lg:px-8 lg:py-24">
+      <div class="mx-auto flex max-w-7xl flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
+        <div class="reveal max-w-2xl">
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-[-0.025em] sm:text-5xl">
+            Cuéntanos qué quieres celebrar.
+          </h2>
+          <p class="mt-5 max-w-xl text-base leading-relaxed text-white/80">
+            Llámanos para consultar disponibilidad, menús y opciones para tu próximo evento.
+          </p>
+        </div>
+        <a href="tel:+34916166146" class="reveal inline-flex shrink-0 items-center justify-center rounded-full bg-white px-7 py-4 text-sm font-semibold text-[#333333] transition hover:bg-[#EEE9DC] active:scale-95">
+          Llamar al 916 16 61 46
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-[#EEE9DC] px-5 py-10 lg:px-8">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 border-t border-[#333333]/15 pt-7 text-sm text-[#555555] sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex items-center gap-3">
+        <img src="../img/b49457c7c70258cf.png" alt="Logotipo de Asador Restaurante Las Cañas" class="h-10 w-10 rounded-full object-cover">
+        <span>Asador Restaurante Las Cañas</span>
+      </div>
+      <div class="flex flex-col gap-1 sm:items-end">
+        <span>C. Puerto Linera, 9, 28935 Móstoles, Madrid</span>
+        <a href="tel:+34916166146" class="font-semibold text-[#3F8F46]">916 16 61 46</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.getElementById('menuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    menuButton.addEventListener('click', () => {
+      const isOpen = !mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuButton.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
+  </script>
+</body>
+</html>

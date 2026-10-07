@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pacaray Peluqueros en Móstoles. Peluquería, estética, tratamientos capilares, depilación láser, manicura y pedicura." />
+  <title>Pacaray Peluqueros | Móstoles</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#202126",
+            charcoal: "#2B2D2E",
+            cream: "#E9E2D8",
+            canvas: "#F5F1EB",
+            copper: "#E87524",
+            copperdark: "#B95316"
+          },
+          fontFamily: {
+            display: ["Fraunces", "serif"],
+            body: ["Manrope", "sans-serif"]
+          },
+          boxShadow: {
+            soft: "0 18px 60px rgba(32,33,38,.10)",
+            copper: "0 12px 30px rgba(232,117,36,.20)"
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #F5F1EB;
+      color: #202126;
+      font-family: "Manrope", sans-serif;
+    }
+
+    ::selection {
+      background: #E87524;
+      color: #fff;
+    }
+
+    .hairline {
+      position: relative;
+    }
+
+    .hairline::after {
+      content: "";
+      display: block;
+      width: 76px;
+      height: 2px;
+      margin-top: 24px;
+      background: #E87524;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s cubic-bezier(.16, 1, .3, 1);
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .gallery-card {
+      break-inside: avoid;
+      overflow: hidden;
+      background: #E9E2D8;
+      border-radius: 18px;
+    }
+
+    .gallery-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform .7s cubic-bezier(.16, 1, .3, 1);
+    }
+
+    .gallery-card:hover img {
+      transform: scale(1.045);
+    }
+
+    .service-item {
+      transition: background-color .25s ease, padding-left .25s ease;
+    }
+
+    .service-item:hover {
+      background: #E9E2D8;
+      padding-left: 22px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *, *::before, *::after {
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="overflow-x-hidden">
+  <header class="absolute inset-x-0 top-0 z-20">
+    <div class="mx-auto flex h-[74px] max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
+      <a href="#inicio" class="font-display text-xl font-semibold tracking-tight text-white" aria-label="Pacaray Peluqueros, inicio">
+        Pacaray
+      </a>
+
+      <nav class="hidden items-center gap-8 text-sm font-semibold text-white/90 md:flex" aria-label="Navegación principal">
+        <a class="transition hover:text-white" href="#servicios">Servicios</a>
+        <a class="transition hover:text-white" href="#trabajos">Trabajos</a>
+        <a class="transition hover:text-white" href="#opiniones">Opiniones</a>
+        <a class="transition hover:text-white" href="#visitanos">Visítanos</a>
+      </nav>
+
+      <a href="tel:+34916175752" class="hidden rounded-full bg-copper px-5 py-3 text-sm font-bold text-white shadow-copper transition hover:bg-copperdark active:scale-95 sm:inline-flex">
+        Llamar ahora
+      </a>
+
+      <button id="menuButton" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-white/30 text-white md:hidden" aria-label="Abrir menú" aria-expanded="false">
+        <span class="text-xl" aria-hidden="true">☰</span>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="mx-4 hidden rounded-2xl bg-ink p-5 text-white shadow-soft md:hidden">
+      <nav class="grid gap-4 text-sm font-semibold" aria-label="Navegación móvil">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#visitanos">Visítanos</a>
+        <a href="tel:+34916175752" class="mt-2 rounded-full bg-copper px-4 py-3 text-center">Llamar ahora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="relative min-h-[100dvh] overflow-hidden bg-ink">
+      <div class="absolute inset-0">
+        <img src="../img/2f934c735e653bf4.jpg" alt="Fachada de Pacaray Peluqueros" class="h-full w-full object-cover opacity-45" />
+        <div class="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/20"></div>
+      </div>
+
+      <div class="relative mx-auto grid min-h-[100dvh] max-w-7xl items-center px-5 pb-12 pt-24 sm:px-8 lg:grid-cols-[1.05fr_.95fr] lg:gap-16 lg:px-10">
+        <div class="max-w-2xl text-white">
+          <p class="mb-6 text-xs font-bold uppercase tracking-[0.22em] text-copper">Peluquería y estética en Móstoles</p>
+          <h1 class="font-display text-5xl font-semibold leading-[1.02] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
+            Tu estilo, entendido de verdad.
+          </h1>
+          <p class="mt-6 max-w-xl text-base leading-7 text-white/75 sm:text-lg">
+            Asesoramiento profesional y cercano para cuidar tu cabello, renovar tu imagen y sentirte cómoda con el resultado.
+          </p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a href="tel:+34916175752" class="inline-flex items-center justify-center rounded-full bg-copper px-6 py-4 text-sm font-bold text-white shadow-copper transition hover:bg-copperdark active:scale-95">
+              Solicitar cita
+            </a>
+            <a href="#servicios" class="inline-flex items-center justify-center rounded-full border border-white/40 px-6 py-4 text-sm font-bold text-white transition hover:border-white hover:bg-white/10 active:scale-95">
+              Ver servicios
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-12 flex justify-start lg:mt-28 lg:justify-end">
+          <div class="max-w-[315px] border-l border-copper pl-6 text-white sm:max-w-[370px]">
+            <p class="font-display text-3xl leading-tight sm:text-4xl">Cada cambio empieza hablando.</p>
+            <p class="mt-4 text-sm leading-6 text-white/65">Te explicamos las opciones, resolvemos tus dudas y trabajamos contigo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-b border-ink/10 bg-canvas">
+      <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-5 py-10 sm:px-8 md:grid-cols-3 lg:px-10">
+        <div class="flex items-center gap-4">
+          <span class="font-display text-4xl font-semibold text-copper">4,7</span>
+          <div>
+            <p class="font-bold">Valoración en Google</p>
+            <p class="text-sm text-ink/60">Sobre 160 reseñas</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 border-ink/10 md:border-l md:pl-8">
+          <span class="font-display text-4xl font-semibold text-copper">01</span>
+          <div>
+            <p class="font-bold">Atención cercana</p>
+            <p class="text-sm text-ink/60">Te explicamos cada paso</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 border-ink/10 md:border-l md:pl-8">
+          <span class="font-display text-4xl font-semibold text-copper">02</span>
+          <div>
+            <p class="font-bold">Cuidado capilar</p>
+            <p class="text-sm text-ink/60">Productos de calidad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="bg-canvas px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal max-w-2xl">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-copper">Lo que hacemos</p>
+          <h2 class="hairline mt-4 font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
+            Un cuidado completo para ti.
+          </h2>
+          <p class="mt-7 max-w-xl text-base leading-7 text-ink/65">
+            Cuéntanos qué necesitas y te orientamos sobre las opciones más adecuadas para tu cabello y tu estilo.
+          </p>
+        </div>
+
+        <div class="mt-16 grid gap-12 lg:grid-cols-[1fr_1.15fr] lg:items-start lg:gap-24">
+          <div class="reveal overflow-hidden rounded-[18px]">
+            <img src="../img/bb8efd3632e599e9.jpg" alt="Cabello largo y liso en el salón" class="h-[520px] w-full object-cover sm:h-[650px]" loading="lazy" />
+          </div>
+
+          <div class="reveal divide-y divide-ink/15">
+            <div class="service-item py-6 first:pt-0">
+              <h3 class="font-display text-3xl font-semibold">Peluquería</h3>
+              <p class="mt-2 max-w-lg text-sm leading-6 text-ink/60">Cortes, color, mechas y cambios de imagen adaptados a lo que buscas.</p>
+            </div>
+            <div class="service-item py-6">
+              <h3 class="font-display text-3xl font-semibold">Tratamientos capilares</h3>
+              <p class="mt-2 max-w-lg text-sm leading-6 text-ink/60">Opciones para cuidar el cabello y recuperar su aspecto cuando está estropeado.</p>
+            </div>
+            <div class="service-item py-6">
+              <h3 class="font-display text-3xl font-semibold">Estética</h3>
+              <p class="mt-2 max-w-lg text-sm leading-6 text-ink/60">Servicios de estética para completar tu cuidado personal.</p>
+            </div>
+            <div class="service-item py-6">
+              <h3 class="font-display text-3xl font-semibold">Depilación láser y con cera</h3>
+              <p class="mt-2 max-w-lg text-sm leading-6 text-ink/60">Tratamientos de depilación dentro de un mismo espacio.</p>
+            </div>
+            <div class="service-item py-6 last:pb-0">
+              <h3 class="font-display text-3xl font-semibold">Manicura y pedicura</h3>
+              <p class="mt-2 max-w-lg text-sm leading-6 text-ink/60">Cuidado de manos y pies con una atención cercana.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajos" class="bg-cream px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal flex flex-col justify-between gap-8 md:flex-row md:items-end">
+          <div class="max-w-2xl">
+            <h2 class="font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Un vistazo al salón y a nuestro trabajo.</h2>
+            <p class="mt-6 max-w-xl text-base leading-7 text-ink/65">Imágenes propias compartidas por Pacaray Peluqueros en su ficha de Google.</p>
+          </div>
+          <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener" class="inline-flex w-fit items-center rounded-full border border-ink/30 px-5 py-3 text-sm font-bold transition hover:border-ink hover:bg-ink hover:text-white">
+            Ver Instagram
+          </a>
+        </div>
+
+        <div class="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-4">
+          <div class="gallery-card mb-5"><img src="../img/944ec7467a8d5c61.jpg" alt="Interior de Pacaray Peluqueros" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/a4b3dc29ca1e1484.jpg" alt="Trabajo de peluquería de Pacaray" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/df28c3476dc6165f.jpg" alt="Detalle del salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/aa9ed4802c289788.jpg" alt="Resultado de color en cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/7204bb3f36e147b9.jpg" alt="Trabajo realizado en Pacaray Peluqueros" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/d1280911c94c8d90.jpg" alt="Detalle de cabello cuidado" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/d104c186ab1fd02b.jpg" alt="Trabajo de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/16a9ee5a9385f62b.jpg" alt="Resultado de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/c6a2da633e8770a4.jpg" alt="Interior del salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/c629c1889b2f46c7.jpg" alt="Detalle de un trabajo de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/b52af15749b4f46e.jpg" alt="Resultado de color" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/69794b9a72d025ef.jpg" alt="Trabajo de cabello en el salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/8d6849b4b1a7a964.jpg" alt="Detalle del espacio" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/2b0437284522de20.jpg" alt="Trabajo de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/b239c84ecbd95512.jpg" alt="Resultado de un servicio de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/76a22d0fa1a77f19.jpg" alt="Detalle de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/a9d38ec71886050e.jpg" alt="Trabajo realizado en el salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/1d42977abe2fe83d.jpg" alt="Cabello cobrizo arreglado en el salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/5e9cf8743452b896.jpg" alt="Resultado de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/22409e2c093121ee.png" alt="Detalle de un servicio de belleza" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/f8b107dbd76850c5.jpg" alt="Trabajo de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/fbc90243d9c10730.jpg" alt="Interior y trabajo del salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/acdb659001732933.jpg" alt="Resultado de un servicio de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/b73ca806783103de.jpg" alt="Detalle de cabello trabajado" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/bc3556e003d03816.jpg" alt="Trabajo de color" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/ecce716dc7257043.jpg" alt="Resultado de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/31d84a7b643ef108.jpg" alt="Trabajo realizado por Pacaray Peluqueros" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/0bdb19470c1acd3a.jpg" alt="Detalle del salón" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/75d8920c35926cfb.jpg" alt="Resultado de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/f0a6c021c6f3b020.jpg" alt="Trabajo de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/127e6c34f99aeafe.jpg" alt="Detalle de belleza" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/0fd393cb8ea05568.jpg" alt="Resultado de un servicio" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/ed2723c8d9b6b22b.jpg" alt="Trabajo de cabello" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/ede6c4101e85f077.jpg" alt="Detalle de peluquería" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/4d050182489331f0.jpg" alt="Resultado de Pacaray Peluqueros" loading="lazy"></div>
+          <div class="gallery-card mb-5"><img src="../img/8185733f9012f980.jpg" alt="Trabajo realizado en el salón" loading="lazy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="opiniones" class="bg-canvas px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
+      <div class="mx-auto max-w-7xl">
+        <div class="reveal max-w-2xl">
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Lo que más valoran quienes vienen.</h2>
+          <p class="mt-6 max-w-xl text-base leading-7 text-ink/65">Experiencias compartidas por clientes en Google. Puedes leer cada reseña en su fuente original.</p>
+        </div>
+
+        <div class="mt-14 grid gap-5 md:grid-cols-3">
+          <article class="reveal flex flex-col rounded-[18px] bg-cream p-7">
+            <div class="text-lg tracking-[0.18em] text-copper" aria-label="Cinco estrellas">★★★★★</div>
+            <p class="mt-7 flex-1 font-display text-2xl leading-snug">“Me explicó todas las opciones que tenía, resolvió todas mis dudas y me dio muy buenos consejos sobre cómo cuidar mi pelo.”</p>
+            <div class="mt-8 border-t border-ink/15 pt-5 text-sm">
+              <p class="font-bold">Vanesa Pinilla Frutos</p>
+              <a href="https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2taUVJYaFRaR3BZZWxKR2JtVnFjMWh6TkhWV2VHYxAB!2m1!1s0x0:0x613048b189c72cb4!3m1!1s2@1:CAIQACodChtycF9oOkZQRXhTZGpYelJGbmVqc1hzNHVWeGc%7C%7C?hl=es" target="_blank" rel="noopener" class="mt-1 inline-block text-ink/55 underline underline-offset-4">Leer reseña</a>
+            </div>
+          </article>
+
+          <article class="reveal flex flex-col rounded-[18px] bg-ink p-7 text-white">
+            <div class="text-lg tracking-[0.18em] text-copper" aria-label="Cinco estrellas">★★★★★</div>
+            <p class="mt-7 flex-1 font-display text-2xl leading-snug">“La paciencia que tienen con los niños es increíble, sobre todo con mi hija, que odia sentarse en la silla.”</p>
+            <div class="mt-8 border-t border-white/20 pt-5 text-sm">
+              <p class="font-bold">TERESA</p>
+              <a href="https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21vM2NUZDBUMHRJVm5kQmJuRnZUMEpOU0dWMFZWRRAB!2m1!1s0x0:0x613048b189c72cb4!3m1!1s2@1:CAIQACodChtycF9oOmo3cTd0T0tIVndBbnFvT0JNSGV0VVE%7C%7C?hl=es" target="_blank" rel="noopener" class="mt-1 inline-block text-white/60 underline underline-offset-4">Leer reseña</a>
+            </div>
+          </article>
+
+          <article class="reveal flex flex-col rounded-[18px] bg-cream p-7">
+            <div class="text-lg tracking-[0.18em] text-copper" aria-label="Cinco estrellas">★★★★★</div>
+            <p class="mt-7 flex-1 font-display text-2xl leading-snug">“Me hicieron unas mechas balayage que quedaron súper naturales. Te explican cada paso y no intentan venderte cosas que no necesitas.”</p>
+            <div class="mt-8 border-t border-ink/15 pt-5 text-sm">
+              <p class="font-bold">Lenny2</p>
+              <a href="https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pGSFRuTkxibVpMUzNadGIweEZjR3R3VUdGV04yYxAB!2m1!1s0x0:0x613048b189c72cb4!3m1!1s2@1:CAIQACodChtycF9oOjFHTnNLbmZLS3Ztb0xFcGtwUGFWN2c%7C%7C?hl=es" target="_blank" rel="noopener" class="mt-1 inline-block text-ink/55 underline underline-offset-4">Leer reseña</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="mt-12 flex flex-col items-start gap-5 border-t border-ink/15 pt-8 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p class="font-display text-3xl font-semibold">4,7 <span class="text-copper">★</span></p>
+            <p class="mt-1 text-sm text-ink/60">Valoración media en Google sobre 160 reseñas</p>
+          </div>
+          <a href="https://www.google.com/maps/place/?q=place_id:ChIJmzLZt9KNQQ0RtCzHibFIMGE" target="_blank" rel="noopener" class="rounded-full bg-ink px-5 py-3 text-sm font-bold text-white transition hover:bg-copper active:scale-95">
+            Ver todas las reseñas
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="visitanos" class="bg-cream px-5 py-24 sm:px-8 lg:px-10 lg:py-32">
+      <div class="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[.9fr_1.1fr] lg:items-center lg:gap-24">
+        <div class="reveal">
+          <h2 class="font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Ven a conocernos.</h2>
+          <p class="mt-6 max-w-lg text-base leading-7 text-ink/65">Llámanos para solicitar cita o escríbenos a través de Instagram.</p>
+
+          <div class="mt-10 space-y-7">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[0.18em] text-copper">Dónde estamos</p>
+              <p class="mt-2 max-w-sm text-base leading-7">C. de las Palmas, 58, Loc<br />28938 Móstoles, Madrid</p>
+            </div>
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[0.18em] text-copper">Horario</p>
+              <div class="mt-2 grid max-w-sm grid-cols-2 gap-x-8 gap-y-1 text-sm leading-6">
+                <span>Lunes a viernes</span><span>9:30-19:00</span>
+                <span>Sábado</span><span>9:00-14:00</span>
+                <span>Domingo</span><span>Cerrado</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+            <a href="tel:+34916175752" class="inline-flex items-center justify-center rounded-full bg-copper px-6 py-4 text-sm font-bold text-white shadow-copper transition hover:bg-copperdark active:scale-95">
+              916 17 57 52
+            </a>
+            <a href="https://www.instagram.com/pacaray_peluqueros" target="_blank" rel="noopener" class="inline-flex items-center justify-center rounded-full border border-ink/30 px-6 py-4 text-sm font-bold transition hover:border-ink hover:bg-ink hover:text-white active:scale-95">
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal relative">
+          <div class="absolute -bottom-5 -left-5 h-28 w-28 rounded-full border-2 border-copper/60"></div>
+          <img src="../img/2f934c735e653bf4.jpg" alt="Exterior de Pacaray Peluqueros en Móstoles" class="relative h-[480px] w-full rounded-[18px] object-cover sm:h-[620px]" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-ink px-5 py-20 text-white sm:px-8 lg:px-10 lg:py-28">
+      <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 md:flex-row md:items-end">
+        <div class="max-w-2xl">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-copper">Tu próxima visita</p>
+          <h2 class="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">Hablemos de lo que necesitas.</h2>
+        </div>
+        <a href="tel:+34916175752" class="inline-flex rounded-full bg-copper px-6 py-4 text-sm font-bold text-white shadow-copper transition hover:bg-copperdark active:scale-95">
+          Solicitar cita
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-ink px-5 pb-8 text-white sm:px-8 lg:px-10">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 border-t border-white/15 pt-8 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
+      <p class="font-display text-xl text-white">Pacaray Peluqueros</p>
+      <p>C. de las Palmas, 58, Loc, 28938 Móstoles, Madrid</p>
+      <a href="tel:+34916175752" class="text-white transition hover:text-copper">916 17 57 52</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.getElementById("menuButton");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = mobileMenu.classList.toggle("hidden") === false;
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.querySelector("span").textContent = isOpen ? "×" : "☰";
+    });
+
+    document.querySelectorAll("#mobileMenu a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.querySelector("span").textContent = "☰";
+      });
+    });
+
+    const revealElements = document.querySelectorAll(".reveal");
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    revealElements.forEach((element) => revealObserver.observe(element));
+  </script>
+</body>
+</html>
