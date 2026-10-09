@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta name="robots" content="noindex">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante El Fermín | Cocina mediterránea en Alcorcón desde 1976</title>
+  <meta name="description" content="Restaurante El Fermín en Alcorcón. Raciones, carnes, mariscos, menú del día, comida a domicilio, zona infantil y monólogos los jueves.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Geist', 'system-ui', 'sans-serif'] },
+          colors: {
+            fermin: { 900: '#122a20', 700: '#1e4d3a', 600: '#266045', 50: '#f4f6f2' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    .reveal { animation: rise .7s cubic-bezier(.16,1,.3,1) both; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { animation: none; }
+      .lift { transition: none !important; }
+    }
+    .lift { transition: transform .2s ease, background-color .2s ease; }
+    .lift:active { transform: scale(.98); }
+    details summary { list-style: none; }
+    details summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+<body class="bg-white text-zinc-900 font-sans antialiased">
+
+  <!-- NAVEGACIÓN -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-zinc-200">
+    <nav class="mx-auto flex h-16 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6" aria-label="Principal">
+      <a href="#inicio" class="flex items-center gap-3 shrink-0">
+        <img src="../img/e00c4fc4582ef752.png" alt="Logotipo de Restaurante El Fermín" class="h-10 w-auto rounded-lg">
+        <span class="hidden sm:block text-sm font-semibold tracking-tight text-zinc-900">Restaurante El Fermín</span>
+      </a>
+      <ul class="hidden lg:flex items-center gap-7 text-sm text-zinc-600 whitespace-nowrap">
+        <li><a href="#menu-del-dia" class="hover:text-fermin-700">Menú del día</a></li>
+        <li><a href="#carta" class="hover:text-fermin-700">Carta</a></li>
+        <li><a href="#domicilio" class="hover:text-fermin-700">Domicilio</a></li>
+        <li><a href="#zona-infantil" class="hover:text-fermin-700">Zona infantil</a></li>
+        <li><a href="#contacto" class="hover:text-fermin-700">Contacto</a></li>
+      </ul>
+      <a href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-fermin/spanish" target="_blank" rel="noopener"
+         class="lift shrink-0 whitespace-nowrap rounded-xl bg-fermin-700 px-4 py-2.5 text-sm font-semibold text-white hover:bg-fermin-600">
+        Reservar mesa
+      </a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio" class="relative">
+      <div class="mx-auto grid max-w-7xl items-center gap-10 px-4 pb-16 pt-16 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:pb-24 lg:pt-24">
+        <div class="reveal">
+          <h1 class="text-4xl font-semibold leading-[1.05] tracking-tighter text-zinc-950 md:text-5xl lg:text-6xl">
+            Raciones, carnes y menú del día desde 1976.
+          </h1>
+          <p class="mt-6 max-w-[38ch] text-lg leading-relaxed text-zinc-600">
+            Cocina mediterránea en Alcorcón con raciones para compartir, menú del día a 16 € y comida a domicilio por WhatsApp.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-fermin/spanish" target="_blank" rel="noopener"
+               class="lift whitespace-nowrap rounded-xl bg-fermin-700 px-6 py-3.5 text-base font-semibold text-white hover:bg-fermin-600">
+              Reservar mesa
+            </a>
+            <a href="https://wa.me/34640293202" target="_blank" rel="noopener"
+               class="lift whitespace-nowrap rounded-xl border border-zinc-300 bg-white px-6 py-3.5 text-base font-semibold text-zinc-900 hover:border-fermin-700">
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="reveal">
+          <img src="../img/c649c2d50ed7fa9b.jpg" alt="Ingredientes frescos de carne, tomates, chiles y hierbas sobre pizarra negra"
+               class="aspect-[4/3] w-full rounded-xl object-cover" width="1200" height="600">
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section aria-labelledby="sobre-titulo" class="border-t border-zinc-200 bg-zinc-50">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-12 lg:gap-16">
+        <h2 id="sobre-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl lg:col-span-5">
+          Una cocina original, con platos de siempre y propuestas nuevas.
+        </h2>
+        <div class="space-y-5 text-base leading-relaxed text-zinc-600 lg:col-span-6 lg:col-start-7">
+          <p>
+            Si buscas restaurantes en Alcorcón donde comer bien y a buen precio, El Fermín combina gran cantidad de platos tradicionales con otros más modernos de alta cocina.
+          </p>
+          <p>
+            Llevamos más de 40 años en Alcorcón. Carnes, pescados, mariscos, raciones, bocadillos, comida vegana y una gran carta de vinos.
+          </p>
+          <ul class="grid gap-3 pt-2 text-sm text-zinc-700 sm:grid-cols-2">
+            <li class="rounded-xl bg-white p-4">Acceso para sillas de ruedas</li>
+            <li class="rounded-xl bg-white p-4">Aseo accesible con silla de ruedas</li>
+            <li class="rounded-xl bg-white p-4">Asientos accesibles con silla de ruedas</li>
+            <li class="rounded-xl bg-white p-4">Tabla de alérgenos disponible en PDF</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENÚ DEL DÍA -->
+    <section id="menu-del-dia" aria-labelledby="menu-titulo" class="scroll-mt-20">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+        <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 id="menu-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">Menú del día</h2>
+            <p class="mt-3 max-w-[60ch] text-zinc-600">Último menú publicado: 2 de octubre de 2026. Cambia a diario, así que pregunta por el de hoy si tienes dudas.</p>
+          </div>
+        </div>
+
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <div class="rounded-xl bg-fermin-700 p-6 text-white">
+            <p class="text-sm font-medium text-white/80">En el restaurante</p>
+            <p class="mt-2 text-4xl font-semibold tracking-tight tabular-nums">16,00 €</p>
+            <p class="mt-3 text-sm leading-relaxed text-white/85">Incluye bebida, pan, postre o café.</p>
+          </div>
+          <div class="rounded-xl bg-zinc-100 p-6">
+            <p class="text-sm font-medium text-zinc-600">Menú completo con bebida ilimitada</p>
+            <p class="mt-2 text-4xl font-semibold tracking-tight tabular-nums text-zinc-950">34,00 €</p>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Incluye bebida ilimitada, pan, postre, café y licor.</p>
+          </div>
+          <div class="rounded-xl bg-zinc-100 p-6">
+            <p class="text-sm font-medium text-zinc-600">A domicilio</p>
+            <p class="mt-2 text-4xl font-semibold tracking-tight tabular-nums text-zinc-950">16,00 €</p>
+            <p class="mt-3 text-sm leading-relaxed text-zinc-600">Refrescos de 50 cl a 1,30 €.</p>
+          </div>
+        </div>
+
+        <div class="mt-14 grid gap-12 lg:grid-cols-2 lg:gap-16">
+          <div>
+            <h3 class="text-xl font-semibold text-zinc-950">Primeros</h3>
+            <ul class="mt-5 space-y-4 text-zinc-700">
+              <li>Pucherito de judión con chorizo y morcilla asturiana</li>
+              <li>Arroz caldoso con sepia, almejas y gambitas de Huelva</li>
+              <li>Gambón a la plancha del Mediterráneo (5 uds.)</li>
+              <li>Torrezno de Soria con patatas revolconas</li>
+              <li>Ñoquis en salsa de trufa negra con queso parmesano</li>
+              <li>Ensalada de tomate Mar Azul de Granada con queso alisado, pesto verde y nueces <span class="text-sm text-fermin-700">(Saludable)</span></li>
+              <li>Croquetas veganas <span class="text-sm text-fermin-700">(Vegano)</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-zinc-950">Segundos</h3>
+            <ul class="mt-5 space-y-4 text-zinc-700">
+              <li>Entrecot de ternera a la plancha</li>
+              <li>Carrillada de cerdo estofada al Pedro Ximénez</li>
+              <li>Milanesa argentina al caballo (jamón serrano y huevo frito)</li>
+              <li>Solomillo de cerdo a la pimienta verde</li>
+              <li>Quesadilla de pollo de corral desmechado al estilo colombiano con guacamole y pico de gallo</li>
+              <li>Salmón a la plancha con salsa de setas <span class="text-sm text-fermin-700">(Saludable)</span></li>
+              <li>Hamburguesa vegana <span class="text-sm text-fermin-700">(Vegano)</span></li>
+            </ul>
+            <p class="mt-8 rounded-xl bg-zinc-50 p-5 text-sm text-zinc-600">Postres: "Tenemos mucha variedad y cambiamos constantemente."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta" aria-labelledby="carta-titulo" class="scroll-mt-20 border-t border-zinc-200 bg-zinc-50">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+        <h2 id="carta-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">Carta completa</h2>
+        <p class="mt-3 max-w-[60ch] text-zinc-600">Precios en euros. Los platos con alérgenos se indican en la <a href="https://elfermin.es/wp-content/uploads/2017/08/tabla-de-alimentos.pdf" target="_blank" rel="noopener" class="font-medium text-fermin-700 underline underline-offset-4">tabla de alimentos</a>.</p>
+
+        <div class="mt-10 grid gap-4 lg:grid-cols-2">
+
+          <details open class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Raciones variadas <span class="text-sm font-normal text-zinc-500">22 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Croquetas caseras de jamón ibérico (6 uds.)</span><span class="shrink-0 tabular-nums font-medium">9,80 €</span></li>
+              <li class="flex justify-between gap-4"><span>Croquetas de cochinillo con manzana (6 uds.)</span><span class="shrink-0 tabular-nums font-medium">10,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Tequeños de queso con salsa de frutos rojos (6 uds.)</span><span class="shrink-0 tabular-nums font-medium">10,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Alitas de pollo fritas (6 uds.)</span><span class="shrink-0 tabular-nums font-medium">9,80 €</span></li>
+              <li class="flex justify-between gap-4"><span>Bravas o braviolis</span><span class="shrink-0 tabular-nums font-medium">10,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Oreja a la plancha (tapa 9,20 €)</span><span class="shrink-0 tabular-nums font-medium">14,80 €</span></li>
+              <li class="flex justify-between gap-4"><span>Quesadilla colombiana rellena de pollo desmechado y queso</span><span class="shrink-0 tabular-nums font-medium">16,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Torrezno de Soria con patata revolcona</span><span class="shrink-0 tabular-nums font-medium">14,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Salteado de setas naturales con queso de cabra</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Corazón en adobo</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Boquerones fritos</span><span class="shrink-0 tabular-nums font-medium">15,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Chopitos fritos</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Calamares a la andaluza</span><span class="shrink-0 tabular-nums font-medium">17,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Sepia a la plancha</span><span class="shrink-0 tabular-nums font-medium">17,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Rejos a la andaluza</span><span class="shrink-0 tabular-nums font-medium">17,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Fritura andaluza para 2 personas</span><span class="shrink-0 tabular-nums font-medium">25,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Flores de alcachofa a la plancha (4 uds.)</span><span class="shrink-0 tabular-nums font-medium">14,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Pata de pulpo a la parrilla</span><span class="shrink-0 tabular-nums font-medium">22,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Huevos rotos matanza</span><span class="shrink-0 tabular-nums font-medium">16,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Huevos rotos granjeros</span><span class="shrink-0 tabular-nums font-medium">16,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Huevos rotos ibéricos</span><span class="shrink-0 tabular-nums font-medium">18,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Huevos rotos jamón y bacon</span><span class="shrink-0 tabular-nums font-medium">15,50 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Raciones mixtas <span class="text-sm font-normal text-zinc-500">8 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Bravas o braviolis con croquetas</span><span class="shrink-0 tabular-nums font-medium">15,80 €</span></li>
+              <li class="flex justify-between gap-4"><span>Bravas o braviolis con alitas</span><span class="shrink-0 tabular-nums font-medium">15,80 €</span></li>
+              <li class="flex justify-between gap-4"><span>Alitas con croquetas</span><span class="shrink-0 tabular-nums font-medium">15,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Calamares con boquerones</span><span class="shrink-0 tabular-nums font-medium">15,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Calamares con croquetas</span><span class="shrink-0 tabular-nums font-medium">17,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Chopitos con rejos</span><span class="shrink-0 tabular-nums font-medium">17,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Chopitos con croquetas</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Calamares con chopitos</span><span class="shrink-0 tabular-nums font-medium">17,50 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Mariscos <span class="text-sm font-normal text-zinc-500">6 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Ceviche de pulpo y langostino con aguacate y mango</span><span class="shrink-0 tabular-nums font-medium">18,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Gambón a la plancha (ración 12 uds.)</span><span class="shrink-0 tabular-nums font-medium">18,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Gamba blanca a la plancha (ración 20 uds.)</span><span class="shrink-0 tabular-nums font-medium">25,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Coquinas en salsa de verdejo</span><span class="shrink-0 tabular-nums font-medium">17,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Parrillada de marisco para 2 personas</span><span class="shrink-0 tabular-nums font-medium">47,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Parrillada de marisco con bogavante para 2 personas</span><span class="shrink-0 tabular-nums font-medium">56,00 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Carnes <span class="text-sm font-normal text-zinc-500">11 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Chuletón de ternera de Ávila D.O. (550 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">29,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Lomo bajo de retinto D.O. (550 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">28,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>T-bone de ternera Jersey danesa (600 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">34,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Presa de vaca semental (400 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">27,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Tomahawk de ternera Angus (1300 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">51,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Carne madurada para 2 personas (1100 gr. aprox.)</span><span class="shrink-0 tabular-nums font-medium">49,70 €</span></li>
+              <li class="flex justify-between gap-4"><span>Parrillada de carne con patatas y pimientos para 3 personas</span><span class="shrink-0 tabular-nums font-medium">55,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Troceado Fermín</span><span class="shrink-0 tabular-nums font-medium">28,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Secreto de cerdo trinchado con chimichurri argentino</span><span class="shrink-0 tabular-nums font-medium">19,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Hamburguesa artesana de ternera</span><span class="shrink-0 tabular-nums font-medium">13,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Hamburguesa de la tierra con queso de cabra y cebolla caramelizada</span><span class="shrink-0 tabular-nums font-medium">14,50 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Ensaladas <span class="text-sm font-normal text-zinc-500">4 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Ensalada Fermín</span><span class="shrink-0 tabular-nums font-medium">13,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Ensalada Emilio</span><span class="shrink-0 tabular-nums font-medium">13,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Tomate negro en gajos con ventresca, cebolla morada y vinagreta francesa</span><span class="shrink-0 tabular-nums font-medium">14,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Carpaccio de tomate negro con burrata, vinagreta de pesto y nueces</span><span class="shrink-0 tabular-nums font-medium">15,50 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Bocadillos <span class="text-sm font-normal text-zinc-500">8 opciones</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Fermín</span><span class="shrink-0 tabular-nums font-medium">8,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Emilio</span><span class="shrink-0 tabular-nums font-medium">8,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Rubén</span><span class="shrink-0 tabular-nums font-medium">8,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Calamares</span><span class="shrink-0 tabular-nums font-medium">8,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Oreja</span><span class="shrink-0 tabular-nums font-medium">6,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Bacon</span><span class="shrink-0 tabular-nums font-medium">6,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Lomo</span><span class="shrink-0 tabular-nums font-medium">6,00 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Comida vegana <span class="text-sm font-normal text-zinc-500">5 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Croquetas veganas</span><span class="shrink-0 tabular-nums font-medium">9,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Empanadas criollas veganas (unidad)</span><span class="shrink-0 tabular-nums font-medium">3,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Wok de verdura de temporada</span><span class="shrink-0 tabular-nums font-medium">15,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Risotto de setas con leche de coco</span><span class="shrink-0 tabular-nums font-medium">16,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Troceado Fermín vegano</span><span class="shrink-0 tabular-nums font-medium">17,00 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Postres <span class="text-sm font-normal text-zinc-500">6 platos</span></summary>
+            <ul class="mt-4 space-y-2 text-sm text-zinc-700">
+              <li class="flex justify-between gap-4"><span>Brownie casero con helado de vainilla</span><span class="shrink-0 tabular-nums font-medium">5,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Pudding casero</span><span class="shrink-0 tabular-nums font-medium">5,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Tarta de queso con arándanos</span><span class="shrink-0 tabular-nums font-medium">5,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Tarta de toblerones</span><span class="shrink-0 tabular-nums font-medium">5,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Fruta de temporada</span><span class="shrink-0 tabular-nums font-medium">2,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Helado de 2 bolas</span><span class="shrink-0 tabular-nums font-medium">3,50 €</span></li>
+            </ul>
+          </details>
+
+          <details class="rounded-xl bg-white p-6 lg:col-span-2">
+            <summary class="flex cursor-pointer items-center justify-between text-lg font-semibold text-zinc-950">Vinos <span class="text-sm font-normal text-zinc-500">11 referencias</span></summary>
+            <ul class="mt-4 grid gap-2 text-sm text-zinc-700 sm:grid-cols-2">
+              <li class="flex justify-between gap-4"><span>Condado de Oriza crianza</span><span class="shrink-0 tabular-nums font-medium">18,90 €</span></li>
+              <li class="flex justify-between gap-4"><span>Pago de Fuentecojo (autor)</span><span class="shrink-0 tabular-nums font-medium">29,90 €</span></li>
+              <li class="flex justify-between gap-4"><span>Arnegui crianza</span><span class="shrink-0 tabular-nums font-medium">16,90 €</span></li>
+              <li class="flex justify-between gap-4"><span>Arnegui reserva</span><span class="shrink-0 tabular-nums font-medium">21,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Analivia verdejo selección</span><span class="shrink-0 tabular-nums font-medium">17,50 €</span></li>
+              <li class="flex justify-between gap-4"><span>Mucho Más</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Mucho Más rosé</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Lar de Barrios crianza</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Lar de Barrios semidulce</span><span class="shrink-0 tabular-nums font-medium">16,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Pulpo albariño 100%</span><span class="shrink-0 tabular-nums font-medium">23,00 €</span></li>
+              <li class="flex justify-between gap-4"><span>Pulpo godello</span><span class="shrink-0 tabular-nums font-medium">23,00 €</span></li>
+            </ul>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DOMICILIO -->
+    <section id="domicilio" aria-labelledby="domicilio-titulo" class="scroll-mt-20">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16">
+        <div>
+          <h2 id="domicilio-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">Comida a domicilio</h2>
+          <p class="mt-5 max-w-[55ch] leading-relaxed text-zinc-600">
+            Pide la carta o el menú del día por WhatsApp. Te lo llevamos a casa en el horario de reparto.
+          </p>
+          <a href="https://wa.me/34640293202" target="_blank" rel="noopener"
+             class="lift mt-8 inline-block whitespace-nowrap rounded-xl bg-fermin-700 px-6 py-3.5 text-base font-semibold text-white hover:bg-fermin-600">
+            Pedir por WhatsApp
+          </a>
+          <p class="mt-4 text-sm text-zinc-500">WhatsApp de pedidos: 640 293 202</p>
+        </div>
+        <div class="grid gap-4">
+          <div class="rounded-xl bg-zinc-100 p-6">
+            <h3 class="font-semibold text-zinc-950">Horario de reparto entre semana</h3>
+            <p class="mt-2 text-zinc-700">De 13:00 a 16:00 y de 20:00 a 00:00. No hay reparto los lunes por la tarde ni los martes, que cerramos por descanso.</p>
+          </div>
+          <div class="rounded-xl bg-zinc-100 p-6">
+            <h3 class="font-semibold text-zinc-950">Horario de reparto en fin de semana</h3>
+            <p class="mt-2 text-zinc-700">De 13:00 a 15:30 y de 20:00 a 00:00.</p>
+          </div>
+          <div class="rounded-xl bg-zinc-100 p-6">
+            <h3 class="font-semibold text-zinc-950">Menú del día a domicilio</h3>
+            <p class="mt-2 text-zinc-700">16,00 €. Refrescos de 50 cl a 1,30 €.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZONA INFANTIL -->
+    <section id="zona-infantil" aria-labelledby="infantil-titulo" class="scroll-mt-20 border-t border-zinc-200 bg-zinc-50">
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16">
+        <img src="../img/ac99ad1aeecc411a.jpg" alt="Niños pintan y realizan manualidades junto a una monitora" class="aspect-[4/3] w-full rounded-xl object-cover" width="1200" height="600" loading="lazy">
+        <div>
+          <h2 id="infantil-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">Zona infantil con monitora</h2>
+          <p class="mt-5 leading-relaxed text-zinc-600">
+            Somos uno de los restaurantes pioneros en Alcorcón con zona infantil. Mientras los adultos comen, los niños juegan con una monitora.
+          </p>
+          <div class="mt-8 grid gap-6 sm:grid-cols-2">
+            <div>
+              <h3 class="font-semibold text-zinc-950">Horario</h3>
+              <ul class="mt-3 space-y-2 text-sm text-zinc-700">
+                <li>Viernes: 20:00 a 00:00</li>
+                <li>Sábado: 13:00 a 17:00 y 20:00 a 00:00</li>
+                <li>Domingo: 13:00 a 17:00</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="font-semibold text-zinc-950">Condiciones</h3>
+              <ul class="mt-3 space-y-2 text-sm text-zinc-700">
+                <li>De 3 a 12 años</li>
+                <li>Aforo máximo de 15 niños</li>
+                <li>Gratis si el niño ha comido o cenado en el restaurante</li>
+                <li>2 € para el resto</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-8 rounded-xl bg-white p-6">
+            <h3 class="font-semibold text-zinc-950">Menú infantil: 13,50 €</h3>
+            <p class="mt-1 text-sm text-zinc-500">Incluye postre y bebida.</p>
+            <ul class="mt-4 grid gap-2 text-sm text-zinc-700 sm:grid-cols-2">
+              <li>Cinta de lomo con patatas y huevo frito</li>
+              <li>Escalope de pollo y huevo frito</li>
+              <li>Hamburguesa de ternera con queso y patatas</li>
+              <li>Espaguetis boloñesa con queso</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVAS -->
+    <section id="reservas" aria-labelledby="reservas-titulo" class="scroll-mt-20">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+        <div class="grid gap-12 lg:grid-cols-12 lg:gap-16">
+          <div class="lg:col-span-6">
+            <h2 id="reservas-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">Reservar mesa</h2>
+            <p class="mt-5 leading-relaxed text-zinc-600">
+              Reserva online en nuestro sistema de reservas. Elige día, hora y número de comensales.
+            </p>
+            <div class="mt-6 rounded-xl border border-fermin-700/20 bg-fermin-50 p-6">
+              <p class="font-semibold text-zinc-950">Señal de 5 € por comensal</p>
+              <p class="mt-2 text-sm leading-relaxed text-zinc-700">
+                Para confirmar la mesa, el restaurante te contactará para dejar una señal de 5 € por comensal. La reserva no queda confirmada hasta que recibas el email o el SMS del restaurante.
+              </p>
+            </div>
+            <a href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-fermin/spanish" target="_blank" rel="noopener"
+               class="lift mt-8 inline-block whitespace-nowrap rounded-xl bg-fermin-700 px-6 py-3.5 text-base font-semibold text-white hover:bg-fermin-600">
+              Reservar mesa
+            </a>
+            <p class="mt-6 text-zinc-700">Por teléfono: <a href="tel:916103103" class="font-semibold text-zinc-950 underline underline-offset-4">916 10 31 03</a></p>
+          </div>
+          <div class="lg:col-span-5 lg:col-start-8">
+            <h3 class="text-xl font-semibold text-zinc-950">Horario del restaurante</h3>
+            <ul class="mt-5 space-y-3 text-zinc-700">
+              <li class="flex justify-between gap-4 rounded-xl bg-zinc-100 px-5 py-3.5"><span>Lunes</span><span class="tabular-nums">12:00 a 01:00</span></li>
+              <li class="flex justify-between gap-4 rounded-xl bg-zinc-100 px-5 py-3.5"><span>Martes</span><span class="font-medium text-zinc-950">Cerrado</span></li>
+              <li class="flex justify-between gap-4 rounded-xl bg-zinc-100 px-5 py-3.5"><span>Miércoles a domingo</span><span class="tabular-nums">12:00 a 01:00</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section id="resenas" aria-labelledby="resenas-titulo" class="border-t border-zinc-200 bg-zinc-950 text-white">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+        <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 id="resenas-titulo" class="text-3xl font-semibold tracking-tight md:text-4xl">Lo que dicen los clientes en Google</h2>
+          </div>
+          <p class="text-lg text-zinc-300"><span class="font-semibold text-white">4,4 de 5</span> con 6.158 reseñas en Google</p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <figure class="rounded-xl bg-white/5 p-7">
+            <blockquote class="text-lg leading-relaxed text-zinc-100">"Una de las mejores opciones para comer bien en Alcorcón a un precio razonable."</blockquote>
+            <figcaption class="mt-6 text-sm text-zinc-400">Adelardo Dominguez, reseña de Google</figcaption>
+          </figure>
+          <figure class="rounded-xl bg-white/5 p-7">
+            <blockquote class="text-lg leading-relaxed text-zinc-100">"¡Nos encantó! Roger en su atención fue fantástico y la comida deliciosa."</blockquote>
+            <figcaption class="mt-6 text-sm text-zinc-400">Susana Isabel, reseña de Google</figcaption>
+          </figure>
+          <figure class="rounded-xl bg-white/5 p-7">
+            <blockquote class="text-lg leading-relaxed text-zinc-100">"Camareros muy atentos, menú variado y las raciones muy abundantes."</blockquote>
+            <figcaption class="mt-6 text-sm text-zinc-400">Frase destacada por Google en las reseñas</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" aria-labelledby="galeria-titulo" class="scroll-mt-20">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6">
+        <h2 id="galeria-titulo" class="text-3xl font-semibold tracking-tight text-zinc-950 md:text-4xl">El local y los platos</h2>
+
+        <div class="mt-10 grid auto-rows-[220px] grid-cols-2 gap-4 md:grid-cols-4">
+          <figure class="col-span-2 row-span-2 overflow-hidden rounded-xl">
+            <img src="../img/294d0eb92de752bc.jpg" alt="Fachada del restaurante El Fermín con terraza exterior" class="h-full w-full object-cover" loading="lazy">
+            <figcaption class="mt-2 text-xs text-zinc-500 md:absolute md:hidden">Foto de cliente en Google: Matt Accardi</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-xl">
+            <img src="../img/a87eca044d428a2c.jpg" alt="Mariscos frescos sobre fondo oscuro" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+          <figure class="overflow-hidden rounded-xl">
+            <img src="../img/244f3e7319d80802.jpg" alt="Langostinos jugosos con lima, hierbas frescas y salsa especiada" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+          <figure class="overflow-hidden rounded-xl">
+            <img src="../img/28770f231d8ac8ae.jpg" alt="Entrecot jugoso a la parrilla, servido en plato blanco" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+          <figure class="overflow-hidden rounded-xl">
+            <img src="../img/22785fc8ccc359ce.jpg" alt="Tarta de chocolate con nata montada y salsa de chocolate" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+          <figure class="col-span-2 overflow-hidden rounded-xl md:col-span-2">
+            <img src="../img/c51bdcdbad310731.jpg" alt="Interior amplio y acogedor del restaurante con mesas preparadas" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+          <figure class="overflow-hidden rounded-xl">
+            <img src="../img/6928f3653d7e0be5.jpg" alt="Hamburguesa con pimientos, ensalada y patatas fritas caseras" class="h-full w-full object-cover" loading="lazy">
+          </figure>
+        </div>
+        <p class="mt-6 text-sm text-zinc-500">Las fotos de platos de clientes en Google pertenecen a sus autores: Susana Isabel (paella), Glovo (entrecot, gambas), Laura Garmo (tarta de chocolate), Matt Accardi (fachada), Susana F. (hamburguesa).</p>
+      </div>
+    </section>
+
+    <!-- RINCÓN VEGANO / OCIO Y EVENTOS -->
+    <section id="eventos" aria-labelledby="eventos-titulo" class="border-t border-zinc-200 bg-zinc-50 scroll-mt-20">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:gap-16">
+        <div class="rounded-xl bg-white p-8">
+          <h2 class="text-2xl font-semibold tracking-tight text-zinc-950">Rincón vegano</h2>
+          <p class="mt-4 leading-relaxed text-zinc-600">Opciones veganas en la carta y en el menú del día. Nuestro equipo se ha formado con Luis García Vegan.</p>
+          <ul class="mt-6 space-y-2 text-sm text-zinc-700">
+            <li class="flex justify-between gap-4"><span>Croquetas veganas</span><span class="tabular-nums font-medium">9,50 €</span></li>
+            <li class="flex justify-between gap-4"><span>Wok de verdura de temporada</span><span class="tabular-nums font-medium">15,50 €</span></li>
+            <li class="flex justify-between gap-4"><span>Risotto de setas con leche de coco</span><span class="tabular-nums font-medium">16,50 €</span></li>
+            <li class="flex justify-between gap-4"><span>Troceado Fermín vegano</span><span class="tabular-nums font-medium">17,00 €</span></li>
+          </ul>
+          <a href="https://luisgarciavegan.com/" target="_blank" rel="noopener" class="mt-6 inline-block text-sm font-semibold text-fermin-700 underline underline-offset-4">Visitar Luis García Vegan</a>
+        </div>
+        <div class="rounded-xl bg-white p-8">
+          <h2 id="eventos-titulo" class="text-2xl font-semibold tracking-tight text-zinc-950">Monólogos y eventos</h2>
+          <p class="mt-4 leading-relaxed text-zinc-600">Monólogos todos los jueves. Muchos famosos han pasado por El Fermín, entre ellos Carolina Noriega.</p>
+          <p class="mt-6 leading-relaxed text-zinc-600">También organizamos cenas de amigos, de empresa, bodas, bautizos, comuniones y eventos de cualquier tipo.</p>
+          <p class="mt-6 text-zinc-700">Para consultar fechas y eventos, llámanos al <a href="tel:916103103" class="font-semibold text-zinc-950 underline underline-offset-4">916 10 31 03</a>.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACTO -->
+  <footer id="contacto" class="scroll-mt-20 bg-fermin-900 text-white">
+    <div class="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-3">
+      <div>
+        <img src="../img/e00c4fc4582ef752.png" alt="Logotipo de Restaurante El Fermín" class="h-16 w-auto rounded-lg">
+        <p class="mt-6 max-w-[30ch] leading-relaxed text-white/80">Cocina mediterránea en Alcorcón desde 1976.</p>
+      </div>
+      <div class="space-y-5">
+        <h2 class="text-lg font-semibold">Contacto</h2>
+        <p class="text-white/85">Calle Sierra de la Estrella, 8<br>28923 Alcorcón, Madrid</p>
+        <ul class="space-y-2 text-white/85">
+          <li>Reservas: <a href="tel:916103103" class="font-semibold text-white underline underline-offset-4">916 10 31 03</a></li>
+          <li>Pedidos a domicilio por WhatsApp: <a href="https://wa.me/34640293202" target="_blank" rel="noopener" class="font-semibold text-white underline underline-offset-4">640 293 202</a></li>
+        </ul>
+        <a href="https://www.google.com/maps/place/?q=place_id:ChIJY3EvCEqJQQ0RVVvHSJpkSZ0" target="_blank" rel="noopener" class="inline-block text-sm font-semibold text-white underline underline-offset-4">Ver en Google Maps</a>
+      </div>
+      <div class="space-y-5">
+        <h2 class="text-lg font-semibold">Horario</h2>
+        <ul class="space-y-2 text-white/85">
+          <li>Lunes: 12:00 a 01:00</li>
+          <li>Martes: cerrado</li>
+          <li>Miércoles a domingo: 12:00 a 01:00</li>
+        </ul>
+        <p class="pt-2 text-white/85">Accesible en silla de ruedas: acceso, aseo y asientos adaptados. No hay aparcamiento accesible.</p>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-sm text-white/60 sm:px-6 md:flex-row md:justify-between">
+        <p>Restaurante El Fermín</p>
+        <p>Fotos de clientes de Google con el crédito de su autor.</p>
+      </div>
+    </div>
+  </footer>
+
+<div id="delusion-demo-badge" style="position:fixed;bottom:10px;right:10px;z-index:2147483647;background:rgba(20,20,20,.55);color:#fff;font:11px/1.3 system-ui,-apple-system,sans-serif;padding:4px 10px;border-radius:999px;pointer-events:none;user-select:none;white-space:nowrap;">Vista previa v1 · Demo no oficial — concepto de Delusion · <a href="https://elfermin.es/" target="_blank" rel="noopener nofollow" style="color:inherit;text-decoration:underline;pointer-events:auto;">Ver la web actual ↗</a></div></body>
+</html>
