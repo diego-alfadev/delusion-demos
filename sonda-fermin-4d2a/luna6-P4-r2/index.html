@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="es">
+<head><meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffdf8">
+  <meta name="description" content="Cocina mediterránea, raciones generosas y menú del día en Restaurante El Fermín, Alcorcón. Pide a domicilio por WhatsApp o reserva tu mesa.">
+  <title>Restaurante El Fermín | Cocina mediterránea en Alcorcón</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ivory: #fffdf8;
+      --tomato: #a83227;
+      --olive: #465637;
+      --blue: #405b69;
+      --ink: #3d342b;
+      --muted: #67594b;
+      --rule: #d6c9b2;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+    body {
+      margin: 0;
+      background: var(--ivory);
+      color: var(--ink);
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    p { max-width: 75ch; }
+    ::selection { background: var(--olive); color: var(--ivory); }
+    :focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+    a { text-underline-offset: 4px; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    img { display: block; max-width: 100%; }
+    .serif { font-family: "Fraunces", Georgia, serif; }
+    .page-wrap { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
+    .site-header {
+      height: 76px; display: flex; align-items: center;
+      border-bottom: 1px solid var(--rule);
+    }
+    .brand img { width: 133px; height: 62px; object-fit: contain; }
+    .nav-link { color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
+    .nav-link:hover { color: var(--tomato); text-decoration: underline; }
+    .header-order, .primary-button {
+      background: var(--tomato); color: #fff; text-decoration: none;
+      font-weight: 700; display: inline-flex; align-items: center; justify-content: center;
+      transition: background .2s ease, transform .2s ease;
+    }
+    .header-order { padding: 10px 16px; border-radius: 999px; font-size: 14px; }
+    .primary-button { min-height: 54px; padding: 14px 22px; border-radius: 999px; gap: 10px; }
+    .header-order:hover, .primary-button:hover { background: #84261e; transform: translateY(-2px); }
+    .hero { padding: 46px 0 66px; position: relative; }
+    .hero-grid { display: grid; grid-template-columns: 1.02fr .98fr; gap: clamp(34px, 7vw, 92px); align-items: center; }
+    .hero h1 {
+      font-size: clamp(3.25rem, 6.5vw, 5.75rem); line-height: .99; letter-spacing: -.035em;
+      max-width: 650px; margin: 0 0 22px; text-wrap: balance; font-weight: 600;
+    }
+    .hero-copy { max-width: 53ch; font-size: 18px; line-height: 1.55; margin: 0 0 26px; }
+    .hero-note { display: block; color: var(--muted); font-size: 14px; margin-top: 12px; }
+    .hero-visual { position: relative; }
+    .hero-photo {
+      width: 100%; height: clamp(340px, 41vw, 510px); object-fit: cover;
+      border-radius: 48% 48% 10px 10px; border: 7px solid #f0e6d2;
+      box-shadow: 0 15px 34px rgba(61,52,43,.16);
+    }
+    .photo-caption {
+      display: inline-block; background: var(--ink); color: var(--ivory);
+      padding: 9px 14px; margin: 13px 0 0 10px; font-size: 16px;
+      line-height: 1.4; border-radius: 999px;
+    }
+    .section { padding: 82px 0; position: relative; }
+    .section-title {
+      font-size: clamp(2.45rem, 4.6vw, 4.2rem); line-height: 1.04;
+      letter-spacing: -.03em; text-wrap: balance; margin: 0 0 18px; font-weight: 600;
+    }
+    .section-intro { max-width: 68ch; font-size: 17px; margin: 0; }
+    .olive-band { background: var(--olive); color: var(--ivory); }
+    .olive-band .section-intro, .olive-band .quiet { color: #fffdf8; }
+    .menu-top { display: flex; align-items: end; justify-content: space-between; gap: 28px; margin-bottom: 42px; }
+    .menu-date { color: #fffdf8; border: 1px solid #c2c9b8; border-radius: 999px; padding: 8px 14px; font-size: 14px; white-space: nowrap; }
+    .menu-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+    .menu-subtitle { font-family: "Fraunces", Georgia, serif; font-size: 28px; line-height: 1.15; margin: 0 0 18px; }
+    .dish-list { list-style: none; padding: 0; margin: 0; }
+    .dish-list li {
+      padding: 13px 0; border-bottom: 1px solid rgba(255,253,248,.34);
+      display: flex; justify-content: space-between; gap: 20px; align-items: baseline;
+    }
+    .dish-name { max-width: 43ch; line-height: 1.45; }
+    .dish-price { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 700; }
+    .menu-small { max-width: 75ch; font-size: 14px; line-height: 1.55; margin: 16px 0 0; color: #fffdf8; }
+    .price-strip {
+      margin-top: 42px; padding: 23px 0; border-top: 1px solid rgba(255,253,248,.48);
+      border-bottom: 1px solid rgba(255,253,248,.48); display: grid;
+      grid-template-columns: repeat(3, 1fr); gap: 24px;
+    }
+    .price-item { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; }
+    .price-item strong { font-variant-numeric: tabular-nums; font-size: 22px; white-space: nowrap; }
+    .plain-link { color: inherit; font-weight: 700; }
+    .tomato-link { color: var(--tomato); font-weight: 700; }
+    .blue-band { background: var(--blue); color: var(--ivory); }
+    .blue-band .section-intro, .blue-band p { color: var(--ivory); }
+    .story-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 72px; align-items: start; }
+    .story-copy { max-width: 56ch; }
+    .story-copy p { margin: 0 0 18px; }
+    .hours-table { width: 100%; border-collapse: collapse; margin-top: 26px; }
+    .hours-table th, .hours-table td { padding: 12px 0; border-bottom: 1px solid rgba(255,253,248,.36); text-align: left; }
+    .hours-table th { font-weight: 600; }
+    .hours-table td { text-align: right; font-variant-numeric: tabular-nums; }
+    .secondary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; margin-top: 38px; }
+    .secondary-block { border-top: 1px solid var(--rule); padding-top: 20px; }
+    .secondary-block h3 { font-family: "Fraunces", Georgia, serif; font-size: 26px; line-height: 1.2; margin: 0 0 12px; }
+    .secondary-block p { margin: 0 0 12px; max-width: 60ch; }
+    .secondary-block ul { padding-left: 20px; margin: 10px 0 0; }
+    .secondary-block li { padding: 3px 0; }
+    .family-menu { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--rule); }
+    .family-menu strong { font-variant-numeric: tabular-nums; }
+    .booking-section { padding: 74px 0; }
+    .booking-inner { display: flex; align-items: center; justify-content: space-between; gap: 40px; }
+    .booking-inner .section-title { max-width: 650px; }
+    .booking-copy { max-width: 65ch; }
+    .booking-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+    .outline-button {
+      display: inline-flex; min-height: 52px; align-items: center; justify-content: center;
+      padding: 12px 19px; border: 1.5px solid var(--olive); color: var(--olive);
+      text-decoration: none; font-weight: 700; border-radius: 999px;
+    }
+    .outline-button:hover { background: var(--olive); color: var(--ivory); }
+    footer { background: var(--ink); color: var(--ivory); padding: 48px 0 32px; }
+    footer a { color: var(--ivory); }
+    .footer-grid { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 40px; }
+    .footer-title { font-family: "Fraunces", Georgia, serif; font-size: 24px; margin: 0 0 12px; }
+    .footer-small { color: #fffdf8; font-size: 14px; }
+    .footer-bottom { margin-top: 34px; padding-top: 18px; border-top: 1px solid #88796b; font-size: 16px; }
+    .table-link { display: inline-block; margin-top: 12px; }
+    .line-ornament { width: min(1180px, calc(100% - 48px)); margin: 0 auto; height: 18px; overflow: visible; }
+    .line-ornament path { fill: none; stroke: var(--rule); stroke-width: 2; }
+    .line-ornament circle { fill: var(--tomato); }
+    .mobile-order { display: none; }
+    @media (max-width: 800px) {
+      .page-wrap { width: min(100% - 36px, 650px); }
+      .site-header { height: 68px; }
+      .brand img { width: 112px; height: 56px; }
+      .header-nav { display: none; }
+      .header-order, .hero-note, .menu-date, .menu-small, .footer-small { font-size: 16px; }
+      .hero { padding: 34px 0 48px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 24px; }
+      .hero h1 { max-width: 620px; font-size: clamp(3rem, 11vw, 4.7rem); }
+      .hero-copy { font-size: 17px; }
+      .hero-photo { height: min(78vw, 410px); border-radius: 48% 48% 10px 10px; }
+      .section { padding: 62px 0; }
+      .menu-top { display: block; margin-bottom: 30px; }
+      .menu-date { display: inline-block; margin-top: 18px; }
+      .menu-layout { grid-template-columns: 1fr; gap: 34px; }
+      .price-strip { grid-template-columns: 1fr; gap: 12px; }
+      .price-item { justify-content: flex-start; gap: 22px; }
+      .story-grid { grid-template-columns: 1fr; gap: 20px; }
+      .secondary-grid { grid-template-columns: 1fr; gap: 32px; }
+      .booking-inner { display: block; }
+      .booking-actions { flex-direction: column; align-items: stretch; }
+      .booking-actions a { width: 100%; }
+      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+      .line-ornament { width: calc(100% - 36px); }
+      .mobile-order { display: block; position: fixed; z-index: 20; bottom: 12px; left: 14px; right: 14px; }
+      .mobile-order a { width: 100%; box-shadow: 0 6px 18px rgba(61,52,43,.22); }
+      footer { padding-bottom: 100px; }
+    }
+    @media (max-width: 420px) {
+      .page-wrap { width: calc(100% - 32px); }
+      .hero h1 { font-size: 3.1rem; }
+      .hero-photo { height: 290px; }
+      .dish-list li { gap: 12px; }
+      .dish-name { font-size: 16px; }
+      .line-ornament { width: calc(100% - 32px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="page-wrap flex items-center justify-between gap-5">
+      <a class="brand" href="#inicio" aria-label="Restaurante El Fermín, inicio">
+        <img src="../img/e00c4fc4582ef752.png" alt="Restaurante El Fermín">
+      </a>
+      <nav class="header-nav flex items-center gap-7" aria-label="Navegación principal">
+        <a class="nav-link" href="#menu">Menú del día</a>
+        <a class="nav-link" href="#horarios">Horarios</a>
+        <a class="nav-link" href="#familias">En familia</a>
+        <a class="nav-link" href="#contacto">Cómo llegar</a>
+      </nav>
+      <a class="header-order" href="https://wa.me/34640293202?text=Quiero%20pedir%20a%20domicilio" target="_blank" rel="noopener">Pedir a domicilio</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="page-wrap hero-grid">
+        <div>
+          <h1 class="serif">La mesa sabe mejor cuando se comparte.</h1>
+          <p class="hero-copy">Cocina mediterránea, raciones generosas y un menú del día que cambia cada jornada. Tradición de aquí, con ganas de sorprenderte.</p>
+          <a class="primary-button" href="https://wa.me/34640293202?text=Quiero%20pedir%20a%20domicilio" target="_blank" rel="noopener">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path d="M20 11.5a8.3 8.3 0 0 1-12.3 7.3L4 20l1.2-3.5A8.3 8.3 0 1 1 20 11.5Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 8.5c.2-.5.5-.5.8-.5h.4c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.2.2-.2.4-.1.6.4.8 1.1 1.5 1.9 1.9.2.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.5.7c.3.1.4.3.4.5v.5c0 .3-.2.6-.5.8-.4.2-1 .4-1.8.2-1-.2-2.2-.8-3.4-2-1.2-1.2-1.8-2.4-2-3.4-.2-.8 0-1.4.4-1.8Z" fill="currentColor"/>
+            </svg>
+            Pedir por WhatsApp
+          </a>
+          <span class="hero-note">A domicilio: 640 293 202</span>
+        </div>
+        <figure class="hero-visual">
+          <img class="hero-photo" src="../img/3ac4a7fb71bb6ac7.jpg" alt="Bistec a la parrilla con romero, fotografiado en Restaurante El Fermín">
+          <figcaption class="photo-caption">Bistec a la parrilla con romero.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <svg class="line-ornament" viewBox="0 0 1180 18" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 9 C140 9 140 3 280 9 S420 15 560 9 700 3 840 9 980 15 1180 9"></path>
+      <circle cx="280" cy="9" r="4"></circle><circle cx="840" cy="9" r="4"></circle>
+    </svg>
+
+    <section class="section olive-band" id="menu">
+      <div class="page-wrap">
+        <div class="menu-top">
+          <div>
+            <h2 class="section-title serif">Un menú para sentarse sin mirar el reloj.</h2>
+            <p class="section-intro">El menú del día se renueva cada jornada. Esta selección corresponde al publicado el 2 de octubre de 2026.</p>
+          </div>
+          <span class="menu-date">Menú publicado · 2 oct 2026</span>
+        </div>
+
+        <div class="menu-layout">
+          <div>
+            <h3 class="menu-subtitle">Para empezar</h3>
+            <ul class="dish-list">
+              <li><span class="dish-name">Arroz caldoso con sepia, almejas y gambitas de Huelva</span></li>
+              <li><span class="dish-name">Torrezno de Soria con patatas revolconas</span><span class="dish-price">14,50 €</span></li>
+              <li><span class="dish-name">Gambón a la plancha (5 unidades)</span></li>
+              <li><span class="dish-name">Croquetas veganas</span><span class="dish-price">9,50 €</span></li>
+              <li><span class="dish-name">Ensalada de tomate con queso, pesto verde y nueces</span></li>
+            </ul>
+            <p class="menu-small">El torrezno y las croquetas aparecen aquí con el precio de carta; las demás propuestas forman parte del menú publicado.</p>
+          </div>
+          <div>
+            <h3 class="menu-subtitle">Y después</h3>
+            <ul class="dish-list">
+              <li><span class="dish-name">Entrecot de ternera a la plancha</span></li>
+              <li><span class="dish-name">Carrillada de cerdo estofada al Pedro Ximénez</span></li>
+              <li><span class="dish-name">Milanesa argentina al caballo</span></li>
+              <li><span class="dish-name">Salmón a la plancha con salsa de setas</span></li>
+              <li><span class="dish-name">Hamburguesa vegana</span></li>
+            </ul>
+            <p class="menu-small">Postres variados que cambian con frecuencia. El menú incluye postre o café.</p>
+          </div>
+        </div>
+
+        <div class="price-strip" aria-label="Precios del menú">
+          <div class="price-item"><span>Menú en el restaurante</span><strong>16,00 €</strong></div>
+          <div class="price-item"><span>Con bebida ilimitada, pan, postre, café y licor</span><strong>34,00 €</strong></div>
+          <div class="price-item"><span>Menú a domicilio</span><strong>16,00 €</strong></div>
+        </div>
+        <p class="menu-small">El menú del restaurante incluye bebida, pan y postre o café. La propuesta cambia a diario; consulta la selección vigente al hacer tu pedido.</p>
+        <a class="plain-link table-link" href="https://elfermin.es/comida-a-domicilio-alcorcon/">Ver carta a domicilio y precios completos <span aria-hidden="true">→</span></a>
+        <br>
+        <a class="plain-link table-link" href="https://elfermin.es/wp-content/uploads/2017/08/tabla-de-alimentos.pdf">Consultar tabla de alérgenos <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="horarios">
+      <div class="page-wrap story-grid">
+        <div>
+          <h2 class="section-title serif">Tu mesa de siempre, cuando toca.</h2>
+          <p class="section-intro">Más de 40 años en Alcorcón reuniendo platos de aquí y nuevas ideas alrededor de la mesa.</p>
+          <p style="margin-top:20px">¿Te apetece venir? Reserva online y ten en cuenta que la mesa queda confirmada cuando recibas el email o SMS del restaurante y se abone la señal de 5 € por comensal.</p>
+          <a class="tomato-link" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-fermin/spanish" target="_blank" rel="noopener">Reservar mesa en CoverManager <span aria-hidden="true">→</span></a>
+        </div>
+        <div>
+          <h3 class="serif" style="font-size:28px; margin:0">Horario del restaurante</h3>
+          <table class="hours-table">
+            <tbody>
+              <tr><th scope="row">Lunes</th><td>12:00–01:00</td></tr>
+              <tr><th scope="row">Martes</th><td>Cerrado</td></tr>
+              <tr><th scope="row">Miércoles–domingo</th><td>12:00–01:00</td></tr>
+            </tbody>
+          </table>
+          <h3 class="serif" style="font-size:28px; margin:30px 0 0">Horario de reparto</h3>
+          <p style="margin:10px 0 0"><strong>Entre semana:</strong> 13:00–16:00 y 20:00–00:00. Lunes por la tarde y martes, cerrado.</p>
+          <p style="margin:8px 0 0"><strong>Fin de semana:</strong> 13:00–15:30 y 20:00–00:00.</p>
+          <a class="tomato-link" style="display:inline-block; margin-top:14px" href="https://wa.me/34640293202?text=Quiero%20pedir%20a%20domicilio" target="_blank" rel="noopener">Haz tu pedido por WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <svg class="line-ornament" viewBox="0 0 1180 18" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 9 C120 9 160 15 300 9 S470 3 590 9 760 15 900 9 1050 3 1180 9"></path>
+      <circle cx="300" cy="9" r="4"></circle><circle cx="900" cy="9" r="4"></circle>
+    </svg>
+
+    <section class="section blue-band" id="familias">
+      <div class="page-wrap">
+        <h2 class="section-title serif">La sobremesa también es para ellos.</h2>
+        <p class="section-intro">En El Fermín, comer en familia puede ser tranquilo: hay ludoteca con monitora para niños de 3 a 12 años.</p>
+        <div class="secondary-grid">
+          <div class="secondary-block" style="border-color:rgba(255,253,248,.4)">
+            <h3>Ludoteca «Los Pinchitos»</h3>
+            <p>Aforo máximo de 15 niños. Gratis si el niño ha comido o cenado en el restaurante; 2 € para el resto.</p>
+            <ul>
+              <li><strong>Viernes:</strong> 20:00–00:00</li>
+              <li><strong>Sábado:</strong> 13:00–17:00 y 20:00–00:00</li>
+              <li><strong>Domingo:</strong> 13:00–17:00</li>
+            </ul>
+            <div class="family-menu"><strong>Menú infantil · 13,50 €</strong><br>Incluye postre y bebida. Cinta de lomo, escalope de pollo, hamburguesa de ternera o espaguetis boloñesa.</div>
+          </div>
+          <div class="secondary-block" style="border-color:rgba(255,253,248,.4)">
+            <h3>Y más motivos para juntarse</h3>
+            <p>Monólogos todos los jueves, opciones veganas y espacio para celebrar encuentros especiales.</p>
+            <p>Organizamos cenas de amigos y empresas, bodas, bautizos, comuniones y otros eventos.</p>
+            <p>En la carta encontrarás, entre otras opciones, croquetas veganas, empanadas criollas, wok de verdura de temporada y risotto de setas con leche de coco.</p>
+            <a class="plain-link" href="https://elfermin.es/comida-a-domicilio-alcorcon/">Explorar la carta <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-section">
+      <div class="page-wrap booking-inner">
+        <div class="booking-copy">
+          <h2 class="section-title serif">¿Hoy nos sentamos juntos?</h2>
+          <p class="section-intro">Elige: te lo llevamos a casa o preparamos una mesa para compartir. Para reservar, recuerda la señal de 5 € por persona para confirmar.</p>
+          <div class="booking-actions">
+            <a class="primary-button" href="https://wa.me/34640293202?text=Quiero%20pedir%20a%20domicilio" target="_blank" rel="noopener">Pedir a domicilio</a>
+            <a class="outline-button" href="https://www.covermanager.com/reservation/module_restaurant/restaurante-el-fermin/spanish" target="_blank" rel="noopener">Reservar una mesa</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="page-wrap">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title">Restaurante El Fermín</h2>
+          <p class="footer-small">Cocina mediterránea y raciones para compartir en Alcorcón.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Ven a vernos</h2>
+          <p class="footer-small">Calle Sierra de la Estrella, 8<br>28923 Alcorcón, Madrid</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Calle%20Sierra%20de%20la%20Estrella%2C%208%2C%2028923%20Alcorc%C3%B3n%2C%20Madrid" target="_blank" rel="noopener">Cómo llegar en Google Maps</a>
+        </div>
+        <div>
+          <h2 class="footer-title">Hablemos</h2>
+          <p class="footer-small">Reservas: <a href="tel:+34916103103">91 610 31 03</a><br>Pedidos a domicilio: <a href="tel:+34640293202">640 293 202</a></p>
+          <a href="https://www.facebook.com/RestauranteElFermin" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <div class="footer-bottom">Restaurante El Fermín · Alcorcón</div>
+    </div>
+  </footer>
+
+  <div class="mobile-order">
+    <a class="primary-button" href="https://wa.me/34640293202?text=Quiero%20pedir%20a%20domicilio" target="_blank" rel="noopener">Pedir a domicilio por WhatsApp</a>
+  </div>
+<div id="delusion-demo-badge" style="position:fixed;bottom:10px;right:10px;z-index:2147483647;background:rgba(20,20,20,.55);color:#fff;font:11px/1.3 system-ui,-apple-system,sans-serif;padding:4px 10px;border-radius:999px;pointer-events:none;user-select:none;white-space:nowrap;">Vista previa v1 · Demo no oficial — concepto de Delusion · <a href="https://elfermin.es/" target="_blank" rel="noopener nofollow" style="color:inherit;text-decoration:underline;pointer-events:auto;">Ver la web actual ↗</a></div></body>
+</html>
